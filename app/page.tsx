@@ -1,65 +1,212 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React, { useEffect, useState } from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { motion } from "framer-motion";
+import { Crown, Music } from "lucide-react";
+
+function slugify(name) {
+  if ("物語シリーズ" === name) {
+    return "monogatari";
+  }
+
+  return name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+function Podium({ artists }) {
+  const top3 = artists.slice(0, 3);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div className="grid grid-cols-3 gap-6 items-end">
+      {top3.map((a, i) => (
+        <motion.div
+          key={a.Artist}
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: i * 0.15 }}
+        >
+          <Card
+            className={`text-center shadow-xl rounded-2xl ${
+              i === 0 ? "scale-110 border-yellow-400" : ""
+            }`}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <CardContent className="p-6">
+              <img
+                src={`/artists/${slugify(a.Artist)}.jpg`}
+                onError={(e) => {
+                  e.currentTarget.src = `/artists/unown.jpg`;
+                }}
+                alt={a.Artist}
+                className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
+                style={{
+                  boxShadow: `0 0 30px rgba(${Math.min(
+                    a.avg * 25,
+                    255
+                  )}, 200, 100, 0.4)`,
+                }}
+              />
+              <div className="flex justify-center mb-2">
+                {i === 0 && <Crown className="text-yellow-500" />}
+              </div>
+              <h2 className="text-xl font-bold">{a.Artist}</h2>
+              <p className="text-3xl font-extrabold mt-2">{a.avg}</p>
+              <p className="text-sm opacity-70">{a.count} songs</p>
+              <Badge className="mt-2">#{i + 1}</Badge>
+            </CardContent>
+          </Card>
+        </motion.div>
+      ))}
+    </div>
+  );
+}
+
+function RankingSlider({ artists }) {
+  return (
+    <div className="space-y-3 overflow-y-auto max-h-[70vh] pr-2">
+      {artists.map((a, idx) => (
+        <motion.div
+          key={a.Artist}
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: idx * 0.03 }}
+        >
+          <Card className="rounded-xl">
+            <CardContent className="flex items-center gap-4 p-4">
+              <span className="text-lg font-bold w-6">{idx + 1}</span>
+              <img
+                src={`/artists/${slugify(a.Artist)}.jpg`}
+                onError={(e) => {
+                  e.currentTarget.src = `/artists/unown.jpg`;
+                }}
+                alt={a.Artist}
+                className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
+                style={{
+                  boxShadow: `0 0 30px rgba(${Math.min(
+                    a.avg * 25,
+                    255
+                  )}, 200, 100, 0.4)`,
+                }}
+              />
+              <div className="flex-1">
+                <p className="font-semibold">{a.Artist}</p>
+                <p className="text-sm opacity-70">
+                  {a.count} songs · avg {a.avg}
+                </p>
+              </div>
+              <Music className="opacity-50" />
+            </CardContent>
+          </Card>
+        </motion.div>
+      ))}
+    </div>
+  );
+}
+
+function AlbumMosaic({ albums }) {
+  const top10 = [...albums].sort((a, b) => b.avg - a.avg).slice(0, 10);
+
+  return (
+    <div className="grid grid-cols-4 gap-6">
+      {top10.map((a, i) => {
+        const size =
+          i === 0
+            ? "col-span-2 row-span-2"
+            : i < 4
+            ? "col-span-2 row-span-1"
+            : "col-span-1 row-span-1";
+
+        return (
+          <motion.div
+            key={`${a.Album}-${i}`}
+            initial={{ opacity: 0, scale: 0.96 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: i * 0.08 }}
+            className={size}
           >
-            Documentation
-          </a>
+            {/* CUADRADO REAL */}
+            <div className="relative aspect-square w-full rounded-2xl overflow-hidden shadow-2xl group">
+              <img
+                src={`https://source.unsplash.com/600x600/?album,cover,${encodeURIComponent(
+                  a.Album
+                )}`}
+                alt={a.Album}
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+
+              {/* SCORE */}
+              <div className="absolute top-3 left-3 bg-black/80 backdrop-blur px-3 py-1 rounded-full text-sm font-bold">
+                ⭐ {a.avg}
+              </div>
+
+              {/* OVERLAY */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-4 flex flex-col justify-end">
+                <p className="font-bold leading-tight">{a.Album}</p>
+                <p className="text-sm opacity-80">{a.Artist}</p>
+                <p className="text-xs opacity-70 mt-1">{a.count} canciones</p>
+              </div>
+            </div>
+          </motion.div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ==============================
+// MAIN DASHBOARD
+// ==============================
+
+export default function Dashboard() {
+  const [artists, setArtists] = useState([]);
+  const [albums, setAlbums] = useState([]);
+
+  useEffect(() => {
+    fetch("/artists.json")
+      .then((r) => r.json())
+      .then((data) => {
+        const sorted = data.sort((a, b) => b.avg - a.avg);
+        setArtists(sorted);
+      });
+  }, []);
+
+  useEffect(() => {
+    fetch("/albums.json")
+      .then((r) => r.json())
+      .then(setAlbums);
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-neutral-950 via-neutral-900 to-neutral-800 text-white p-10">
+      <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="text-4xl font-extrabold mb-10"
+      >
+        🎵 Ranking Personal de Artistas
+      </motion.h1>
+
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+        <div className="lg:col-span-3">
+          <h2 className="text-2xl font-bold mb-6">Podio</h2>
+          <Podium artists={artists} />
         </div>
-      </main>
+
+        <div>
+          <h2 className="text-2xl font-bold mb-6">Ranking completo</h2>
+          <RankingSlider artists={artists} />
+        </div>
+      </div>
+
+      <div className="mt-20">
+        <h2 className="text-3xl font-extrabold mb-8">💿 Top 10 Álbumes</h2>
+        <AlbumMosaic albums={albums} />
+      </div>
     </div>
   );
 }
