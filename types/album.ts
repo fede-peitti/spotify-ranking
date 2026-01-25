@@ -3,4 +3,5 @@ export type Album = {
   Artist: string;
   avg: number;
   count: number;
+  album_date: string;
 };

@@ -1,17 +1,18 @@
-import { albumImage } from "@/lib/albumimage";
+import { albumImage } from "@/lib/albumImage";
+import { Album } from "@/types/album";
 
 type Props = {
-  album: string;
+  album: Album;
 };
 
 export function AlbumCover({ album }: Props) {
   return (
     <img
-      src={albumImage(album)}
-      alt={album}
+      src={albumImage(album.Album)}
+      alt={album.Album}
       className="h-full w-full object-cover"
       onError={(e) => {
-        e.currentTarget.src = "/albums/unown.png";
+        e.currentTarget.src = "/albums/unown.jpg";
       }}
     />
   );

@@ -9,8 +9,12 @@ import { Section } from "@/components/layout/Section";
 
 import type { Artist } from "@/types/artist";
 
+import type { Album } from "@/types/album";
+import { AlbumMosaic } from "@/components/album/AlbumMosaic";
+
 export default function Page() {
   const [artists, setArtists] = useState<Artist[]>([]);
+  const [albums, setAlbums] = useState<Album[]>([]);
 
   useEffect(() => {
     fetch("/artists.json")
@@ -29,6 +33,14 @@ export default function Page() {
         });
 
         setArtists(sorted);
+      });
+  }, []);
+
+  useEffect(() => {
+    fetch("/albums.json")
+      .then((r) => r.json())
+      .then((data: Album[]) => {
+        setAlbums(data);
       });
   }, []);
 
@@ -53,6 +65,11 @@ export default function Page() {
           <RankingList artists={artists} />
         </Section>
       </div>
+
+      {/* ⬇️ NUEVO: ALBUM MOSAIC */}
+      <Section title="Álbumes destacados" className="mt-20">
+        <AlbumMosaic albums={albums.slice(0, 12)} />
+      </Section>
     </main>
   );
 }
