@@ -33,7 +33,7 @@ export function PodiumCard({ artist, rank }: Props) {
      backdrop-blur
     ${
       isWinner
-        ? "border-2 border-yellow-400 shadow-2xl shadow-yellow-400/20"
+        ? "border-2 border-[#5C8DFF] shadow-[0_0_50px_rgba(92,141,255,0.4)]"
         : "border border-white/10"
     }
   `}
@@ -41,7 +41,7 @@ export function PodiumCard({ artist, rank }: Props) {
         <CardContent className="p-8">
           <ArtistAvatar name={artist.Artist} size={140} highlight={isWinner} />
 
-          {isWinner && <Crown className="mx-auto mt-3 text-yellow-400" />}
+          {isWinner && <Crown className="mx-auto mt-3 text-[#5C8DFF]" />}
 
           <h2 className="mt-4 text-xl font-bold">{artist.Artist}</h2>
 

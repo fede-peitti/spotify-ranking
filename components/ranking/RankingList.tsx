@@ -13,10 +13,20 @@ export function RankingList({ artists }: Props) {
       {rest.map((artist, index) => (
         <div
           key={artist.Artist}
-          className="flex items-center gap-3 rounded-xl bg-neutral-900/60 p-3"
+          className="
+  flex items-center gap-3
+  rounded-2xl
+  bg-[#121826]
+  p-3
+  transition-all
+  hover:bg-[#182235]
+  hover:translate-x-1
+"
         >
           {/* Rank */}
-          <span className="w-6 text-right text-sm opacity-60">{index + 4}</span>
+          <span className="w-4 text-right text-sm font-semibold text-[#5C8DFF]/70">
+            {index + 4}
+          </span>
 
           {/* Avatar */}
           <ArtistAvatar name={artist.Artist} size={36} />
@@ -28,7 +38,7 @@ export function RankingList({ artists }: Props) {
           </div>
 
           {/* Score */}
-          <span className="text-sm font-bold">{artist.avg}</span>
+          <span className="w-13 text-sm font-bold">{artist.avg}</span>
         </div>
       ))}
     </div>

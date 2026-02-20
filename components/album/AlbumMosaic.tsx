@@ -34,7 +34,7 @@ export function AlbumMosaic({ albums }: Props) {
             className={layout}
           >
             {/* CUADRADO REAL */}
-            <div className="group relative aspect-square w-full overflow-hidden rounded-2xl shadow-xl">
+            <div className="group relative aspect-square w-full overflow-hidden rounded-3xl bg-[#121826] shadow-[0_15px_40px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:-translate-y-1">
               <img
                 src={albumImage(album.Album)}
                 alt={album.Album}
@@ -42,10 +42,9 @@ export function AlbumMosaic({ albums }: Props) {
               />
 
               {/* SCORE */}
-              <div className="absolute left-3 top-3 rounded-full bg-black/80 px-3 py-1 text-sm font-bold backdrop-blur">
-                ⭐ {album.avg}
+              <div className="absolute left-3 top-3 rounded-full bg-black/20 border border-[#5C8DFF]/50 px-3 py-1 text-sm font-semibold text-white backdrop-blur-md">
+                {album.avg}
               </div>
-
               {/* OVERLAY */}
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4 opacity-0 transition-opacity group-hover:opacity-100">
                 <p className="text-sm font-bold leading-tight">{album.Album}</p>

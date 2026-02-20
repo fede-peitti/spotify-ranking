@@ -45,14 +45,14 @@ export default function Page() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-neutral-950 via-neutral-900 to-neutral-800 text-white px-10 py-12">
+    <main className="min-h-screen bg-[#0B0F17] text-white px-10 py-14">
       {/* TITLE */}
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-12 text-4xl font-extrabold"
+        className="mb-16 text-5xl font-extrabold tracking-tight"
       >
-        🎵 Ranking Personal de Artistas
+        🎧 Ranking Artistas
       </motion.h1>
 
       {/* CONTENT */}
@@ -66,8 +66,10 @@ export default function Page() {
         </Section>
       </div>
 
-      {/* ⬇️ NUEVO: ALBUM MOSAIC */}
-      <Section title="Álbumes destacados" className="mt-20">
+      <div className="my-24 h-px w-full bg-gradient-to-r from-transparent via-[#5C8DFF]/40 to-transparent" />
+
+      {/* ALBUM MOSAIC */}
+      <Section title="Álbumes destacados" className="pt-20">
         <AlbumMosaic albums={albums.slice(0, 12)} />
       </Section>
     </main>
