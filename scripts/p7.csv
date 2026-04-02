@@ -1,366 +1,368 @@
-#,Song,Artist,Popularity,BPM,Genres,Album,Album Date,Time,Dance,Energy,Acoustic,Instrumental,Happy,Speech,Live,Loud (Db),Key,Time Signature,Added At,Spotify Track Id,Camelot,ISRC
-1,"Real World","Matchbox Twenty",65,118,"post-grunge","Yourself or Someone Like You",1996-10-01,03:51,50,76,1,0,88,0,0,-5,A#/B♭ Major,4,2020-08-19,70fe354BpVKEvMY0de78YO,6B,USAT29600001
-2,"Back 2 Good","Matchbox Twenty",60,89,"post-grunge","Yourself or Someone Like You",1996-10-01,05:40,56,50,11,0,48,0,10,-9,G Major,4,2020-08-19,64XSAtXpCJUmadm3fkpH4z,9B,USAT29600033
-3,"If You're Gone","Matchbox Twenty",28,110,"post-grunge","Mad Season (Deluxe Edition)",2000-05-23,04:34,56,64,49,0,38,0,10,-7,A Major,4,2020-08-19,03HHbQ9WMoyBmoce6LRIPd,11B,USAT22003208
-4,"Stop","Matchbox Twenty",30,108,"post-grunge","Mad Season",2000-05-23,03:49,53,94,4,0,39,0,0,-5,D Major,4,2020-08-19,0pYPLapoEWPkcBPXOcfkFW,10B,USAT20001332
-5,"Modern Love - Live","Matchbox Twenty",22,92,"post-grunge","How Far We've Come",2007-09-15,03:51,35,96,2,0,53,10,30,-4,B Major,4,2020-08-20,4VqQom3FbQjLBkZ6hqlfqG,1B,USAT20704693
-6,"I Need You To Turn To","Elton John",33,125,"","Elton John",1970-04-10,02:30,39,28,84,0,32,0,10,-12,D Major,3,2020-08-20,7phTxbdPX8sLRehWtLPxHl,10B,GBAMB9500073
-7,"Take Me To The Pilot","Elton John",36,85,"","Elton John",1970-04-10,03:44,43,56,42,0,63,0,20,-8,F Major,4,2020-08-20,5ikzxNue9a4uAQmSmTXZSi,7B,GBAMB9500074
-8,"The King Must Die","Elton John",25,139,"","Elton John",1970-04-10,05:07,44,39,42,0,25,0,20,-10,A Minor,4,2020-08-20,5aZWzadLEprtlv0ylYyruD,8A,GBAMB9500081
-9,"Rock And Roll Madonna","Elton John",19,141,"","Elton John",1970-04-10,04:16,52,81,4,0,80,0,80,-9,C Major,4,2020-08-21,0oZoS7BfThQ4W9Ei7ZRXHX,8B,GBUM70711445
-10,"Amoreena","Elton John",26,129,"","Tumbleweed Connection",1970-10-30,05:00,56,61,76,0,51,0,20,-10,C Major,4,2020-08-21,2HhQqv3RRx6FwLZZpswNQ7,8B,GBAMB9500022
-11,"Honky Tonk Women","Elton John",25,141,"","17-11-70",1971-03-12,04:07,44,92,51,0,72,10,90,-7,F Major,4,2020-08-22,0v35NYiR3B6pyUAHjKqHEo,7B,GBAMB9500085
-12,"Goodbye","Elton John",31,128,"","Madman Across The Water",1971-11-05,01:48,36,12,95,0,24,0,10,-18,A#/B♭ Major,4,2020-08-23,0ssRYFyBn0lP4NzSErONW4,6B,GBAMB7100090
-13,"Honky Cat","Elton John",57,171,"","Honky Chateau",1972-05-19,05:13,48,78,33,0,95,0,10,-6,D Major,4,2020-08-23,1plcM0XlbKdjND7Ufokuzb,10B,GBAMB7200002
-14,"Rocket Man (I Think It's Going To Be A Long, Long Time)","Elton John",83,137,"","Honky Chateau",1972-05-19,04:41,60,53,43,0,34,0,0,-9,A#/B♭ Major,4,2020-08-23,3gdewACMIVMEWVbyb8O9sY,6B,GBAMB7200006
-15,"Hercules","Elton John",35,148,"","Honky Chateau",1972-05-19,05:20,56,78,8,0,73,0,0,-7,C Major,4,2020-08-23,42pqNrGr0TZz5bzdCXt4sw,8B,GBAMB7200011
-16,"Slave - Alternate  Fast  Version","Elton John",29,91,"","Honky Chateau",1972-05-19,02:53,55,93,2,0,81,0,0,-6,G Major,4,2020-08-23,4LqaFJOawdPH1JliPDdssk,9B,GBAMB7200012
-17,"Midnight Creeper","Elton John",28,136,"","Don't Shoot Me I'm Only The Piano Player",1973-01-22,03:52,67,86,5,0,85,0,10,-6,E Major,4,2020-08-24,5lnkNO3Si97dpuKQY8z5OT,12B,GBAMB9500005
-18,"Have Mercy On The Criminal","Elton John",34,116,"","Don't Shoot Me I'm Only The Piano Player",1973-01-22,05:57,47,52,13,0,52,0,10,-8,C Minor,3,2020-08-25,1PHBBJNH4WFuDBlAuVKWMA,5A,GBAMB9500006
-19,"Funeral For A Friend / Love Lies Bleeding - Remastered 2014","Elton John",0,139,"","Goodbye Yellow Brick Road (Remastered / Deluxe Edition)",1973-10-05,11:06,40,76,2,17,20,0,20,-9,A Minor,4,2020-08-27,3JNgpaqUdpozbCnbPOMqPQ,8A,GBUM71304953
-20,"I've Seen That Movie Too - Remastered 2014","Elton John",0,114,"","Goodbye Yellow Brick Road (Remastered / Deluxe Edition)",1973-10-05,05:57,51,46,32,0,30,0,10,-9,F Minor,4,2020-08-31,5yCo1LqUaYkSq28509G2Be,4A,GBUM71304960
-21,"Your Sister Can't Twist (But She Can Rock'n' Roll) - Remastered 2014","Elton John",0,95,"","Goodbye Yellow Brick Road (Remastered / Deluxe Edition)",1973-10-05,02:41,46,97,1,0,91,0,80,-7,E Major,4,2020-09-06,2j27XNwrhqDmUdmduYtp21,12B,GBUM71304965
-22,"Pinky - Remastered 1995","Elton John",30,133,"","Caribou (Remastered 1995)",1974-06-28,03:54,66,53,15,0,51,0,0,-11,A Major,4,2020-09-07,6IPDeuzjnlKUfxDwJUHrzD,11B,GBAMB9500041
-23,"You're So Static - Remastered 1995","Elton John",25,137,"","Caribou (Remastered 1995)",1974-06-28,04:53,61,81,3,0,79,0,10,-7,C Major,4,2020-09-07,58OD5vBX95OdelGNOvpvEw,8B,GBAMB9500044
-24,"Stinker - Remastered 1995","Elton John",23,84,"","Caribou (Remastered 1995)",1974-06-28,05:20,45,59,9,19,93,0,0,-8,G Major,4,2020-09-07,5NyYHYlGtTboKi5VoRMEtv,9B,GBAMB9500046
-25,"Don't Let The Sun Go Down On Me - Remastered 1995","Elton John",62,141,"","Caribou (Remastered 1995)",1974-06-28,05:36,43,45,12,0,35,0,0,-9,C Major,4,2020-09-07,11FcfHd3SOmmrWJPGe7Y30,8B,GBAMB9500047
-26,"Cold Highway - Remastered 1995","Elton John",23,80,"","Caribou (Remastered 1995)",1974-06-28,03:25,43,59,25,0,80,0,20,-10,F Major,4,2020-09-07,0CY864emS4cZAUYM55R8sW,7B,GBAMB9500051
-27,"Bitter Fingers","Elton John",34,134,"","Captain Fantastic And The Brown Dirt Cowboy",1975-05-19,04:33,52,47,8,0,41,0,10,-12,A Major,4,2020-09-09,4Oy2yKrQ0fG7Dc7YtB0Vyg,11B,GBAMB7500003
-28,"Better Off Dead","Elton John",17,143,"","Captain Fantastic And The Brown Dirt Cowboy (Deluxe Edition)",1975-05-19,02:37,65,48,32,0,71,0,0,-10,C♯/D♭ Major,1,2020-09-09,23JuilAzewNOYc2hfvcSQl,3B,GBAMB7500007
-29,"Philadelphia Freedom","Elton John",27,125,"","Captain Fantastic And The Brown Dirt Cowboy (Deluxe Edition)",1975-05-19,05:21,71,65,7,0,83,0,10,-9,C Minor,4,2020-09-10,6kLGxJA0QCVDTIbZDbXgL3,5A,GBAMB7500013
-30,"House Of Cards","Elton John",21,88,"","Captain Fantastic And The Brown Dirt Cowboy (Deluxe Edition)",1975-05-19,03:12,68,65,20,0,86,0,10,-10,E Minor,4,2020-09-10,37WuoKbmmHW33QJSfcjIK1,9A,GBAMB0080046
-31,"Dan Dare (Pilot Of The Future)","Elton John",27,75,"","Rock Of The Westies",1975-10-24,03:29,69,62,30,0,67,0,0,-10,C Major,4,2020-09-10,1IP1ymL87BtfZqCsJTyp4C,8B,GBAMB7500015
-32,"Street Kids","Elton John",33,94,"","Rock Of The Westies",1975-10-24,06:25,47,93,6,0,79,0,20,-8,G Major,4,2020-09-11,20FnYowQOrLxU92iyA94ed,9B,GBAMB7500019
-33,"Billy Bones And The White Bird","Elton John",21,104,"","Rock Of The Westies",1975-10-24,04:25,60,82,32,0,44,0,0,-7,A Major,4,2020-09-11,6vhdFKCPjLBcMvfrBEGRu4,11B,GBAMB7500022
-34,"Your Starter For...","Elton John",23,122,"","Blue Moves",1976-01-01,01:23,64,61,11,88,64,0,10,-11,A Minor,4,2020-09-11,4JqUf9QfVz4TCZ0sX50LJ3,8A,GBALX7600008
-35,"Theme From A Non-Existent TV Series","Elton John",18,109,"","Blue Moves",1976-01-01,01:19,68,86,5,85,26,0,0,-11,G Major,4,2020-09-13,20MO6EEhXXDqopJFg97J5z,9B,GBALX7600024
-36,"Shine On Through","Elton John",27,96,"","A Single Man",1978-10-01,03:45,47,19,35,0,18,0,10,-14,D#/E♭ Major,4,2020-09-13,6alVOFBQtlXKUnkvpLkVsE,5B,GBAMS7800128
-37,"Return To Paradise","Elton John",22,120,"","A Single Man",1978-10-01,04:15,62,41,14,0,53,0,10,-11,C Major,4,2020-09-13,4BTqc5vVoB3Cu3F6qtFXiz,8B,GBAMS7800127
-38,"Shooting Star","Elton John",18,122,"","A Single Man",1978-10-01,02:44,66,27,28,0,23,0,10,-17,A#/B♭ Major,4,2020-09-14,2ewZevXBQuNuNQVHhSKdmC,6B,GBAMS7800121
-39,"Madness","Elton John",19,137,"","A Single Man",1978-10-01,05:53,58,69,1,0,55,0,20,-10,C Major,4,2020-09-14,7jOu8dOL0lRL8E1y8Zwe4V,8B,GBAMS7800120
-40,"Two Rooms At The End Of The World","Elton John",20,126,"","21 At 33",1980-05-13,05:39,78,55,1,0,97,0,0,-12,C Major,4,2020-09-16,0Qjv3FuTDNVA7ROf3UM3ib,8B,GBA098000040
-41,"Breaking Down Barriers - Remastered 2003","Elton John",17,141,"","The Fox",1981-01-01,04:41,52,79,24,1,57,0,60,-10,G Minor,4,2020-09-16,0cao7zXiY3a5BTRzsO5R0Q,6A,GBA098100010
-42,"Dear John - Remastered 2003","Elton John",20,170,"","Jump Up!",1982-01-01,03:33,53,85,2,0,96,0,10,-10,G Major,4,2020-09-18,2KkATTWT3nJalkA5588fQ9,9B,GBA098200010
-43,"I Am Your Robot - Remastered 2003","Elton John",15,138,"","Jump Up!",1982-01-01,04:44,66,79,0,0,74,0,0,-11,A Minor,4,2020-09-18,6xxA33oKDP3URcaeCzEawr,8A,GBA098200050
-44,"Restless","Elton John",19,122,"","Breaking Hearts",1984-07-09,05:16,75,86,16,6,90,0,10,-10,F Major,4,2020-09-21,73nYjLyEtNZHRyDtIFFQIC,7B,GBALX0080001
-45,"Li'l 'Frigerator","Elton John",16,165,"","Breaking Hearts",1984-07-09,03:37,48,80,5,29,83,0,10,-10,A Major,4,2020-09-21,4qCzeQdIDQbGOhc6nUsdKC,11B,GBALX0080004
-46,"Burning Buildings","Elton John",23,73,"","Breaking Hearts",1984-07-09,04:01,43,50,66,0,12,0,0,-12,G#/A♭ Major,4,2020-09-21,4hgId8WzUQkUV5mpu6vB9P,4B,GBALX0080007
-47,"This Town","Elton John",21,119,"","Ice On Fire",1985-11-07,03:56,79,85,9,1,81,0,10,-9,A#/B♭ Major,4,2020-09-22,65mcPebdGSUMX6VioUCV3X,6B,GBAMS8500189
-48,"Go It Alone","Elton John",12,170,"","Leather Jackets",1986-10-15,04:29,59,84,6,3,90,0,20,-14,C♯/D♭ Major,4,2020-09-24,0GeWhXqhwd7sBwciN2QboY,3B,GBALX0080012
-49,"Memory Of Love","Elton John",11,102,"","Leather Jackets",1986-10-15,04:08,71,26,27,0,39,0,0,-16,G Major,3,2020-09-24,5E0TUUfpxgWQ4uMKeZyT2B,9B,GBALX0080017
-50,"Mona Lisas And Mad Hatters (Part 2)","Elton John",19,117,"","Reg Strikes Back",1988-06-24,04:12,67,87,2,0,92,0,20,-8,C Major,4,2020-09-26,2ltFzTjLY78n13SY6D8t6Y,8B,GBAMS8800003
-51,"Healing Hands","Elton John",46,112,"","Sleeping With The Past (Remastered with bonus tracks)",1989-08-29,04:29,63,81,0,0,79,0,0,-10,D Major,4,2020-11-15,4rxCQMELiiH0gk8nbTd2tR,10B,GBALX8900103
-52,"Sleeping With The Past","Elton John",28,130,"","Sleeping With The Past (Remastered with bonus tracks)",1989-08-29,04:52,78,81,1,0,88,0,30,-9,F#/G♭ Major,4,2020-11-18,4S3PsJuH4Gv3DwXMdJgCli,2B,GBALX8900106
-53,"On Dark Street","Elton John",25,115,"","The One",1992-06-22,04:43,65,86,1,0,74,0,10,-8,A#/B♭ Major,4,2020-12-15,1eRNWai6OWRRKN7xI2OH17,6B,GBALX9200197
-54,"The Last Song","Elton John",44,125,"","The One",1992-06-22,03:33,31,29,33,0,9,0,0,-13,C♯/D♭ Major,1,2020-12-16,0pNXDQo75eOukoK8PejiRE,3B,GBALX9200189
-55,"Fat Boys And Ugly Girls","Elton John",23,136,"","The One",1992-06-22,04:14,66,80,0,9,87,0,10,-9,C Major,4,2020-12-16,14sADwg78MbJw9dDL62iRR,8B,GBAMS9200001
-56,"Michelle's Song - From “Friends” Soundtrack","Elton John",23,137,"","Rare Masters",1992-10-20,04:20,43,37,80,0,37,0,10,-16,F Major,4,2020-12-17,2e2tuKera7JpdOArm6sDcl,7B,GBAMB0080037
-57,"Seasons - From “Friends” Soundtrack","Elton John",20,126,"","Rare Masters",1992-10-20,03:56,19,3,92,6,5,0,10,-24,C Major,5,2020-12-17,3YOkHFf9pxsvd649JYKNqh,8B,GBAMB0080038
-58,"Variation On Michelle's Song (A Day In The Country) - From “Friends” Soundtrack","Elton John",12,88,"","Rare Masters",1992-10-20,02:47,13,4,89,85,18,0,10,-27,F Major,3,2020-12-26,42n1Nj4UAT4dOyJjER6qyi,7B,GBAMB0080039
-59,"Seasons - Reprise / From “Friends” Soundtrack","Elton John",15,56,"","Rare Masters",1992-10-20,01:39,35,9,93,0,21,0,0,-21,A Minor,4,2020-12-27,0A2ZuNmsMiXKEyLFTvCOHI,8A,GBAMB0080043
-60,"Sugar On The Floor","Elton John",14,124,"","Rare Masters",1992-10-20,04:33,52,14,93,0,21,0,0,-16,A#/B♭ Major,4,2020-12-28,1oMzKOEx2bLQJ0QesuDtJK,6B,GBF087500018
-61,"Old Friend","Elton John,Nik Kershaw",27,95,"","Duets",1993-11-22,04:15,51,82,10,0,42,0,10,-9,D Major,4,2020-12-28,3L7LGM8ZL8Kz961q8bZE6i,10B,GBALX9300019
-62,"I'm Your Puppet","Elton John,Paul Young",47,96,"","Duets",1993-11-22,03:35,80,57,21,0,84,0,20,-8,A Minor,4,2020-12-29,768RawbMvID5MrxZEjznHx,8A,GBALX9390105
-63,"Duets For One","Elton John",27,188,"","Duets",1993-11-22,04:52,57,76,4,0,69,0,10,-8,C Major,4,2020-12-29,7pYUEPmQofVKAJhgXTf9GA,8B,GBALX9390108
-64,"El Dorado - From  The Road To El Dorado  Soundtrack","Elton John",39,102,"","The Road To El Dorado (Original Motion Picture Soundtrack)",2000-01-01,04:22,64,88,3,0,45,0,10,-6,C Major,4,2021-01-01,3ScTaxssPMiRO61W9vkafW,8B,USDW10021667
-65,"Friends Never Say Goodbye - From  The Road To El Dorado  Soundtrack","Elton John",35,121,"","The Road To El Dorado (Original Motion Picture Soundtrack)",2000-01-01,04:20,63,53,66,0,31,0,10,-8,F Minor,4,2021-01-01,3pxxSXxPKNXleWZ9ZcL0k1,4A,USDW10021670
-66,"16th Century Man - From  The Road To El Dorado  Soundtrack","Elton John",24,165,"","The Road To El Dorado (Original Motion Picture Soundtrack)",2000-01-01,03:39,51,91,25,1,96,0,10,-5,C Major,4,2021-01-01,3P35Ia0w6dgi5uamfjo0jw,8B,USDW10021672
-67,"Dark Diamond","Elton John",24,125,"","Songs From The West Coast (Expanded Edition)",2001-10-01,04:26,71,82,3,0,87,0,0,-6,C♯/D♭ Major,4,2021-01-04,6k4aQRWQonqxfW5AZ3iKNa,3B,GBF080100301
-68,"American Triangle","Elton John",27,129,"","Songs From The West Coast (Expanded Edition)",2001-10-01,04:49,67,53,41,0,22,0,10,-7,C Minor,4,2021-01-04,6mCmViyyn4V3Teh5M6LUuU,5A,GBF080100327
-69,"This Train Don't Stop There Anymore","Elton John",47,204,"","Songs From The West Coast (Expanded Edition)",2001-10-01,04:38,39,64,9,0,33,0,10,-6,G#/A♭ Major,4,2021-01-04,6mFnYxzUmEzEiqkB94k3g7,4B,GBF080100298
-70,"The North Star","Elton John",15,120,"","Songs From The West Coast (Expanded Edition)",2001-10-01,05:28,57,65,4,0,41,0,20,-6,F Major,3,2021-01-04,3ckYMpc386fUZHI1g809nB,7B,GBF080100322
-71,"Porch Swing In Tupelo","Elton John",24,133,"","Peachtree Road (Expanded Edition)",2004-11-07,04:38,60,51,79,0,33,0,10,-8,F Major,4,2021-01-05,4p70FGbzp42lqIuLbGGbtI,7B,GBF080400428
-72,"Turn The Lights Out When You Leave","Elton John",31,84,"","Peachtree Road (Expanded Edition)",2004-11-07,05:02,55,62,53,0,25,0,10,-7,G Major,4,2021-01-05,1lGwSKgdYCWXU2LH0P2SZ4,9B,GBF080400424
-73,"Freaks In Love","Elton John",32,152,"","Peachtree Road (Expanded Edition)",2004-11-07,04:31,61,46,72,0,44,0,10,-7,A#/B♭ Major,3,2021-01-05,5bZbZQRl6rO5pw65cRc5nQ,6B,GBF080400432
-74,"Just Like Noah's Ark","Elton John",18,124,"","The Captain and The Kid",2006-09-15,05:33,65,87,25,23,92,0,40,-5,D#/E♭ Major,4,2021-01-06,4ebWknUfhc3lY4BtarK1z0,5B,GBUM70602619
-75,"The Bridge","Elton John",33,111,"","The Captain and The Kid",2006-09-15,03:38,48,31,95,0,18,0,10,-10,C♯/D♭ Major,4,2021-01-06,78i0joKG9JwJDqtxcQOPXE,3B,GBUM70602623
-76,"I Must Have Lost It On The Wind","Elton John",16,81,"","The Captain and The Kid",2006-09-15,03:53,62,69,40,0,74,0,10,-7,D Major,4,2021-01-06,3HvxAXWaHkbbAzEhJiUDz4,10B,GBUM70602618
-77,"If It Wasn't For Bad","Elton John,Leon Russell",31,119,"outlaw country","The Union",2010-01-01,03:42,72,76,51,3,72,0,20,-8,D Minor,4,2021-01-06,4Wb5ywdEB91XYTNRJuISjO,7A,GBUM71025888
-78,"There's No Tomorrow","Elton John,Leon Russell",15,91,"outlaw country","The Union",2010-01-01,03:45,43,44,74,34,25,0,10,-10,F Minor,3,2021-01-07,6YSWnsrSyGtWRQmyhdD6su,4A,GBUM71026487
-79,"A Dream Come True","Elton John,Leon Russell",14,119,"outlaw country","The Union",2010-01-01,05:06,56,76,35,80,77,0,10,-10,C Major,4,2021-01-07,39yfQlQLPcOsgqLPqM4hM1,8B,GBUM71025890
-80,"Never Too Old (To Hold Somebody)","Elton John,Leon Russell",15,125,"outlaw country","The Union",2010-01-01,04:57,58,41,91,10,32,0,10,-11,G Major,4,2021-01-08,14KH4059KdXdzTRVpjb5OU,9B,GBUM71025913
-81,"Oscar Wilde Gets Out","Elton John",16,87,"","The Diving Board (Deluxe Version)",2013-09-16,04:35,56,61,46,66,51,0,10,-9,D Minor,4,2021-01-08,5RbY6AVs9ob3CwAZA9nR8d,7A,GBUM71303456
-82,"Voyeur","Elton John",15,133,"","The Diving Board (Deluxe Version)",2013-09-16,04:16,49,51,45,7,37,0,10,-10,D#/E♭ Major,4,2021-01-12,2RdAw1XJ6wfz26XqLgwuWE,5B,GBUM71303183
-83,"Dream # 2","Elton John",10,95,"","The Diving Board (Deluxe Version)",2013-09-16,00:43,48,21,96,99,34,0,10,-17,A Minor,4,2021-01-12,5xKhIaA6OU1lPPKfmdZRFM,8A,GBUM71303192
-84,"Mexican Vacation (Kids In The Candlelight)","Elton John",13,94,"","The Diving Board (Deluxe Version)",2013-09-16,03:33,71,67,18,0,60,0,10,-8,C Major,4,2021-01-12,4deaZiYMv945qTgQVQCoK8,8B,GBUM71303198
-85,"Dream # 3","Elton John",11,138,"","The Diving Board (Deluxe Version)",2013-09-16,01:36,35,45,86,77,81,0,10,-14,A Minor,1,2021-01-12,7cnCGtAN2cNPanepvsfW0G,8A,GBUM71303202
-86,"Candlelit Bedroom","Elton John",12,72,"","The Diving Board (Deluxe Version)",2013-09-16,04:13,64,44,59,1,43,0,10,-9,C Major,4,2021-01-12,6Qnsg5wtIChYf7wuLaMvgi,8B,GBUM71303558
-87,"Wonderful Crazy Night","Elton John",32,112,"","Wonderful Crazy Night (Deluxe)",2016-02-05,03:13,72,80,9,0,89,0,20,-5,F Major,4,2021-01-12,4SKakzuaSX2PMXIHGUDNyo,7B,GBUM71506178
-88,"Guilty Pleasure","Elton John",16,81,"","Wonderful Crazy Night (Deluxe)",2016-02-05,03:38,53,94,0,27,70,0,30,-5,G Major,4,2021-01-14,7MMa1gv3FmDBl9hKQFs6M5,9B,GBUM71506182
-89,"England And America","Elton John",14,153,"","Wonderful Crazy Night (Deluxe)",2016-02-05,03:51,38,87,2,4,82,0,0,-6,A#/B♭ Major,4,2021-01-14,3OK6xt63jBRG8M0M4fojF2,6B,GBUM71506219
-90,"Tactics","Elton John",0,130,"","Jewel Box",2020-11-13,02:48,51,42,30,94,18,0,10,-17,A#/B♭ Major,4,2021-01-18,6mSdK2zCUVf8V0gwQPyIxL,6B,GBUM70711387
-91,"Love So Cold","Elton John",0,137,"","Jewel Box",2020-11-13,05:04,74,51,13,0,90,0,0,-12,C Major,4,2021-01-18,1FfFaglDZ78rm6AKfEA2gW,8B,GBUM70711383
-92,"Donner Pour Donner","Elton John,France Gall",0,84,"variété française, chanson, french pop, french house","Jewel Box",2020-11-13,04:28,54,36,33,0,45,0,0,-17,C Major,4,2021-01-18,29BwDi4AgQHL464IBZYhIc,8B,GBALX9400002
-93,"J'veux D'la Tendresse","Elton John",0,118,"","Jewel Box",2020-11-13,03:39,65,66,17,0,54,0,20,-11,A#/B♭ Minor,4,2021-01-18,4DDdpHwG0sZGc4oLljpjip,3A,GBUM72003387
-94,"Tortured","Elton John",0,115,"","Jewel Box",2020-11-13,04:44,48,28,31,0,16,0,10,-16,F Major,3,2021-01-18,30P9LVPdxsYZaD661ddMVk,7B,GBUM70711388
-95,"I Know Why I'm In Love","Elton John",0,105,"","Jewel Box",2020-11-13,04:32,63,47,53,0,44,0,0,-14,A Minor,4,2021-02-01,5DYKAN7Soafb0llPMedTK5,8A,GBAMS9700012
-96,"You Can Make History (Young Again)","Elton John",33,92,"","Candle In The Wind 1997 / Something About ...",1997-01-01,04:54,66,72,16,1,48,0,30,-9,D Major,4,2021-02-01,2ChvdpARUc5va0hLi51Nmp,10B,GBAMS9600103
-97,"Young Dumb & Broke - Recorded At The Colosseum, Caesars Palace, Las Vegas","Elton John,Khalid",34,146,"","Spotify Singles",2018-12-12,03:49,83,53,20,0,47,10,10,-7,C♯/D♭ Major,4,2021-02-03,28rT3OwXdw4VF1MPYIk1P6,3B,GBUM71807644
-98,"Bang A Gong (Get It On)","U2,Elton John",30,124,"rock, ","Bang A Gong (Get It On)",2020-09-04,04:26,73,78,5,0,64,0,10,-4,D Major,4,2021-02-03,53D3QRrXV0vyy2PSXAhuxG,10B,GBUM72000628
-99,"Light Is Faster Than Sound","Big Brother & The Holding Company,Janis Joplin",20,140,"psychedelic rock, acid rock, classic rock","Big Brother & The Holding Company",1967-00-00,02:33,36,65,12,1,29,0,20,-11,F Major,4,2021-02-05,7yHKwqVaPTRjBfx4ijXHwS,7B,USSM16601324
-100,"Women Is Losers","Big Brother & The Holding Company,Janis Joplin",25,137,"psychedelic rock, acid rock, classic rock","Big Brother & The Holding Company",1967-00-00,02:05,56,57,23,0,72,0,10,-8,C Major,4,2021-02-11,17jKybtnI3cORPYawoXiMG,8B,USSM16601325
-101,"Piece of My Heart","Big Brother & The Holding Company,Janis Joplin",66,161,"psychedelic rock, acid rock, classic rock","Cheap Thrills",1968-08-12,04:13,44,73,26,0,57,10,10,-8,E Major,4,2021-02-15,1xKQbqQtQWrtQS47fUJBtl,12B,USSM16800982
-102,"As Good As You've Been to This World","Janis Joplin",34,104,"classic rock, psychedelic rock, acid rock","I Got Dem Ol' Kozmic Blues Again Mama!",1969-09-11,05:25,65,74,28,24,73,0,0,-9,C Minor,4,2021-02-24,0BlhdiMCG3coa1l0q03WLp,5A,USSM16900949
-103,"Kozmic Blues","Janis Joplin",55,177,"classic rock, psychedelic rock, acid rock","I Got Dem Ol' Kozmic Blues Again Mama!",1969-09-11,04:20,34,62,74,27,50,0,60,-8,G Major,3,2021-03-17,7eYYxblNEZKKeTT0HBQbXO,9B,USSM16900951
-104,"不意打ち","物語シリーズ",8,120,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:03,98,9,95,22,49,30,20,-22,C Major,4,2021-03-18,6OtBatfUqxNUGMdoyCIXmL,8B,JPE301400378
-105,"昔語り","物語シリーズ",17,78,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:53,68,58,65,93,10,0,10,-7,A Minor,4,2021-03-18,0wmKqYbY6tv8BYiTVDMF97,8A,JPE301400379
-106,"はなむけ","物語シリーズ",19,74,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,06:00,63,10,97,66,10,0,10,-20,D Major,4,2021-03-18,726G3DCdPFKztEXNclyqXb,10B,JPE301400390
-107,"「ろくでもない、鬼の物語が」","物語シリーズ",11,74,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,03:14,66,24,99,91,15,0,10,-21,F Major,4,2021-03-18,39gdIRulLYejVyDPC2drCw,7B,JPE301400391
-108,"Wild Thing","The Troggs",61,204,"proto-punk","From Nowhere",1966-07-25,02:35,45,66,74,3,76,0,10,-13,A Major,4,2021-03-18,7jGzYUZ2Bgg8BDfYlQRfn8,11B,GBF086600001
-109,"Evil","The Troggs",15,124,"proto-punk","From Nowhere",1966-07-25,03:16,66,47,83,0,83,0,0,-11,D Major,4,2021-03-18,12uBuOlR7pJRX23eyrwrhd,10B,GBUM71501155
-110,"Versus","Sawano Hiroyuki",3,100,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,03:46,54,82,0,92,23,0,20,-10,E Minor,4,2021-03-18,0NfcglqFLXUibds1YOnfwM,9A,JPTO00902772
-111,"the moment to decide - Gt. ver.","Sawano Hiroyuki",2,122,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,01:05,39,14,47,93,14,0,10,-17,C Major,4,2021-03-18,4EytqSBlrR3FKYZmQexoRh,8B,JPTO00902784
-112,"one-sided love","Sawano Hiroyuki",2,108,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,02:02,54,3,99,96,23,0,0,-24,C Major,3,2021-03-19,6P24JmRJH0bPKhVLzvagjT,8B,JPTO00902791
-113,"run away","Sawano Hiroyuki",1,125,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,02:12,68,81,0,79,61,0,0,-12,C♯/D♭ Major,4,2021-03-19,0f68Zli8j6FYdukb7hUTYv,3B,JPTO00902797
-114,"Darling I'm a Mess","Sabrina Carpenter",41,90,"pop","Eyes Wide Open",2015-04-10,02:59,55,48,67,0,47,0,10,-7,F Major,4,2021-03-20,6rdKHwxWa9aqWyoGf1r20v,7B,USHR11435921
-115,"Tiptoe","Imagine Dragons",54,120,"","Night Visions",2012-09-04,03:14,53,82,0,0,25,0,0,-6,F#/G♭ Major,4,2021-03-23,7lBPn6LpIvbvAihTRvBMig,2B,USUM71208576
-116,"Nothing Left To Say / Rocks - Medley","Imagine Dragons",46,108,"","Night Visions",2012-09-04,08:57,27,79,12,0,6,0,50,-7,C Major,4,2021-03-24,300tML2o8yHO4WrDtG2gxO,8B,USUM71208578
-117,"Move Over","Janis Joplin",54,133,"classic rock, psychedelic rock, acid rock","Pearl (Legacy Edition)",1971-01-11,03:43,71,50,19,1,92,0,0,-10,C Major,4,2021-03-25,2bD9x9kN4wYyVoyckeqlLk,8B,USSM17000784
-118,"Half Moon","Janis Joplin",38,120,"classic rock, psychedelic rock, acid rock","Pearl (Legacy Edition)",1971-01-11,03:53,67,56,52,0,63,0,0,-12,C Major,4,2021-03-25,2bD8JWzDBOnSeUcsjVU2SD,8B,USSM17000787
-119,"Mercedes Benz","Janis Joplin",56,87,"classic rock, psychedelic rock, acid rock","Pearl (Legacy Edition)",1971-01-11,01:47,70,11,94,0,52,50,0,-15,C Minor,4,2021-03-25,1MntHPLU1T7a9W4tojbg8g,5A,USSM10408486
-120,"Move Over - Alternate Version","Janis Joplin",28,130,"classic rock, psychedelic rock, acid rock","Pearl (Legacy Edition)",1971-01-11,04:25,67,73,2,0,92,0,0,-9,D Major,4,2021-03-25,6NgV2dH50o1HIoEwxHRu3X,10B,USSM10408488
-121,"宿敵","物語シリーズ",14,127,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:40,27,16,97,84,4,0,0,-15,A#/B♭ Major,4,2021-03-30,39dHJ149WjnIsFfxt3h4uT,6B,JPE301400835
-122,"所在不明","物語シリーズ",7,70,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:42,59,31,99,93,11,0,10,-18,F#/G♭ Minor,4,2021-03-30,4XwNSSLfoqTcClwXW2Lv5S,11A,JPE301400838
-123,"肉奉行","物語シリーズ",9,120,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:36,60,9,99,96,10,0,10,-16,D#/E♭ Major,4,2021-03-30,1YUAkgQwDRHzcggnjK1QuE,5B,JPE301400840
-124,"卒業","物語シリーズ",11,120,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,03:19,43,19,96,96,4,0,10,-13,C Major,4,2021-03-30,6DTCmm6JcdXEZTACv9LwhX,8B,JPE301401034
-125,"It's Too Late","The Troggs",7,155,"proto-punk","Trogglodynamite",1967-02-10,02:09,71,88,48,8,42,10,0,-8,F Minor,4,2021-03-31,0NaZvtMNwFf8ISSfH8Zco3,4A,GBUM71905495
-126,"No. 10 Downing Street","The Troggs",3,96,"proto-punk","Trogglodynamite",1967-02-10,02:17,80,84,37,0,49,0,60,-8,C Major,4,2021-03-31,6iB7peeTu36vp3aUhuiugg,8B,GBUM71905498
-127,"@-2-期!!","Sawano Hiroyuki",4,160,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,04:37,51,90,0,50,21,10,0,-7,A Major,4,2021-04-01,1x1aiiJkgZqKfIBXtu6391,11B,JPG751000514
-128,"CR■SC∃NT","Sawano Hiroyuki",13,100,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,02:41,60,95,0,0,49,10,10,-2,B Minor,4,2021-04-01,4LQiwnSrHQUINcOeF6Fynz,10A,JPG751000517
-129,"Luster.[Dream-Luck REMIX]","Sawano Hiroyuki",4,140,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,03:05,31,62,12,92,8,0,10,-10,D Minor,4,2021-04-19,3PBjwOtZdk56pv43q6ooWZ,7A,JPG751000525
-130,"B∀TTL∃field＄","Sawano Hiroyuki",8,98,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,03:23,53,99,0,85,41,10,20,-3,E Minor,4,2021-04-21,6Sec8FUeUkOzpg4pMV00Ra,9A,JPG751000527
-131,"Round And Round","Imagine Dragons",44,142,"","Night Visions (Deluxe)",2012-09-04,03:16,46,86,0,0,48,0,20,-4,C Minor,4,2021-06-11,079yVkBuqjli0R21W0kis3,5A,USUM71201075
-132,"Cry Baby (with The Full Tilt Boogie Band)","Janis Joplin,The Full Tilt Boogie Band",11,168,"classic rock, psychedelic rock, acid rock, ","Janis",1974-10-18,04:02,38,47,47,2,46,0,0,-9,C Major,3,2021-06-15,2pQLTVf5oFhglG4aphD1Fj,8B,USSM10411870
-133,"深窓の令嬢","物語シリーズ",32,144,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:40,77,19,98,96,12,20,0,-18,E Major,4,2021-06-15,4494490z9AMSppihNjo8DS,12B,JPE301103662
-134,"クラスメイト","物語シリーズ",28,100,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:42,55,28,89,96,31,0,10,-16,C Major,3,2021-06-16,5K25ey1FmwV3D17K1jHr4z,8B,JPE301103665
-135,"表裏","物語シリーズ",24,162,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,01:46,41,53,30,88,16,0,0,-16,C Minor,3,2021-06-17,5jrIk6jLrhvscjgPH3b31Z,5A,JPE301001709
-136,"次回、ひたぎクラブ","物語シリーズ",14,128,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,00:53,58,33,71,69,19,0,10,-10,E Major,4,2021-06-20,1CJjHgDXHKlPnz7knG3AU3,12B,JPE301103671
-137,"日曜日","物語シリーズ",20,100,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:41,75,9,99,77,44,10,10,-16,D Major,4,2021-06-21,5Fb3KJvSQPSX2C48lDhNpE,10B,JPE301103682
-138,"次回、まよいマイマイ","物語シリーズ",9,175,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,00:49,53,34,66,80,13,20,10,-12,D#/E♭ Major,3,2021-06-22,2TzWrLgCCoULkJyNtbTALF,5B,JPE301103692
-139,"バカロリート","物語シリーズ",17,90,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,03:18,82,77,54,77,73,0,10,-9,D Major,4,2021-06-27,6xPWgCq1NRKZ0xH8Kwt2K8,10B,JPE301001706
-140,"「戦場ヶ原先輩」","物語シリーズ",18,180,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:24,37,26,98,91,43,0,10,-14,B Major,4,2021-06-29,6IsyNroSVJWfbivY0oP7Hy,1B,JPE301103696
-141,"次回、なでこスネイク","物語シリーズ",14,121,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,00:37,75,39,71,87,71,0,10,-12,E Major,4,2021-07-01,4VOgJXMUiZwRI6APS5jw4j,12B,JPE301103701
-142,"「私、嘘なんかついたことがないもの」","物語シリーズ",17,100,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,01:55,66,26,99,86,12,0,10,-16,A Major,4,2021-07-01,6DPgFiWEdWEP5pv8ID3YZ0,11B,JPE301103706
-143,"Fear→Sorrow","Sawano Hiroyuki",15,112,"anime, soundtrack","MOBILE SUIT GUNDAM UNICORN Original Motion Picture Soundtrack 1",2010-09-09,02:22,17,17,16,91,9,0,40,-20,G Minor,3,2021-07-07,4yyVvCLWV07SMRKpFwKP5x,6A,JPP301000080
-144,"red strand","Cö shu Nie",0,117,"anime, j-rock, j-pop","red strand",2020-03-27,04:00,39,92,3,0,46,10,20,-4,A#/B♭ Minor,3,2021-07-11,6yjLhRYtb11cL6q3LrIYKa,3A,JPU902000306
-145,"FLARE","Cö shu Nie",20,95,"anime, j-rock, j-pop","FLARE",2020-07-08,02:34,42,95,0,0,21,0,30,-3,F#/G♭ Major,4,2021-07-11,6tHruFkXsmVU3rT1vdWMnU,2B,JPU902001528
-146,"Release","Imagine Dragons",38,138,"","Smoke + Mirrors (Deluxe)",2015-10-23,02:28,38,40,86,0,41,0,10,-11,D Minor,5,2021-07-24,5EHNEWKaB4DMMOOWsZxP7W,7A,USUM71417942
-147,"Warriors","Imagine Dragons",53,78,"","Smoke + Mirrors (Deluxe)",2015-10-23,02:50,37,85,10,0,31,0,20,-6,E Minor,4,2021-07-24,6Q2JimwoGgG5W9HdmH1hmq,9A,USUM71414163
-148,"happy bite","物語シリーズ",25,132,"anime, j-pop","Kabukimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,04:11,77,93,15,0,84,0,10,-3,D#/E♭ Major,4,2021-07-26,6yVfuJ83Jeuni0VdTrgEfW,5B,JPE301302929
-149,"僕達の戦い","物語シリーズ",8,132,"anime, j-pop","Kabukimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:29,54,18,84,86,28,0,0,-11,D#/E♭ Major,4,2021-07-28,7pRVCUp0ABYiclpdXWkBDH,5B,JPE301303016
-150,"What you doing here","The Troggs",1,181,"proto-punk","Au",1989-00-00,04:31,29,23,42,22,33,0,0,-17,A Major,4,2021-07-28,3xoEHLjNtULsAYkNYNozec,11B,DESK99290203
-151,"Too Late To Say","Sawano Hiroyuki",19,136,"anime, soundtrack","青の祓魔師 Plugless",2011-00-00,05:22,61,40,82,0,28,0,10,-9,C Major,4,2021-07-29,3hDZB1OzBcY90s3ArH9lNI,8B,JPE301301940
-152,"Call me later <nZk Plugless>","Sawano Hiroyuki",28,133,"anime, soundtrack","青の祓魔師 Plugless",2011-00-00,03:23,61,49,76,0,41,0,20,-6,B Minor,3,2021-07-29,34rd41XWCNb0Pz2UgkZrAt,10A,JPE301301943
-153,"Me & Creed <Slow Ver>","Sawano Hiroyuki",14,74,"anime, soundtrack","青の祓魔師 Plugless",2011-00-00,04:55,34,23,79,0,23,0,20,-8,G Major,3,2021-07-29,4XDVjxG0RvLVfBhF8B1z2G,9B,JPE301301946
-154,"Next To Me","Imagine Dragons",72,170,"","Evolve",2017-06-23,03:50,30,67,28,0,38,0,0,-4,D Major,3,2021-08-01,31VOknKjFrEX47bZXzqcoF,10B,USUM71704654
-155,"Believer","Imagine Dragons",88,125,"","Evolve",2017-06-23,03:24,78,78,6,0,67,10,0,-4,A#/B♭ Minor,4,2021-08-02,0pqnGHJpmpxLKifKRmU6WP,3A,USUM71700626
-156,"fast love","物語シリーズ",27,131,"anime, j-pop","Koimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,04:36,60,97,4,0,80,0,30,-4,F#/G♭ Major,4,2021-08-03,65n4b5SWZNXnxnoTakRxv4,2B,JPE301400435
-157,"怠け者の節句働き","物語シリーズ",11,160,"anime, j-pop","Koimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:31,81,5,97,92,77,0,0,-17,D#/E♭ Major,3,2021-08-03,1fmZ8y6VCAxyPurlx736Bc,5B,JPE301400437
-158,"66 5 4 3 2 1","The Troggs",20,140,"proto-punk","Hit Single Anthology",1991-04-29,02:33,75,72,21,84,97,10,0,-11,E Major,4,2021-08-05,6tIRhA06e2fjMpYJMNv71L,12B,GBF080300502
-159,"The man who is in great request","Sawano Hiroyuki",0,110,"anime, soundtrack","日本テレビ系火曜ドラマ「貧乏男子」オリジナル・サウンドトラック",2008-02-27,03:23,64,63,9,31,45,10,10,-7,F Major,4,2021-08-07,2tG92ZrPY52aeZZdI5gwJA,7B,JPVP00801607
-160,"mjyu","Sawano Hiroyuki",0,76,"anime, soundtrack","日本テレビ系火曜ドラマ「貧乏男子」オリジナル・サウンドトラック",2008-02-27,02:57,67,64,40,95,92,0,0,-9,C Major,4,2021-08-07,2n1WFAMEHaBzRvylhfoCgl,8B,JPVP00801619
-161,"モノクローム <soundtrack version>","Sawano Hiroyuki",0,66,"anime, soundtrack","日本テレビ系火曜ドラマ「貧乏男子」オリジナル・サウンドトラック",2008-02-27,02:31,17,39,74,1,28,0,10,-8,G Major,4,2021-08-07,2zgCIU0i6yGFTigvu0qlRw,9B,JPVP00801621
-162,"Clouds (with Sabrina Carpenter)","Fin Argus,Sabrina Carpenter",46,95,"pop","CLOUDS (Music From The Disney+ Original Movie)",2020-10-16,03:05,58,63,57,0,38,0,10,-8,D Major,4,2021-08-08,0nCfCedKIf6EjWFt55AXum,10B,USUG12003837
-163,"Zero - From the Original Motion Picture  Ralph Breaks The Internet ","Imagine Dragons",67,90,"","Origins (Deluxe)",2018-11-09,03:30,64,66,0,0,25,0,10,-8,F#/G♭ Major,4,2021-08-09,2bzitsPcImYC6DZWvvLCQi,2B,USWD11890242
-164,"Stuck","Imagine Dragons",51,115,"","Origins (Deluxe)",2018-11-09,03:10,62,48,26,0,25,0,20,-8,F Major,4,2021-08-10,5Z9SQPYU95S6M1vcbLsDt2,7B,USUM71816166
-165,"perfect slumbers","物語シリーズ",34,80,"anime, j-pop","Nekomonogatari (Kuro) Gekihanongakushu [Original Soundtrack]",2018-11-02,04:27,55,54,22,0,32,0,10,-7,E Minor,4,2021-08-12,1Wvx6tl0nI8GOYAS2tDplu,9A,JPE301300181
-166,"恋かもしれない何かの話","物語シリーズ",9,112,"anime, j-pop","Nekomonogatari (Kuro) Gekihanongakushu [Original Soundtrack]",2018-11-02,01:38,88,9,98,92,94,10,10,-20,G Major,4,2021-08-12,4dGdytdo8Z2U4ehNeDFk3N,9B,JPE301300082
-167,"ロケット作り","物語シリーズ",6,182,"anime, j-pop","Nekomonogatari (Kuro) Gekihanongakushu [Original Soundtrack]",2018-11-02,01:32,61,50,20,88,84,0,10,-12,D Major,4,2021-08-12,6UU8q3Q2GqpNLAA5N2F2hB,10B,JPE301300084
-168,"BPF1","Sawano Hiroyuki",26,66,"anime, soundtrack","青の祓魔師 京都不浄王篇 オリジナル・サウンドトラック",2011-00-00,03:00,33,6,99,90,4,0,10,-25,E Minor,5,2021-08-15,6fFZYxGeVX7fvjv36yaKFN,9A,JPE301601182
-169,"Alien - Acoustic","Sabrina Carpenter,Jonas Blue",32,81,"pop, tropical house","Alien (Acoustic)",2018-05-11,03:24,40,33,91,0,58,0,10,-7,A#/B♭ Minor,1,2021-08-20,6VDRCKWp49mhQhrvAeI5QT,3A,USHR11838472
-170,"Sue Me - A Cappella","Sabrina Carpenter",35,69,"pop","Sue Me (A Cappella)",2019-03-22,03:22,40,31,88,0,50,0,10,-10,F Major,4,2021-08-20,1GlBABlFOcIIlSEYcnOP3b,7B,USHR11939072
-171,"chocolate insomnia","物語シリーズ",26,162,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,04:39,48,92,0,0,69,0,0,-4,C Major,4,2021-08-21,1ku2LBifRZrAvPx7yJdWfJ,8B,JPE301302699
-172,"女子同士","物語シリーズ",11,99,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,01:12,63,12,10,2,30,0,10,-13,G Major,3,2021-08-22,4Gf6u1OHRFkJ4KHLVoT82U,9B,JPE301302811
-173,"草々不一","物語シリーズ",10,114,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,03:24,66,26,95,78,10,0,10,-12,F Major,3,2021-08-22,2MwBR7mkF4faZC3Sk1r4Xf,7B,JPE301302814
-174,"「ただいま」","物語シリーズ",14,94,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,02:10,70,19,93,83,30,0,10,-15,D#/E♭ Major,4,2021-08-22,4PCuKnoGDYqFMcrtmj8Iit,5B,JPE301302818
-175,"The Lazy Song","Bruno Mars",80,175,"","Doo-Wops & Hooligans",2010-05-11,03:09,79,71,30,0,96,0,10,-5,G#/A♭ Minor,4,2021-08-26,386RUes7n1uM1yfzgeUuwp,1A,USAT21001886
-176,"Talking to the Moon - Acoustic Piano","Bruno Mars",58,147,"","Doo-Wops & Hooligans",2010-05-11,03:37,36,33,86,0,21,0,10,-6,E Major,4,2021-08-26,6YKT5HoPwjTwhHiCNQsBMK,12B,USAT21001777
-177,"I Bet My Life - Riot Games Remix","Imagine Dragons",33,108,"","I Bet My Life (Riot Games Remix)",2014-09-18,03:30,50,60,49,0,20,0,20,-9,C♯/D♭ Major,4,2021-09-01,3bz7aRHigA8TVOYcMt3SG7,3B,USUM71501169
-178,"Sucker for Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)","Lil Wayne,Wiz Khalifa,Imagine Dragons,X Ambassadors,Logic,Ty Dolla $ign",79,169,"rap, hip hop, trap soul","Sucker for Pain (with Logic & Ty Dolla $ign feat. X Ambassadors)",2016-06-24,04:03,50,79,26,0,74,30,60,-4,A Minor,4,2021-09-03,4dASQiO1Eoo3RJvt74FtXB,8A,USAT21601893
-179,"Believer (feat. Lil Wayne)","Imagine Dragons,Lil Wayne",63,94,"rap, hip hop","Believer (feat. Lil Wayne)",2019-01-07,03:39,49,84,6,0,76,20,0,-4,A#/B♭ Minor,3,2021-09-04,2sU9EjevkrU9OkPZudvFNN,3A,USUM71900149
-180,"二言目","物語シリーズ",33,132,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,04:25,67,85,17,0,54,0,10,-5,E Major,4,2021-09-08,1D1oqJGlRiSL5zbPcNGFud,12B,JPE301201201
-181,"魔手","物語シリーズ",8,148,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,01:43,58,87,2,89,96,0,10,-8,A#/B♭ Minor,4,2021-09-10,3fQOAGBQwKHAl6DyfOcWgr,3A,JPE301201210
-182,"次回、かれんビー（戦場ヶ原ひたぎver.）","物語シリーズ",9,130,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,00:54,57,42,58,83,39,0,20,-11,E Major,4,2021-09-11,3IQMWbOWxn59RtrWlkeAxA,12B,JPE301201215
-183,"不吉","物語シリーズ",20,56,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:13,46,10,94,92,23,0,10,-14,E Major,4,2021-09-15,2hrzcuv7UxGsE59JPQq2i1,12B,JPE301201486
-184,"怪異の王","物語シリーズ",16,97,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,01:34,68,37,92,0,83,0,0,-8,B Minor,4,2021-09-15,0hBODQftRJHWOjVfseckmq,10A,JPE301201490
-185,"「兄ちゃん。あとは、任せた」","物語シリーズ",19,98,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,02:29,79,23,96,89,26,10,10,-10,E Minor,4,2021-09-17,0W0UvxxIZRyFOjYP1vRtsQ,9A,JPE301201664
-186,"「プラチナむかつく」","物語シリーズ",22,172,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,01:35,68,30,99,91,34,0,10,-15,F#/G♭ Major,4,2021-09-18,1mzGbxScvBkIooUfgh6qcP,2B,JPE301202033
-187,"With a Girl Like You (Rerecorded)","The Troggs",1,117,"proto-punk","Wild Thing - The Best of the Troggs (Rerecorded Version)",2002-03-01,02:15,80,95,34,0,74,0,0,-11,G Major,4,2021-09-21,2JtPcAwLfe2jQmPbZhmySV,9B,USDEI9503579
-188,"Perm","Bruno Mars",64,124,"","24K Magic",2016-11-17,03:30,85,87,1,0,86,0,20,-4,G#/A♭ Major,4,2021-10-01,1I6pKIyaBp4OebTGLJpCCC,4B,USAT21602947
-189,"Versace on the Floor","Bruno Mars",82,174,"","24K Magic",2016-11-17,04:21,58,57,20,0,30,0,0,-6,D Major,4,2021-10-01,0kN8xEmgMW9mh7UmDYHlJP,10B,USAT21602949
-190,"OMAKE-SUITE　　Heaven's Door <Final Ver.>","Sawano Hiroyuki",4,120,"anime, soundtrack","「劇場版 戦国BASARA -The Last Party-」音楽絵巻 ～さらば、宿敵（とも）よ～",2011-06-08,03:34,59,78,0,65,28,0,30,-11,A Major,4,2021-10-02,4f0ign9TLpwuZ2d8ZiyPGY,11B,JPG751100186
-191,"Black Bottom (Rerecorded)","The Troggs",1,128,"proto-punk","20 of Their Best (Rerecorded Version)",2009-09-11,02:47,81,54,2,79,84,0,10,-11,G Major,4,2021-10-03,2rgkJCqxHjBEseuNfW6S3H,9B,USG290601501
-192,"60's Medley - Louie Louie / Hang on Sloopy / Twist and Shout / Any Way That You Want Me / The Game of Love (Rerecorded)","The Troggs",1,121,"proto-punk","20 of Their Best (Rerecorded Version)",2009-09-11,04:06,58,73,0,73,84,0,20,-11,B Minor,4,2021-10-03,4oZVEWPPQrKdy4hR9P7zUV,10A,USG290601510
-193,"mathemagics","物語シリーズ",32,126,"anime, j-pop","Owarimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,04:05,68,81,21,0,73,0,10,-4,D Major,4,2021-10-07,2tbQxtjeai98CxjBnF4wJC,10B,JPE301501408
-194,"dark cherry mystery","物語シリーズ",32,125,"anime, j-pop","Owarimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,03:51,74,88,8,0,85,0,30,-5,F#/G♭ Major,4,2021-10-07,6Z9JnFYXEbdVrxG45xlhSA,2B,JPE301701384
-195,"Catch a Grenade - The Hooligans Remix","Bruno Mars",60,120,"","The Grenade Sessions",2011-02-08,03:30,80,83,5,0,96,0,0,-2,D Minor,4,2021-10-08,1EOWf8bsePF6QtiDUAclrJ,7A,USAT21100010
-196,"etoile et toi [edition le blanc]","物語シリーズ",30,135,"anime, j-pop","Kizumonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,06:02,23,20,93,56,7,0,0,-14,F#/G♭ Minor,4,2021-10-12,5HBnVSa57l3B4Cxg7XQ8VL,11A,JPE301700624
-197,"オレンジミント","物語シリーズ",32,122,"anime, j-pop","Tukimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,04:35,66,83,19,0,80,0,20,-4,C Major,4,2021-10-12,5wUWbDQRB3KR1JKT9oEMbX,8B,JPE301401463
-198,"IiMuRoYa-$.feat 4th-Mov.：N-tone","Sawano Hiroyuki",10,104,"anime, soundtrack","青の祓魔師 オリジナル・サウンドトラック II",2011-09-28,03:22,50,2,99,89,4,0,0,-23,C Minor,4,2021-10-16,5WZr0sEIlzNxaH52LjEWNz,5A,JPE301102628
-199,"βiοs<MK＋nZk Version>","Sawano Hiroyuki",39,97,"anime, soundtrack","GUILTY CROWN COMPLETE SOUNDTRACK",2012-00-00,04:55,52,90,1,0,59,0,30,-5,A#/B♭ Major,4,2021-10-23,6sRkyIMcMbZK5ldKZLkpPe,6B,JPE301600189
-200,"Salt","Sawano Hiroyuki",9,108,"anime, soundtrack","GUILTY CROWN COMPLETE SOUNDTRACK",2012-00-00,02:18,41,28,96,0,5,0,10,-12,F Major,3,2021-10-24,7GvyokMk43jI6a72JFs0r9,7B,JPE301202205
-201,"With A Girl Like You (From the  KFC - New Toasted Burritos  TV Advert)","The Troggs",0,118,"proto-punk","With A Girl Like You (From the  KFC - New Toasted Burritos  TV Advert)",2015-03-27,02:07,69,66,54,0,58,0,10,-15,C♯/D♭ Major,4,2021-11-05,2RVzIqh7qRcTQVx4yD3toe,3B,CB2CY0934788
-202,"Love Is All Around - Summer of Love Version","The Troggs",0,95,"proto-punk","Love Is All Around (Summer of Love Version)",2020-06-24,02:50,56,27,2,82,47,0,20,-13,D Major,4,2021-11-05,06gvWPGKwueAtPcEB4s7DH,10B,USBT21623966
-203,"Real Life","The Weeknd",59,91,"","Beauty Behind The Madness",2015-08-28,03:43,58,65,44,0,36,0,30,-5,B Minor,4,2021-11-07,03j354P848KtNU2FVSwkDG,10A,USUG11500913
-204,"Earned It (Fifty Shades Of Grey)","The Weeknd",75,120,"","Beauty Behind The Madness",2015-08-28,04:37,66,29,41,0,41,0,0,-8,D Minor,3,2021-11-08,4frLb7nWtsz2ymBE6k2GRP,7A,USUG11500923
-205,"或るK大生の死","BURNOUT SYNDROMES",9,127,"anime, j-rock, j-pop","文學少女",2015-05-13,04:50,42,63,34,0,62,0,20,-5,G Major,4,2021-11-09,5HXn846qkCZMOnV0cdpfSH,9B,JPZ921502773
-206,"Power","Cindy Cruse,Kristin Chenoweth",2,132,"aor, ccm, arena rock, christian rock, musicals","As I Am",2005-03-28,04:20,57,66,1,0,39,0,10,-7,G#/A♭ Major,4,2021-11-12,3PmyyRZudEoWEoQp2x8jbI,4B,USSM10500765
-207,"Starboy","The Weeknd,Daft Punk",91,186,"french house, electronic, electro","Starboy",2016-11-25,03:50,68,59,14,0,49,20,10,-7,G Major,4,2021-11-14,7MXVkk9YMctZqd1Srtv4MB,9B,USUG11600976
-208,"Secrets","The Weeknd",65,110,"","Starboy",2016-11-25,04:25,66,77,2,0,76,0,40,-6,C Major,4,2021-11-14,00NAQYOP4AmWR549nnYJZu,8B,USUG11601000
-209,"檸檬","BURNOUT SYNDROMES",22,136,"anime, j-rock, j-pop","檸檬",2016-11-09,04:11,26,83,9,0,36,0,30,-4,A#/B♭ Major,4,2021-11-15,4GEgs62ywqI6IRnf9BDqrE,6B,JPU901602728
-210,"アタシインソムニア","BURNOUT SYNDROMES",19,137,"anime, j-rock, j-pop","檸檬",2016-11-09,05:10,46,95,0,0,55,0,30,-2,G Minor,4,2021-11-15,6ZU3mFsVEZ7fMhUJ8xkuAl,6A,JPU901602731
-211,"Hay_Yay","Ghezaal Enayat",1,123,"","فراموش",2020-10-12,03:22,67,74,59,0,79,0,10,-9,D#/E♭ Minor,4,2021-11-20,2CSjKU6WEIDT3wDshvOntZ,2A,DEXM82104009
-212,"The Christmas Waltz","Kristin Chenoweth",14,115,"musicals","A Lovely Way to Spend Christmas",2008-10-17,02:58,29,26,92,0,9,0,0,-11,E Major,3,2021-11-29,2Ah29ZsLBgrHiG44ZARk9e,12B,USSM10802908
-213,"Call Out My Name - A Cappella","The Weeknd",55,135,"","My Dear Melancholy,",2018-03-30,03:44,40,34,89,0,46,0,30,-7,C♯/D♭ Major,3,2021-11-30,5PTfZsGlsDDPH8i3PdQnXJ,3B,USUG11901347
-214,"What Would Dolly Do","Kristin Chenoweth",8,208,"musicals","Some Lessons Learned",2011-09-09,02:46,40,95,22,0,82,10,30,-3,C♯/D♭ Major,4,2021-12-07,3fXfk5jKxO4eaMqEoW1bU6,3B,USSM11103777
-215,"After Hours","The Weeknd",83,109,"","After Hours",2020-03-20,06:01,66,57,8,1,14,0,10,-6,F Minor,4,2021-12-08,2p8IUWQDrpjuFltbdgLOag,4A,USUG12000586
-216,"The Reluctant Heroes","Sawano Hiroyuki",54,127,"anime, soundtrack","TV Anime  Attack on Titan  Original Soundtrack",2013-00-00,04:27,55,80,0,0,54,10,40,-7,B Minor,4,2021-12-17,6zSXcvXQ8T74fXm72OpSOb,10A,JPPC01301132
-217,"Call Your Name","Sawano Hiroyuki",55,142,"anime, soundtrack","TV Anime  Attack on Titan  Original Soundtrack",2013-00-00,04:28,57,30,1,0,20,0,0,-8,B Minor,4,2021-12-17,2LYhS0VbCzbE6alAI3Q7Ot,10A,JPPC01301141
-218,"Nothing Compares - Bonus Track","The Weeknd",54,132,"","After Hours (Deluxe)",2020-04-03,03:42,53,58,0,4,4,0,20,-9,C♯/D♭ Major,4,2021-12-22,5ciyqWW5YuGqF4Avu7uwry,3B,USUG11904288
-219,"PHOENIX","BURNOUT SYNDROMES",57,137,"anime, j-rock, j-pop","BURNOUT SYNDROMEZ",2020-03-24,04:06,49,95,11,0,66,0,30,-1,C Major,4,2021-12-23,1ZGmDs16vtSI0nlxDFljFK,8B,JPU901902983
-220,"هی وای وای","Nazir khara,Ghezaal Enayat",6,185,"","هی وای وای",2018-07-20,03:22,37,73,64,0,79,10,20,-9,D#/E♭ Minor,3,2021-12-24,4B3VnIxZszF0AxHHsyLUMI,2A,DEXM82103468
-221,"Before my body is dry","Sawano Hiroyuki",51,119,"anime, soundtrack","キルラキル コンプリートサウンドトラック",2013-00-00,04:08,40,71,1,0,38,0,0,-6,D#/E♭ Minor,4,2021-12-27,1FvZeK3MgmGldxeYDvzanR,2A,JPE301302905
-222,"You Don't Own Me (Feat. Ariana Grande)","Kristin Chenoweth,Ariana Grande",47,96,"musicals, pop","For The Girls",2019-09-27,03:08,54,60,34,0,39,0,10,-4,A#/B♭ Minor,3,2021-12-30,1By0EoZgkP7shwWfokVzfW,3A,USC4R1907011
-223,"Save Your Tears - OPN Remix","The Weeknd,Oneohtrix Point Never",36,118,"plunderphonics, idm, drone, ambient, experimental, vaporwave","After Hours (Remixes)",2020-04-02,03:40,68,84,28,0,80,0,10,-6,C Major,4,2021-12-31,0e5Cykguk6797AaVUjJI92,8B,USUG12001116
-224,"Save Your Tears (with Ariana Grande) (Remix)","The Weeknd,Ariana Grande",79,118,"pop","Save Your Tears (Remix)",2021-04-23,03:11,65,83,2,0,59,0,0,-5,C Major,4,2022-01-01,37BZB0z9T8Xu7U3e65qxFy,8B,USUG12101839
-225,"Elastic Heart - From  The Hunger Games: Catching Fire  Soundtrack","Sia,The Weeknd,Diplo",60,130,"moombahton","Elastic Heart (From “The Hunger Games: Catching Fire” Soundtrack)",2013-01-01,04:17,42,76,5,0,47,0,10,-6,A Major,4,2022-01-01,6x0ex5urwhqB3AYLREVRUd,11B,USRC11301541
-226,"Love Me Harder","Ariana Grande,The Weeknd",84,99,"pop, ","My Everything (Deluxe)",2014-08-22,03:56,49,71,1,0,24,0,0,-4,C♯/D♭ Minor,4,2022-01-01,5J4ZkQpzMUFojo1CtAZYpn,12A,USUM71409728
-227,"Pray For Me (with Kendrick Lamar)","The Weeknd,Kendrick Lamar",68,101,"hip hop, west coast hip hop","Black Panther The Album Music From And Inspired By",2018-02-09,03:31,74,68,8,0,19,0,10,-5,D Major,4,2022-01-02,77UjLW8j5UAGAGVGhR5oUK,10B,USUM71800001
-228,"BLIZZARD (Smoked Silver Ver.)","BURNOUT SYNDROMES",12,138,"anime, j-rock, j-pop","TOKYO",2021-06-23,03:46,52,87,4,0,74,0,30,-5,B Minor,4,2022-01-03,0BTX06f8gUdeuGatdrkRQ2,10A,JPU902101279
-229,"Prisoner","Era Istrefi",0,150,"","Prisoner",2018-06-08,03:15,70,90,1,0,80,0,30,-3,A Minor,4,2022-01-04,5zhlyDNKZhRvXXN6pGGq31,8A,USUS11800139
-230,"ANxiEtY","Sawano Hiroyuki",7,129,"anime, soundtrack","澤野弘之　NHK WORKS",2013-02-27,03:10,44,4,98,95,9,0,10,-20,D Minor,4,2022-01-05,0xOIhfWWOA10CvQ6SAEbw8,7A,JPS001300073
-231,"Why Couldn't It Be Christmas Every Day?","Kristin Chenoweth",40,130,"musicals","HAPPINESS is…Christmas!",2021-10-22,04:19,65,74,41,0,60,0,10,-3,A#/B♭ Major,4,2022-01-13,6xauj1HlVItuBYOOhQaoiY,6B,USRO22102653
-232,"itsuka-VnPf","Sawano Hiroyuki",7,60,"anime, soundtrack","澤野弘之　NHK WORKS",2013-02-27,02:56,44,14,94,3,13,0,0,-19,F#/G♭ Minor,4,2022-01-20,38khKhwYq645RDLYbvSiym,11A,JPS001300084
-233,"itsuka-Pf","Sawano Hiroyuki",7,120,"anime, soundtrack","澤野弘之　NHK WORKS",2013-02-27,03:16,59,7,98,83,20,0,0,-22,F#/G♭ Minor,4,2022-01-20,3y70BWEyI2oPzhAFOrXGH1,11A,JPS001300088
-234,"過多6-$ <X9>","Sawano Hiroyuki",10,135,"anime, soundtrack","劇場版 七つの大罪 天空の囚われ人　オリジナル・サウンドトラック",2014-00-00,01:43,84,55,16,28,46,0,10,-7,G Major,3,2022-01-20,33NHnTduEQ7XAspZSu3tKV,9B,JPE301800681
-235,"Defying Gravity - From  Wicked  Original Broadway Cast Recording/2003","Kristin Chenoweth,Idina Menzel",1,86,"musicals","Broadway Gold",2007-01-01,05:53,36,39,72,0,28,0,0,-8,F#/G♭ Major,4,2022-01-21,0tCUWiYN4snKFUZemMJFwA,2B,USUMC0300219
-236,"Witchy Woman","Kristin Chenoweth",12,202,"musicals","Bewitched - Music From The Motion Picture",2005-06-14,03:31,36,79,0,0,51,0,10,-4,D Minor,4,2022-01-21,7AIjoLlOPhuayYaNHxO1yb,7A,USSM10502993
-237,"Perfect Time","Sawano Hiroyuki",45,124,"anime, soundtrack","劇場版 七つの大罪 天空の囚われ人　オリジナル・サウンドトラック",2014-00-00,04:43,59,94,0,0,52,0,10,-6,E Minor,4,2022-02-08,6jUFAKIg1z74i322Cvdo4c,9A,JPE301401275
-238,"ホログラム","NICO Touches the Walls",59,156,"anime, j-rock, j-pop","オーロラ",2009-11-25,04:08,39,89,0,0,72,0,20,-3,C Major,4,2022-02-10,3s067jTdOv8wnuUHeXdtjT,8B,JPKS00901203
-239,"BRE@TH//LESS","Sawano Hiroyuki",44,120,"anime, soundtrack","アルドノア・ゼロ オリジナル・サウンドトラック",2014-09-10,04:01,69,83,1,0,79,0,30,-5,A Major,4,2022-02-27,5OC6Gv6qYt2s59IwiJZhu7,11B,JPE301400801
-240,"Hopelessly Devoted To You","Kristin Chenoweth",24,110,"musicals","Pushing Daisies (Original Television Soundtrack)",2008-01-01,03:01,38,33,71,0,12,0,0,-9,A Minor,3,2022-03-06,3ztKcp7jsyk9m597OGdYPd,8A,US3M50893202
-241,"Gordo's Law of Genetics","William Finn,Kristin Chenoweth,John Jellison,Keith Byron Kirk,Liz Larsen,Michael Mandell,Mary Testa,Ted Sperling",11,149,"musicals","A New Brain (Original Off-Broadway Cast Recording)",1995-12-31,02:39,64,34,81,0,75,0,0,-9,G Major,4,2022-03-10,5nbF2IygdFEuLygTmilFHE,9B,USBC19801860
-242,"I Will Survive","Jemaine Clement,Kristin Chenoweth",0,117,"comedy, musicals","Rio 2 Music From The Motion Picture",2014-03-17,01:51,53,82,29,0,49,30,20,-8,D Major,4,2022-03-14,6D8tAQqb1z4H94dX26X0va,10B,USAT21400686
-243,"Alone (feat. Kristin Chenoweth)","Glee Cast,Kristin Chenoweth",28,176,"musicals","Glee: The Music, The Complete Season One",2010-09-14,03:41,41,69,29,0,22,0,0,-7,F#/G♭ Major,4,2022-03-14,1cga7SxIFwsAnwWlz74s17,2B,USQX90900569
-244,"Emrin Ma Ke Thirr","Yll Limani",0,85,"","Emrin Ma Ke Thirr",2015-09-30,04:08,71,80,16,0,65,0,10,-6,G Minor,4,2022-04-14,1zFxAPdJ9PVqc8SLTma6i5,6A,DGA001500001
-245,"Ty","Yll Limani",0,63,"","Ty",2018-02-28,03:42,31,44,78,0,30,0,10,-7,E Major,4,2022-04-14,1NNpfcSXmOcfjtaUEalDur,12B,ALA091800047
-246,"I'm with You","Avril Lavigne",78,152,"","Let Go",2002-06-04,03:43,46,41,8,0,21,0,10,-7,A Major,3,2022-05-10,1jlG3KJ3gdYmhfuySFfpO1,11B,USAR10200224
-247,"泣くのはやめて","NICO Touches the Walls",5,91,"anime, j-rock, j-pop","サドンデスゲーム",2010-08-11,04:21,53,68,10,0,28,0,10,-4,G Major,4,2022-05-26,52dwYuYlU6NFe8FBzPhxw7,9B,JPKS01001602
-248,"rockstar (feat. 21 Savage)","Post Malone,21 Savage",82,160,"","beerbongs & bentleys",2018-04-27,03:38,59,52,12,0,13,0,10,-6,F Minor,4,2022-05-28,0e7ipj03S05BNilyu5bRzt,4A,USUM71710087
-249,"Better Now","Post Malone",81,145,"","beerbongs & bentleys",2018-04-27,03:51,67,58,33,0,34,0,10,-6,A#/B♭ Major,4,2022-05-28,7dt6x5M1jzdTEt8oCbisTK,6B,USUM71805170
-250,"N'dardani Bjen Nje Tupan","Korab Shaqiri,Ermal Fejzullahu,Yll Limani,Drilon Shala,Shemi Iliret",0,135,"","N'dardani Bjen Nje Tupan",2020-04-26,03:26,68,89,2,0,76,0,0,-5,D Major,4,2022-05-29,2JS05kQPrpnxCR6L6RBpJC,10B,QZES62076378
-251,"ambivalent world","物語シリーズ",33,174,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,04:17,43,82,0,0,70,0,0,-4,C♯/D♭ Major,4,2022-06-09,1eugvD24GPd6H8bMhNgIj3,3B,JPE300902041
-252,"Don't Tell Me","Avril Lavigne",61,144,"","Under My Skin",2004-00-00,03:22,52,80,0,0,48,0,30,-3,E Major,4,2022-07-03,0dEQaNYfp5G7Sflek2Qnde,12B,USAR10400119
-253,"Hollywood's Bleeding","Post Malone",74,130,"","Hollywood's Bleeding",2019-09-06,02:36,41,65,33,0,17,0,10,-3,E Minor,4,2022-07-03,7sWRlDoTDX8geTR8zzr2vt,9A,USUM71915730
-254,"Sunflower - Spider-Man: Into the Spider-Verse","Post Malone,Swae Lee",82,90,"","Hollywood's Bleeding",2019-09-06,02:37,76,52,53,0,93,0,0,-4,D Major,4,2022-07-03,0RiRZpuVRbi7oqRdSMwhQY,10B,USUM71814888
-255,"E0$-3:罪","Sawano Hiroyuki",35,62,"anime, soundtrack","七つの大罪 オリジナル・サウンドトラック 2",2015-04-08,02:09,55,7,99,93,8,10,10,-22,C Minor,4,2022-07-04,48BKGwa4KAjTxVWnhA5Ce5,5A,JPE301500194
-256,"Perfect Time <再arr>","Sawano Hiroyuki",40,124,"anime, soundtrack","七つの大罪 オリジナル・サウンドトラック 2",2015-04-08,04:52,59,95,0,0,37,10,30,-5,E Minor,4,2022-07-04,0wvuiBPZojLCrXEYmRpohb,9A,JPE301500209
-257,"Diver","NICO Touches the Walls",58,149,"anime, j-rock, j-pop","PASSENGER",2011-04-06,04:08,33,92,0,0,48,0,10,-2,B Minor,4,2022-07-05,3PcKYVcZNSsLqI1xzXV5Aq,10A,JPKS01002241
-258,"The Best Damn Thing","Avril Lavigne",54,165,"","The Best Damn Thing (Expanded Edition)",2007-04-17,03:09,56,94,0,0,88,0,10,-2,D Major,4,2022-07-20,7lmX3dD2Xy13Jo1oCTR4ot,10B,USRC10700003
-259,"I Can Do Better - Acoustic Version","Avril Lavigne",36,81,"","The Best Damn Thing (Expanded Edition)",2007-04-17,03:39,72,72,6,0,47,0,20,-4,C Major,4,2022-07-22,1K2LIONKyqMuYU6aPNEhR1,8B,USRC10700444
-260,"Love Somebody","Doris Day,Buddy Clark,George Siravo and His Orchesta",27,133,"adult standards, big band, ","Golden Girl (The Columbia Recordings 1944-1966)",1945-00-00,03:04,77,8,92,0,60,0,0,-16,F#/G♭ Minor,4,2022-07-22,5xLc3a3UDVKt3FxyxHMZoY,11A,USSM14700095
-261,"Warcry<MODv>(Instrumental)","Sawano Hiroyuki",7,123,"anime, soundtrack","甲鉄城のカバネリ COMPLETE SOUNDTRACK",2019-04-24,04:02,59,95,0,90,88,0,20,-7,C♯/D♭ Major,4,2022-07-28,4Yut3tCAO5w15BV4h6Itqc,3B,JPE301600450
-262,"Smile","Avril Lavigne",63,105,"","Goodbye Lullaby (Expanded Edition)",2011-03-08,03:29,63,85,0,0,65,0,0,-4,C♯/D♭ Minor,4,2022-08-17,4bia7OWZPoswlzXCqESYrR,12A,USRC11100011
-263,"Alice - Extended Version","Avril Lavigne",48,119,"","Goodbye Lullaby (Expanded Edition)",2011-03-08,05:00,54,82,5,0,17,0,10,-4,C Major,4,2022-08-17,4gLVsEaNMpzkCAM0hXgDoi,8B,USRC11000944
-264,"What The Hell - Acoustic Version","Avril Lavigne",36,150,"","Goodbye Lullaby (Expanded Edition)",2011-03-08,03:40,61,67,52,0,52,0,10,-3,D Major,4,2022-08-17,1UBbnXO4dDbTg9cEX8f071,10B,USRC11100025
-265,"Born To Lose","Elton John,Leonard Cohen",29,71,"singer-songwriter","Duets",1993-11-22,04:32,45,18,65,4,20,0,0,-15,G Major,4,2022-08-26,3ezXUoRmedc7AP3t8VrE3s,9B,GBALX9390107
-266,"ホログラム　(Acoustic)","NICO Touches the Walls",16,123,"anime, j-rock, j-pop","Howdy!! We are ACO Touches the Walls",2015-02-04,05:14,74,82,71,0,58,0,30,-7,C Major,4,2022-10-17,0URgRZxQdN5vQivv0lpewN,8B,JPU901402684
-267,"Broken Youth　(Acoustic)","NICO Touches the Walls",11,106,"anime, j-rock, j-pop","Howdy!! We are ACO Touches the Walls",2015-02-04,04:41,63,87,10,0,95,0,30,-6,F#/G♭ Major,4,2022-10-17,0BelkxmyqxStCfoEpC3oFq,2B,JPU901402687
-268,"ニワカ雨ニモ負ケズ","NICO Touches the Walls",59,186,"anime, j-rock, j-pop","ニコ タッチズ ザ ウォールズ ノ ベスト",2014-02-05,04:21,38,95,0,0,66,10,0,-3,C♯/D♭ Major,4,2022-10-17,6flEDs8jmQ47ZSFZru59Fz,3B,JPKS01301021
-269,"ニワカ雨ニモ負ケズ (Album Mix)","NICO Touches the Walls",15,186,"anime, j-rock, j-pop","勇気も愛もないなんて",2016-03-16,04:23,38,96,1,0,65,10,0,-3,C♯/D♭ Major,4,2022-10-17,7gm35LL4unbPsr3k1XE5HG,3B,JPU901600305
-270,"2nd SOUL? (Acoustic ver.)","NICO Touches the Walls",3,95,"anime, j-rock, j-pop","Howdy!! We are ACO Touches the Walls 〜STAR SERIES〜",2019-06-12,03:41,70,61,29,0,44,0,0,-7,A Major,4,2022-10-18,3ZgH1N5fw5ncF4wCgJ75k2,11B,JPU901901259
-271,"Broken Youth","NICO Touches the Walls",48,176,"anime, j-rock, j-pop","Broken Youth",2008-00-00,04:54,33,97,0,0,44,0,10,-3,A#/B♭ Minor,4,2022-10-18,2pjRFU0akiTgVCAkHVPCPV,3A,JPKS00801241
-272,"天地ガエシ 『ハイキュー!!』EDバージョン","NICO Touches the Walls",26,120,"anime, j-rock, j-pop","天地ガエシ 『ハイキュー!!』EDバージョン",2014-04-30,01:32,58,89,0,0,93,0,0,-5,D Major,4,2022-10-19,0gMdVxqMPsbztXTEoXOZ1J,10B,JPKS01400201
-273,"天地ガエシ","NICO Touches the Walls",18,120,"anime, j-rock, j-pop","天地ガエシ",2014-06-11,04:46,31,95,0,0,68,0,0,-3,D Major,4,2022-10-19,2BeBpYyKEcbk0EbZ1S5OhM,10B,JPU901400243
-274,"渦と渦 (TV size)","NICO Touches the Walls",6,96,"anime, j-rock, j-pop","渦と渦 (TV size)",2015-07-12,01:29,49,96,0,0,51,0,40,-3,E Major,4,2022-10-20,4DB0wTRfLsoZ5b3jDuqxmF,12B,JPU901501934
-275,"マシ・マシ","NICO Touches the Walls",49,102,"anime, j-rock, j-pop","マシ・マシ",2016-11-30,04:07,64,89,9,0,87,0,20,-3,A#/B♭ Major,4,2022-10-20,6c6WreivKNC4zXb00lUJtI,6B,JPU901602981
-276,"Rock N Roll","Avril Lavigne",58,184,"","Avril Lavigne (Expanded Edition)",2013-11-01,03:26,47,96,1,0,67,10,30,-3,C Minor,4,2022-12-07,471JGLzHPrgM4lS9mNOEIt,5A,USSM11304458
-277,"Here's to Never Growing Up","Avril Lavigne",66,165,"","Avril Lavigne (Expanded Edition)",2013-11-01,03:34,48,87,1,0,74,0,40,-3,C Major,4,2022-12-07,0qwcGscxUHGZTgq0zcaqk1,8B,USSM11300965
-278,"Head Above Water","Avril Lavigne",60,130,"","Head Above Water",2019-02-15,03:40,58,69,1,0,27,0,10,-5,F Major,4,2022-12-12,7gY3cyGcB2wnk2xDXiA0pe,7B,QMRSZ1801749
-279,"Crush","Avril Lavigne",39,108,"","Head Above Water",2019-02-15,03:33,53,73,9,0,29,0,10,-5,C♯/D♭ Minor,4,2022-12-12,7M5beITAQcBxYSHpkj7yyv,12A,QMRSZ1801856
-280,"Love Sux","Avril Lavigne",49,174,"","Love Sux",2022-02-25,02:48,55,84,0,0,77,0,10,-4,C Major,4,2022-12-12,0ML3PJ6f9lgj1B4FQo4kZB,8B,USAT22108156
-281,"F.U.","Avril Lavigne",44,175,"","Love Sux",2022-02-25,02:47,49,84,0,0,52,0,0,-5,G#/A♭ Major,4,2022-12-14,2pp1JDxpXuqRINtpxl0e4h,4B,USAT22108160
-282,"Girlfriend - Junkie XL Mix","Avril Lavigne,Junkie XL",25,164,"big beat, score, soundtrack","Girlfriend EP",2007-02-27,03:40,60,93,0,0,73,10,20,-3,B Minor,4,2022-12-16,2MFPO648RlRj8VIsw4JFLV,10A,USRC10700428
-283,"Knockin' on Heaven's Door - Studio Version","Avril Lavigne",52,138,"","Nobody's Home",2004-11-04,02:50,63,30,84,0,22,0,10,-8,C Major,4,2022-12-16,6xF5RkVUNl7YkNapPCk2Ds,8B,USAR10401122
-284,"Shingeki Gt 20130218 Kyojin","Sawano Hiroyuki",57,86,"anime, soundtrack","TV Anime  Attack on Titan Season 2  (Original Soundtrack)",2017-06-07,02:31,16,20,51,94,13,0,10,-15,A Minor,3,2022-12-23,6AFkv6rIVRusZNifR74Q7t,8A,JPPC01301492
-285,"Pf:CreatorsⅡ","Sawano Hiroyuki",11,98,"anime, soundtrack","Re:CREATORS Original Soundtrack",2017-06-14,02:23,47,3,99,95,8,0,10,-24,D#/E♭ Major,3,2023-02-04,5KmqNgwVvfVHVwKB9j1rH2,5B,JPE301700422
-286,"THE ANSWER","Sawano Hiroyuki",49,107,"anime, soundtrack","８６―エイティシックス― オリジナル・サウンドトラック",2021-07-07,03:46,65,83,0,0,62,0,10,-3,C♯/D♭ Major,4,2023-02-13,2TQRsVtJBQnD0y6rPRCIA1,3B,JPE302100509
-287,"KINGDOM - pf2","Sawano Hiroyuki",19,77,"anime, soundtrack","TVアニメ「キングダム」 -合従軍編- Original Sound Track",2021-07-21,02:11,36,9,98,92,11,0,10,-21,C Minor,3,2023-02-15,1zOs2awASc9zRECb7EyXJS,5A,JPT552100767
-288,"scene","Sawano Hiroyuki",22,145,"anime, soundtrack","scene",2021-12-22,03:21,30,25,97,89,19,0,0,-19,A Major,4,2023-02-16,4k1XsRFBBrqcGUgYzUMwrz,11B,JPU902104560
-289,"Walk for Dream","Sawano Hiroyuki",15,125,"anime, soundtrack","群青のファンファーレ オリジナル・サウンドトラック",2022-06-08,03:10,69,84,0,0,51,0,10,-4,G#/A♭ Major,4,2023-02-23,1WB93PgtVaRuJvdY6Mf9y7,4B,JPE302200607
-290,"連撃　小十郎　（Shut up Go to Hell より）","Sawano Hiroyuki",1,100,"anime, soundtrack","「戦国BASARA」Director's Special Edition 2",2013-07-02,00:32,55,78,0,76,78,10,30,-8,G Major,3,2023-02-25,1RteKN6gZldOZ7XJB83Q3r,9B,JPG750900481
-291,"Here We Go Again (with Jim Harbert & his Orchestra)","Doris Day,Jim Harbert & His Orchestra",4,133,"adult standards, big band, ","With A Smile And A Song",2012-03-30,02:33,52,31,69,0,81,0,20,-15,G Major,4,2023-02-27,6Ert6aeFOb73lpu6LCNLPw,9B,USSM11200272
-292,"Perhaps, Perhaps, Perhaps","Doris Day",54,105,"adult standards, big band","With A Smile And A Song",2012-03-30,02:31,62,27,76,0,65,0,0,-12,A Minor,4,2023-03-19,0UsdtLayy7SqJ4rUsDMRk8,8A,USSM16400981
-293,"Cold","Elton John",33,140,"","Made In England",1995-03-17,05:37,52,56,6,0,21,0,10,-10,A#/B♭ Minor,4,2023-05-18,7rJ6F4JGL9tixHzu0Y8fiP,3A,GBAMS9400005
-294,"(I'm Gonna) Love Me Again","Elton John,Taron Egerton",45,128,"","Rocketman (Music From The Motion Picture)",2019-05-24,04:10,60,88,6,0,85,0,0,-4,C♯/D♭ Major,4,2023-05-18,1q8lLOgfciaGLwXCvOpH6w,3B,GBUM71901330
-295,"Sartorial Eloquence","Elton John",29,142,"","21 At 33",1980-05-13,04:43,57,37,26,0,38,0,10,-12,C♯/D♭ Major,4,2023-05-18,10iq4kBKW7tPIzUEIKmcTm,3B,GBA098000030
-296,"Mona Lisas And Mad Hatters","Elton John",60,129,"","Honky Chateau",1972-05-19,05:00,51,35,85,0,41,0,10,-11,C Major,4,2023-05-18,5XY9FK0mB0BS0u8YB2ehN9,8B,GBAMB7200010
-297,"U Kry","Yll Limani",39,130,"","U Kry",2023-05-19,02:51,94,62,6,0,84,10,0,-6,A Minor,4,2023-05-29,3EwCBxjTjbXIiEc9J8OeHr,8A,FRX452385621
-298,"Symphony - Inner City Youth Orchestra of Los Angeles Version","Imagine Dragons",45,90,"","Symphony (Inner City Youth Orchestra of Los Angeles Version)",2023-06-23,03:08,68,65,10,0,85,0,90,-7,G Major,4,2023-06-30,6qJqN1SbjwxAEoDkjfnAwr,9B,USUM72308880
-299,"Push","Matchbox Twenty",76,168,"post-grunge","Yourself or Someone Like You",1996-10-01,03:58,42,67,1,0,48,0,10,-8,F#/G♭ Major,4,2023-07-31,2KVwlelhxKUy8LVV6JypH3,2B,USAT29600042
-300,"Bright and Shiny (with Neal Hefti & His Orchestra)","Doris Day,Neal Hefti & His Orchestra",3,116,"adult standards, big band, exotica","Bright & Shiny (with Neal Hefti & His Orchestra)",1961-03-20,02:35,65,37,77,0,89,0,0,-14,F#/G♭ Major,4,2023-10-12,0MyTclggcZun6qRwI9ka2d,2B,USSM19907670
-301,"Sign Me Up","Post Malone",47,146,"","AUSTIN (Bonus)",2023-08-02,03:18,50,85,0,0,42,0,30,-5,C Major,4,2023-12-14,35PZZmwJIEvwfI4z1nMXRI,8B,USUM72306014
-302,"Enough Is Enough","Post Malone",47,166,"","AUSTIN (Bonus)",2023-08-02,02:45,49,75,1,0,38,0,10,-5,C Major,4,2023-12-19,1jekKGHnTIFpOIVRzlbJOW,8B,USUM72306021
-303,"The Spins","Mac Miller,Empire Of The Sun",73,127,"","K.I.D.S. (Deluxe)",2010-08-13,03:15,79,77,1,0,55,0,0,-4,A Minor,4,2023-12-27,7FAFkQQZFeNwOFzTrSDFIh,8A,USA2P2015959
-304,"bet u wanna","Sabrina Carpenter",55,102,"pop","emails i can’t send fwd:",2023-03-17,03:11,59,63,1,0,46,10,40,-7,B Minor,4,2023-12-31,2emeScREzF5sqckc9Lejc4,10A,USUM72210707
-305,"Blindman","Big Brother & The Holding Company,Janis Joplin",34,133,"psychedelic rock, acid rock, classic rock","Big Brother & The Holding Company",1967-00-00,02:05,38,44,4,0,52,0,10,-9,E Major,3,2024-01-06,6aUAFC6ldgKCeSL3qcSVZQ,12B,USSM17101287
-306,"La Vida","Árbol",45,147,"argentine rock","Chapusong",2002-01-01,02:30,54,91,2,0,90,0,30,-3,D Major,4,2024-02-12,3gRejE1gb53PxDWeNTQ6TX,10B,ARF140200086
-307,"Prejuicios","Árbol",48,91,"argentine rock","GUAU!",2005-01-01,03:28,52,71,5,0,33,0,0,-4,E Major,5,2024-02-13,7bxwO0efsmXk6tWFl2Wvw2,12B,USUM70506634
-308,"Pequeños Sueños","Árbol",55,119,"argentine rock","GUAU!",2005-01-01,02:54,61,77,3,0,80,0,20,-4,E Major,4,2024-02-13,4MjstyMMO5I6hch9GASIGb,12B,USUM70506646
-309,"Revoloteando","Árbol",42,195,"argentine rock","Hormigas",2007-11-11,03:56,63,76,1,0,77,0,10,-5,A Major,4,2024-02-15,0Vuh6a1lDHMLYG4NBOnsHi,11B,ARF470700321
-310,"Tiembla el Piso","Árbol",18,90,"argentine rock","Tiembla el Piso - Single",2017-08-25,02:55,72,79,14,0,79,0,30,-4,D Major,4,2024-03-02,1qfL0qdpJvXNr0gk70vuez,10B,ARF471700206
-311,"Chemical","Post Malone",50,170,"","AUSTIN (Bonus)",2023-08-02,03:03,49,91,0,0,39,0,10,-5,D Major,4,2024-03-30,0lZZebcSfJdm5LhDRtE0jx,10B,USUM72305205
-312,"Ayye","Mac Miller",49,107,"","K.I.D.S. (Deluxe)",2010-08-13,02:45,76,72,6,0,45,0,10,-7,A#/B♭ Minor,4,2024-04-27,78844Rxxkl8STQUVbp4vXi,3A,USA2P2027912
-313,"A Lonely Night","The Weeknd",64,114,"","Starboy",2016-11-25,03:40,85,66,4,0,86,0,0,-7,G Minor,4,2024-04-27,0ifooM33X1iBxVYyOkSbXW,6A,USUG11601006
-314,"All By Myself","Céline Dion",72,119,"variété française","Falling into You",1996-03-11,05:12,34,33,35,2,8,0,0,-10,B Minor,4,2024-04-28,0gsl92EMIScPGV1AU35nuD,10A,CAC229800162
-315,"Treat Her Like a Lady","Céline Dion",42,95,"variété française","Let's Talk About Love",1997-11-14,04:05,76,79,9,0,84,0,30,-7,A#/B♭ Minor,4,2024-05-04,1mDAexyTNHmION4jpWYi2f,3A,CAC229700152
-316,"渦と渦","NICO Touches the Walls",21,97,"anime, j-rock, j-pop","渦と渦",2015-09-02,04:54,47,98,0,0,42,0,40,-3,A Major,4,2024-05-06,3FY7mddVdIlrL8yhEbh7nu,11B,JPU901501935
-317,"Alone","Céline Dion",56,176,"variété française","Taking Chances (Deluxe Edition)",2007-11-07,03:23,31,62,10,0,14,0,10,-6,C♯/D♭ Major,4,2024-08-02,7fqgrmaaSmFPZdi1Yh1UKx,3B,CAC220700028
-318,"Psycho (feat. Ty Dolla $ign)","Post Malone,Ty Dolla $ign",76,140,"trap soul","beerbongs & bentleys",2018-04-27,03:41,75,56,55,0,46,10,10,-8,G#/A♭ Major,4,2024-08-03,3swc6WTsr7rl9DqQKQA55C,4B,USUM71710836
-319,"I Can Do Better","Avril Lavigne",48,172,"","The Best Damn Thing (Expanded Edition)",2007-04-17,03:15,44,98,0,0,27,10,70,-3,G Major,4,2024-08-03,5kyqKoOnHwvxk0bZLeK1kr,9B,USRC10700203
-320,"Waiting on You","Céline Dion",31,202,"variété française","Love Again (Soundtrack from the Motion Picture)",2023-05-12,03:11,51,56,67,0,65,0,30,-5,B Major,3,2024-08-12,6IQMTxWRbGznZX0xGVwvwX,1B,CAC222300002
-321,"Pour Me A Drink (Feat. Blake Shelton)","Post Malone,Blake Shelton",52,119,"country","F-1 Trillion: Long Bed",2024-08-16,03:15,58,91,0,0,89,0,30,-4,B Major,4,2024-08-24,5JNdWvUQz88ReuMRhbt2a7,1B,USUM72405604
-322,"Espresso","Sabrina Carpenter",87,104,"pop","Short n' Sweet",2024-08-23,02:55,70,78,13,0,71,0,20,-5,C Major,4,2024-08-24,2HRqTpkrJO5ggZyyK6NPWz,8B,USUM72403305
-323,"MONTERO (Call Me By Your Name) - SATAN'S EXTENDED VERSION","Lil Nas X",40,119,"","MONTERO (Call Me By Your Name)",2021-04-23,02:50,51,54,19,0,71,10,30,-6,G#/A♭ Minor,5,2024-08-27,3zmxD3oXEiB65gbBDrOoO0,1A,USSM12101203
-324,"River Deep, Mountain High","Céline Dion",53,167,"variété française","Falling into You",1996-03-11,04:10,48,89,11,0,65,0,80,-6,C Minor,4,2024-08-31,1qNjY6nEGbZ9XJ6rpaG0Eq,5A,CAC229800160
-325,"No Te Dejes Desanimar","La Maquina De Hacer Pájaros",40,124,"argentine rock, progressive rock, latin rock","Peliculas",1977-04-29,04:07,63,38,65,0,42,0,20,-15,A Minor,4,2024-10-25,1MQpJgQp0goNJtEg9fBtnt,8A,ARF109902789
-326,"Que Se Puede Hacer Salvo Ver Peliculas","La Maquina De Hacer Pájaros",44,118,"argentine rock, progressive rock, latin rock","Peliculas",1977-04-29,06:12,53,51,12,59,34,0,20,-14,G Major,4,2024-10-25,0evTkLjoSWqhHSQrn6FCaA,9B,ARF100300042
-327,"FLY HIGH!! - Portuguese Ver.-","BURNOUT SYNDROMES",7,94,"anime, j-rock, j-pop","ORIGAMI",2024-11-27,04:03,34,90,0,0,40,0,30,-6,B Major,4,2024-12-13,2oWqgMsLaJTg35ivUseAwX,1B,JPU902403747
-328,"B.C.G","NICO Touches the Walls",11,166,"anime, j-rock, j-pop","Who are you?",2008-09-24,03:50,20,93,0,0,43,0,20,-4,C Minor,4,2025-01-18,0X0rjDqNZSSrMdAPbXDHq6,5A,JPKS00801682
-329,"Jijiji","Árbol",36,88,"argentine rock","GUAU!",2005-01-01,03:18,60,39,82,0,31,0,10,-4,D Minor,4,2025-01-18,0rOfDS4AE5jAWkNVo3adEW,7A,USUM70506656
-330,"Die With A Smile","Lady Gaga,Bruno Mars",92,158,"art pop, pop, ","Die With A Smile",2024-08-16,04:11,52,59,31,0,54,0,10,-8,F#/G♭ Minor,3,2025-01-26,2plbrEY59IikOBgBGLjaoe,11A,USUM72409273
-331,"Open Hearts","The Weeknd",74,124,"","Hurry Up Tomorrow",2025-01-31,03:54,66,75,0,0,38,10,20,-6,G Minor,4,2025-02-14,0sTBOp1hdayTjw6UOyPyi6,6A,USUG12501133
-332,"Juno","Sabrina Carpenter",63,131,"pop","Short n' Sweet (Deluxe)",2025-02-14,03:43,63,74,6,0,63,0,20,-4,F Major,4,2025-03-04,0w1qp04v2zehJXctW0JPjy,7B,USUM72404107
-333,"All Quiet On The Western Front - Remastered 2003","Elton John",26,134,"","Jump Up!",1982-01-01,06:07,59,30,46,3,20,0,10,-13,C Major,4,2025-03-22,3Hsyqlz2VCeMi39JYkFX3k,8B,GBA098200100
-334,"Hillbilly On","Billy Ray Cyrus",3,184,"","Thin Line",2016-10-07,04:04,36,95,4,0,48,10,20,-5,F Minor,4,2025-04-03,2S1Lh0ZGqqU4eL5oQL8F4P,4A,QMN8G1600008
-335,"Knock Knock","Mac Miller",39,109,"","K.I.D.S. (Deluxe)",2010-08-13,03:17,68,93,11,0,48,10,70,-3,E Minor,4,2025-04-19,2jwJsu8n2j3oGztD6b8wTK,9A,USA2P1122877
-336,"Servidor","Ciro y los Persas",40,92,"argentine rock","Espejos",2009-01-01,04:42,54,87,3,0,72,0,0,-5,F Major,4,2025-05-23,2RMHdxdnr2R7DqFA7Rr3FI,7B,ARG601000059
-337,"Me Gusta","Ciro y los Persas",68,132,"argentine rock","27",2012-11-19,04:49,64,81,2,0,71,0,10,-6,D Major,4,2025-05-26,67Q93kXygxCskeQiIP0V0j,10B,ARG601200679
-338,"Tango del Diablo","Ciro y los Persas",29,112,"argentine rock","27",2012-11-19,04:07,66,41,90,0,52,10,10,-10,A Major,4,2025-05-30,7omc6Ocnzf15amA904VsaO,11B,ARG601200691
-339,"You Can't Stop the Beat","Maddie Baillio,Garrett Clayton,Ariana Grande,Ephraim Sykes,Harvey Fierstein,Martin Short,Jennifer Hudson,Dove Cameron,Kristin Chenoweth,Joshua Alexander,Will Bell,Helene,Riley Costello,Kelli Ann Erdmann,Sam Faulkner,Marissa Heart,Joanna Jones,Jacque Lewarne,Tommy Martinez,Tiana Okoye",39,168,"musicals, pop","Hairspray LIVE! Original Soundtrack of the NBC Television Event",2016-12-02,05:12,63,95,17,0,86,10,10,-3,D Major,4,2025-06-14,7lBXBMQUnPd8rWCBF2VuL8,10B,USQX91602496
-340,"D-tecnoLife","UVERworld",60,168,"anime, j-rock, j-pop","Timeless",2006-02-22,03:53,46,93,2,0,65,10,30,-4,C♯/D♭ Minor,4,2025-07-04,3eyxh8xkW0X7k1FSHlAatt,12A,JPSR00500865
-341,"Girl Like That","Matchbox Twenty",40,145,"post-grunge","The Matchbox Twenty Collection",2013-11-08,03:45,59,73,10,0,96,0,30,-8,G Major,4,2025-07-14,7GqvzEOdLnIzk8AVaSOEVX,9B,USAT29700399
-342,"APT.","ROSÉ,Bruno Mars",84,149,"k-pop, ","rosie",2024-12-06,02:49,78,78,3,0,94,20,30,-4,C Minor,4,2025-07-28,4wJ5Qq0jBN4ajy7ouZIV1c,5A,USAT22409172
-343,"Skate","Bruno Mars,Anderson .Paak,Silk Sonic",0,112,"","Skate",2021-07-30,03:23,71,60,4,0,70,0,10,-8,F Major,4,2025-08-09,2sXf2JdbB2GlNju00kw9WE,7B,USAT22104222
-344,"Runaway Baby","Bruno Mars",75,164,"","Doo-Wops & Hooligans",2010-05-11,02:28,66,76,26,0,82,0,10,-3,A#/B♭ Minor,4,2025-08-09,7hCNBVRhHzcsRAv0TQnOzq,3A,USAT21001885
-345,"CORE PRIDE","UVERworld",58,93,"anime, j-rock, j-pop","LIFE 6 SENSE",2011-06-01,04:18,48,97,1,0,44,10,20,-3,D Minor,4,2025-08-16,55n4sFy8tjysBcCjQFwX3A,7A,JPSR01100917
-346,"7th Trigger","UVERworld",45,105,"anime, j-rock, j-pop","THE ONE",2012-11-28,04:18,66,94,0,0,57,10,40,-3,C♯/D♭ Major,4,2025-08-24,3ALiXA2sdQBuHotnGkEAoV,3B,JPSR01200901
-347,"Fight For Liberty（album ver.）","UVERworld",38,100,"anime, j-rock, j-pop","0 CHOIR",2014-07-02,04:15,57,97,0,0,66,20,30,-3,C♯/D♭ Major,4,2025-08-30,1r2OVpl2e5mVDApfqDzY9I,3B,JPU901400532
-348,"一滴の影響","UVERworld",50,95,"anime, j-rock, j-pop","一滴の影響 (Extra Edition)",2017-02-01,04:51,53,95,0,0,54,0,30,-3,F Major,4,2025-09-06,6a8zOePRBenXtHq2AY49xB,7B,JPU901604100
-349,"Leave The Door Open","Bruno Mars,Anderson .Paak,Silk Sonic",70,148,"","An Evening With Silk Sonic",2021-11-12,04:02,59,62,18,0,72,0,0,-8,F Major,4,2025-09-19,4pryE6cN2gFL1FVF5fYINl,7B,USAT22100906
-350,"Touch off","UVERworld",58,100,"anime, j-rock, j-pop","UNSER",2019-12-04,04:18,41,89,0,0,20,0,40,-4,E Minor,4,2025-09-21,7CSTVNXkW2AbmNktlP1hi2,9A,JPU901900310
-351,"Avid","Sawano Hiroyuki,SennaRin",42,128,"anime, soundtrack","PIANOUTA",2025-10-01,05:08,50,44,77,0,27,0,0,-8,D#/E♭ Minor,4,2025-10-03,0uA7dWMyg0tBfsVVKSLkIK,2A,JPU902502701
-352,"D-tecnoLife (TV size)","UVERworld",24,168,"anime, j-rock, j-pop","D-tecnoLife",2005-00-00,01:27,44,90,5,0,75,20,30,-4,C♯/D♭ Minor,4,2025-10-12,3pJINZTpmUeoYqxaAGrWxX,12A,JPSR00500868
-353,"Fight For Liberty(アニメサイズver.)","UVERworld",9,100,"anime, j-rock, j-pop","Fight For Liberty(アニメサイズver.)",2013-08-07,01:30,56,97,0,0,68,20,10,-3,G#/A♭ Major,4,2025-10-13,1g9bjILb8BOguKaRA8jgGN,4B,JPSR01301143
-354,"ODD FUTURE short ver.","UVERworld",51,128,"anime, j-rock, j-pop","ODD FUTURE short ver.",2018-04-07,01:29,69,90,3,0,58,0,50,-4,C Minor,4,2025-10-14,5tXOuIoDO0ZtGLijEOD6HZ,5A,JPU901801024
-355,"ROB THE FRONTIER(short ver.)","UVERworld",24,110,"anime, j-rock, j-pop","ROB THE FRONTIER(short ver.)",2019-10-11,01:29,31,97,0,0,43,10,30,-2,F Major,4,2025-10-14,0FQONBRH20K6I5VcivXEQ3,7B,JPU901902446
-356,"prfct","Sabrina Carpenter",49,123,"pop","Singular Act I",2018-11-09,02:46,79,77,18,0,50,0,30,-5,G#/A♭ Minor,4,2025-11-02,75wU86jr8iIiBVfD3kU3cU,1A,USHR11838954
-357,"leap, in the mellow green flash","Cö shu Nie",25,170,"anime, j-rock, j-pop","idola",2012-09-02,02:42,41,77,9,0,63,0,20,-2,F#/G♭ Major,4,2025-11-05,5HESR8Ygl7SKcDcZPbhEMh,2B,TCJPV2327987
-358,"House Tour","Sabrina Carpenter",85,118,"pop","Man’s Best Friend",2025-08-29,02:49,77,88,13,0,61,0,30,-5,F#/G♭ Major,4,2025-11-22,25jgQBxuUkGDdCG1WGKKN9,2B,USUM72504449
-359,"Vicious","Sabrina Carpenter",63,130,"pop","emails i can't send",2022-07-15,02:29,72,46,31,0,63,10,20,-7,C Major,4,2025-11-22,6Alp15t6urC4opjJiyOqZu,8B,USUM72210690
-360,"bet u wanna","Sabrina Carpenter",65,102,"pop","emails i can't send",2022-07-15,03:11,59,63,1,0,46,10,40,-7,B Minor,4,2025-11-22,1RAeuvRyRzCweAK3jUT0ZW,10A,USUM72210707
-361,"The Life of a Showgirl (feat. Sabrina Carpenter)","Taylor Swift,Sabrina Carpenter",88,157,"pop","The Life of a Showgirl",2025-10-03,04:01,54,54,26,0,49,10,40,-8,C Major,4,2025-11-23,5eXgqtg3T8Av0m1FUaGHex,8B,USUG12506447
-362,"サクラカノン","BURNOUT SYNDROMES",21,91,"anime, j-rock, j-pop","FLY HIGH!!",2016-03-02,05:36,51,62,25,0,45,0,0,-4,G#/A♭ Major,4,2025-11-29,2b6vNafqa8bu6tQr8lJBrH,4B,JPU901503548
-363,"Billionaire (feat. Bruno Mars)","Travie McCoy,Bruno Mars",71,87,"","Billionaire (feat. Bruno Mars)",2010-03-09,03:31,63,67,30,0,66,20,20,-6,F#/G♭ Minor,4,2025-12-03,2M9ULmQwTaTGmAdXaXpfz5,11A,USAT21000257
-364,"魔王","BURNOUT SYNDROMES,Nao Toyama",28,176,"anime, j-rock, j-pop","ORIGAMI",2024-11-27,03:49,41,86,1,0,41,0,20,-5,G#/A♭ Major,4,2025-12-08,23pTHwSUdfcudsUkqfK9aY,4B,JPU902400778
-365,"Espresso - Espressooooo Version","Sabrina Carpenter",44,104,"pop","Espresso EP",2024-05-17,04:55,74,72,5,0,72,0,10,-5,G Major,4,2025-12-12,4NdKbGmtQtUS42vmavtChz,9B,USUM72405541
+#,Song,Artist,BPM,Camelot,Energy,Added At,Duration,Popularity,Genres,Album,Album Date,Dance,Acoustic,Instrumental,Valence,Speech,Live,Loud (Db),Key,Time Signature,Spotify Track Id,ISRC
+1,"Real World","Matchbox Twenty",118,6B,76,2020-08-19,03:51,65,"post-grunge","Yourself or Someone Like You",1996-10-01,50,1,0,88,0,0,-5,A#/B♭ Major,4,70fe354BpVKEvMY0de78YO,USAT29600001
+2,"Back 2 Good","Matchbox Twenty",89,9B,50,2020-08-19,05:40,60,"post-grunge","Yourself or Someone Like You",1996-10-01,56,11,0,48,0,10,-9,G Major,4,64XSAtXpCJUmadm3fkpH4z,USAT29600033
+3,"If You're Gone","Matchbox Twenty",110,11B,64,2020-08-19,04:34,28,"post-grunge","Mad Season (Deluxe Edition)",2000-05-23,56,49,0,38,0,10,-7,A Major,4,03HHbQ9WMoyBmoce6LRIPd,USAT22003208
+4,"Stop","Matchbox Twenty",108,10B,94,2020-08-19,03:49,30,"post-grunge","Mad Season",2000-05-23,53,4,0,39,0,0,-5,D Major,4,0pYPLapoEWPkcBPXOcfkFW,USAT20001332
+5,"Modern Love - Live","Matchbox Twenty",92,1B,96,2020-08-20,03:51,22,"post-grunge","How Far We've Come",2007-09-15,35,2,0,53,10,30,-4,B Major,4,4VqQom3FbQjLBkZ6hqlfqG,USAT20704693
+6,"I Need You To Turn To","Elton John",125,10B,28,2020-08-20,02:30,32,"","Elton John",1970-04-10,39,84,0,32,0,10,-12,D Major,3,7phTxbdPX8sLRehWtLPxHl,GBAMB9500073
+7,"Take Me To The Pilot","Elton John",85,7B,56,2020-08-20,03:44,36,"","Elton John",1970-04-10,43,42,0,63,0,20,-8,F Major,4,5ikzxNue9a4uAQmSmTXZSi,GBAMB9500074
+8,"The King Must Die","Elton John",139,8A,39,2020-08-20,05:07,24,"","Elton John",1970-04-10,44,42,0,25,0,20,-10,A Minor,4,5aZWzadLEprtlv0ylYyruD,GBAMB9500081
+9,"Rock And Roll Madonna","Elton John",141,8B,81,2020-08-21,04:16,18,"","Elton John",1970-04-10,52,4,0,80,0,80,-9,C Major,4,0oZoS7BfThQ4W9Ei7ZRXHX,GBUM70711445
+10,"Amoreena","Elton John",129,8B,61,2020-08-21,05:00,26,"","Tumbleweed Connection",1970-10-30,56,76,0,51,0,20,-10,C Major,4,2HhQqv3RRx6FwLZZpswNQ7,GBAMB9500022
+11,"Honky Tonk Women","Elton John",141,7B,92,2020-08-22,04:07,25,"","17-11-70",1971-03-12,44,51,0,72,10,90,-7,F Major,4,0v35NYiR3B6pyUAHjKqHEo,GBAMB9500085
+12,"Goodbye","Elton John",128,6B,12,2020-08-23,01:48,31,"","Madman Across The Water",1971-11-05,36,95,0,24,0,10,-18,A#/B♭ Major,4,0ssRYFyBn0lP4NzSErONW4,GBAMB7100090
+13,"Honky Cat","Elton John",171,10B,78,2020-08-23,05:13,54,"","Honky Chateau",1972-05-19,48,33,0,95,0,10,-6,D Major,4,1plcM0XlbKdjND7Ufokuzb,GBAMB7200002
+14,"Rocket Man (I Think It's Going To Be A Long, Long Time)","Elton John",137,6B,53,2020-08-23,04:41,81,"","Honky Chateau",1972-05-19,60,43,0,34,0,0,-9,A#/B♭ Major,4,3gdewACMIVMEWVbyb8O9sY,GBAMB7200006
+15,"Hercules","Elton John",148,8B,78,2020-08-23,05:20,34,"","Honky Chateau",1972-05-19,56,8,0,73,0,0,-7,C Major,4,42pqNrGr0TZz5bzdCXt4sw,GBAMB7200011
+16,"Slave - Alternate  Fast  Version","Elton John",91,9B,93,2020-08-23,02:53,28,"","Honky Chateau",1972-05-19,55,2,0,81,0,0,-6,G Major,4,4LqaFJOawdPH1JliPDdssk,GBAMB7200012
+17,"Midnight Creeper","Elton John",136,12B,86,2020-08-24,03:52,27,"","Don't Shoot Me I'm Only The Piano Player",1973-01-22,67,5,0,85,0,10,-6,E Major,4,5lnkNO3Si97dpuKQY8z5OT,GBAMB9500005
+18,"Have Mercy On The Criminal","Elton John",116,5A,52,2020-08-25,05:57,33,"","Don't Shoot Me I'm Only The Piano Player",1973-01-22,47,13,0,52,0,10,-8,C Minor,3,1PHBBJNH4WFuDBlAuVKWMA,GBAMB9500006
+19,"Funeral For A Friend / Love Lies Bleeding - Remastered 2014","Elton John",139,8A,76,2020-08-27,11:06,0,"","Goodbye Yellow Brick Road (Remastered / Deluxe Edition)",1973-10-05,40,2,17,20,0,20,-9,A Minor,4,3JNgpaqUdpozbCnbPOMqPQ,GBUM71304953
+20,"I've Seen That Movie Too - Remastered 2014","Elton John",114,4A,46,2020-08-31,05:57,0,"","Goodbye Yellow Brick Road (Remastered / Deluxe Edition)",1973-10-05,51,32,0,30,0,10,-9,F Minor,4,5yCo1LqUaYkSq28509G2Be,GBUM71304960
+21,"Your Sister Can't Twist (But She Can Rock'n' Roll) - Remastered 2014","Elton John",95,12B,97,2020-09-06,02:41,0,"","Goodbye Yellow Brick Road (Remastered / Deluxe Edition)",1973-10-05,46,1,0,91,0,80,-7,E Major,4,2j27XNwrhqDmUdmduYtp21,GBUM71304965
+22,"Pinky - Remastered 1995","Elton John",133,11B,53,2020-09-07,03:54,30,"","Caribou (Remastered 1995)",1974-06-28,66,15,0,51,0,0,-11,A Major,4,6IPDeuzjnlKUfxDwJUHrzD,GBAMB9500041
+23,"You're So Static - Remastered 1995","Elton John",137,8B,81,2020-09-07,04:53,23,"","Caribou (Remastered 1995)",1974-06-28,61,3,0,79,0,10,-7,C Major,4,58OD5vBX95OdelGNOvpvEw,GBAMB9500044
+24,"Stinker - Remastered 1995","Elton John",84,9B,59,2020-09-07,05:20,22,"","Caribou (Remastered 1995)",1974-06-28,45,9,19,93,0,0,-8,G Major,4,5NyYHYlGtTboKi5VoRMEtv,GBAMB9500046
+25,"Don't Let The Sun Go Down On Me - Remastered 1995","Elton John",141,8B,45,2020-09-07,05:36,62,"","Caribou (Remastered 1995)",1974-06-28,43,12,0,35,0,0,-9,C Major,4,11FcfHd3SOmmrWJPGe7Y30,GBAMB9500047
+26,"Cold Highway - Remastered 1995","Elton John",80,7B,59,2020-09-07,03:25,22,"","Caribou (Remastered 1995)",1974-06-28,43,25,0,80,0,20,-10,F Major,4,0CY864emS4cZAUYM55R8sW,GBAMB9500051
+27,"Bitter Fingers","Elton John",134,11B,47,2020-09-09,04:33,31,"","Captain Fantastic And The Brown Dirt Cowboy",1975-05-19,52,8,0,41,0,10,-12,A Major,4,4Oy2yKrQ0fG7Dc7YtB0Vyg,GBAMB7500003
+28,"Better Off Dead","Elton John",143,3B,48,2020-09-09,02:37,19,"","Captain Fantastic And The Brown Dirt Cowboy (Deluxe Edition)",1975-05-19,65,32,0,71,0,0,-10,C♯/D♭ Major,1,23JuilAzewNOYc2hfvcSQl,GBAMB7500007
+29,"Philadelphia Freedom","Elton John",125,5A,65,2020-09-10,05:21,44,"","Captain Fantastic And The Brown Dirt Cowboy (Deluxe Edition)",1975-05-19,71,7,0,83,0,10,-9,C Minor,4,6kLGxJA0QCVDTIbZDbXgL3,GBAMB7500013
+30,"House Of Cards","Elton John",88,9A,65,2020-09-10,03:12,16,"","Captain Fantastic And The Brown Dirt Cowboy (Deluxe Edition)",1975-05-19,68,20,0,86,0,10,-10,E Minor,4,37WuoKbmmHW33QJSfcjIK1,GBAMB0080046
+31,"Dan Dare (Pilot Of The Future)","Elton John",75,8B,62,2020-09-10,03:29,26,"","Rock Of The Westies",1975-10-24,69,30,0,67,0,0,-10,C Major,4,1IP1ymL87BtfZqCsJTyp4C,GBAMB7500015
+32,"Street Kids","Elton John",94,9B,93,2020-09-11,06:25,31,"","Rock Of The Westies",1975-10-24,47,6,0,79,0,20,-8,G Major,4,20FnYowQOrLxU92iyA94ed,GBAMB7500019
+33,"Billy Bones And The White Bird","Elton John",104,11B,82,2020-09-11,04:25,20,"","Rock Of The Westies",1975-10-24,60,32,0,44,0,0,-7,A Major,4,6vhdFKCPjLBcMvfrBEGRu4,GBAMB7500022
+34,"Your Starter For...","Elton John",122,8A,61,2020-09-11,01:23,23,"","Blue Moves",1976-01-01,64,11,88,64,0,10,-11,A Minor,4,4JqUf9QfVz4TCZ0sX50LJ3,GBALX7600008
+35,"Theme From A Non-Existent TV Series","Elton John",109,9B,86,2020-09-13,01:19,18,"","Blue Moves",1976-01-01,68,5,85,26,0,0,-11,G Major,4,20MO6EEhXXDqopJFg97J5z,GBALX7600024
+36,"Shine On Through","Elton John",96,5B,19,2020-09-13,03:45,26,"","A Single Man",1978-10-01,47,35,0,18,0,10,-14,D#/E♭ Major,4,6alVOFBQtlXKUnkvpLkVsE,GBAMS7800128
+37,"Return To Paradise","Elton John",120,8B,41,2020-09-13,04:15,21,"","A Single Man",1978-10-01,62,14,0,53,0,10,-11,C Major,4,4BTqc5vVoB3Cu3F6qtFXiz,GBAMS7800127
+38,"Shooting Star","Elton John",122,6B,27,2020-09-14,02:44,17,"","A Single Man",1978-10-01,66,28,0,23,0,10,-17,A#/B♭ Major,4,2ewZevXBQuNuNQVHhSKdmC,GBAMS7800121
+39,"Madness","Elton John",137,8B,69,2020-09-14,05:53,18,"","A Single Man",1978-10-01,58,1,0,55,0,20,-10,C Major,4,7jOu8dOL0lRL8E1y8Zwe4V,GBAMS7800120
+40,"Two Rooms At The End Of The World","Elton John",126,8B,55,2020-09-16,05:39,19,"","21 At 33",1980-05-13,78,1,0,97,0,0,-12,C Major,4,0Qjv3FuTDNVA7ROf3UM3ib,GBA098000040
+41,"Breaking Down Barriers - Remastered 2003","Elton John",141,6A,79,2020-09-16,04:41,17,"","The Fox",1981-01-01,52,24,1,57,0,60,-10,G Minor,4,0cao7zXiY3a5BTRzsO5R0Q,GBA098100010
+42,"Dear John - Remastered 2003","Elton John",170,9B,85,2020-09-18,03:33,19,"","Jump Up!",1982-01-01,53,2,0,96,0,10,-10,G Major,4,2KkATTWT3nJalkA5588fQ9,GBA098200010
+43,"I Am Your Robot - Remastered 2003","Elton John",138,8A,79,2020-09-18,04:44,15,"","Jump Up!",1982-01-01,66,0,0,74,0,0,-11,A Minor,4,6xxA33oKDP3URcaeCzEawr,GBA098200050
+44,"Restless","Elton John",122,7B,86,2020-09-21,05:16,19,"","Breaking Hearts",1984-07-09,75,16,6,90,0,10,-10,F Major,4,73nYjLyEtNZHRyDtIFFQIC,GBALX0080001
+45,"Li'l 'Frigerator","Elton John",165,11B,80,2020-09-21,03:37,16,"","Breaking Hearts",1984-07-09,48,5,29,83,0,10,-10,A Major,4,4qCzeQdIDQbGOhc6nUsdKC,GBALX0080004
+46,"Burning Buildings","Elton John",73,4B,50,2020-09-21,04:01,22,"","Breaking Hearts",1984-07-09,43,66,0,12,0,0,-12,G#/A♭ Major,4,4hgId8WzUQkUV5mpu6vB9P,GBALX0080007
+47,"This Town","Elton John",119,6B,85,2020-09-22,03:56,21,"","Ice On Fire",1985-11-07,79,9,1,81,0,10,-9,A#/B♭ Major,4,65mcPebdGSUMX6VioUCV3X,GBAMS8500189
+48,"Go It Alone","Elton John",170,3B,84,2020-09-24,04:29,12,"","Leather Jackets",1986-10-15,59,6,3,90,0,20,-14,C♯/D♭ Major,4,0GeWhXqhwd7sBwciN2QboY,GBALX0080012
+49,"Memory Of Love","Elton John",102,9B,26,2020-09-24,04:08,11,"","Leather Jackets",1986-10-15,71,27,0,39,0,0,-16,G Major,3,5E0TUUfpxgWQ4uMKeZyT2B,GBALX0080017
+50,"Mona Lisas And Mad Hatters (Part 2)","Elton John",117,8B,87,2020-09-26,04:12,18,"","Reg Strikes Back",1988-06-24,67,2,0,92,0,20,-8,C Major,4,2ltFzTjLY78n13SY6D8t6Y,GBAMS8800003
+51,"Healing Hands","Elton John",112,10B,81,2020-11-15,04:29,45,"","Sleeping With The Past (Remastered with bonus tracks)",1989-08-29,63,0,0,79,0,0,-10,D Major,4,4rxCQMELiiH0gk8nbTd2tR,GBALX8900103
+52,"Sleeping With The Past","Elton John",130,2B,81,2020-11-18,04:52,28,"","Sleeping With The Past (Remastered with bonus tracks)",1989-08-29,78,1,0,88,0,30,-9,F#/G♭ Major,4,4S3PsJuH4Gv3DwXMdJgCli,GBALX8900106
+53,"The Last Song","Elton John",125,3B,29,2020-12-16,03:33,44,"","The One",1992-06-22,31,33,0,9,0,0,-13,C♯/D♭ Major,1,0pNXDQo75eOukoK8PejiRE,GBALX9200189
+54,"Fat Boys And Ugly Girls","Elton John",136,8B,80,2020-12-16,04:14,22,"","The One",1992-06-22,66,0,9,87,0,10,-9,C Major,4,14sADwg78MbJw9dDL62iRR,GBAMS9200001
+55,"Michelle's Song - From “Friends” Soundtrack","Elton John",137,7B,37,2020-12-17,04:20,24,"","Rare Masters",1992-10-20,43,80,0,37,0,10,-16,F Major,4,2e2tuKera7JpdOArm6sDcl,GBAMB0080037
+56,"Seasons - From “Friends” Soundtrack","Elton John",126,8B,3,2020-12-17,03:56,19,"","Rare Masters",1992-10-20,19,92,6,5,0,10,-24,C Major,5,3YOkHFf9pxsvd649JYKNqh,GBAMB0080038
+57,"Variation On Michelle's Song (A Day In The Country) - From “Friends” Soundtrack","Elton John",88,7B,4,2020-12-26,02:47,12,"","Rare Masters",1992-10-20,13,89,85,18,0,10,-27,F Major,3,42n1Nj4UAT4dOyJjER6qyi,GBAMB0080039
+58,"Seasons - Reprise / From “Friends” Soundtrack","Elton John",56,8A,9,2020-12-27,01:39,15,"","Rare Masters",1992-10-20,35,93,0,21,0,0,-21,A Minor,4,0A2ZuNmsMiXKEyLFTvCOHI,GBAMB0080043
+59,"Sugar On The Floor","Elton John",124,6B,14,2020-12-28,04:33,13,"","Rare Masters",1992-10-20,52,93,0,21,0,0,-16,A#/B♭ Major,4,1oMzKOEx2bLQJ0QesuDtJK,GBF087500018
+60,"Old Friend","Elton John,Nik Kershaw",95,10B,82,2020-12-28,04:15,27,"","Duets",1993-11-22,51,10,0,42,0,10,-9,D Major,4,3L7LGM8ZL8Kz961q8bZE6i,GBALX9300019
+61,"I'm Your Puppet","Elton John,Paul Young",96,8A,57,2020-12-29,03:35,44,"","Duets",1993-11-22,80,21,0,84,0,20,-8,A Minor,4,768RawbMvID5MrxZEjznHx,GBALX9390105
+62,"Duets For One","Elton John",188,8B,76,2020-12-29,04:52,27,"","Duets",1993-11-22,57,4,0,69,0,10,-8,C Major,4,7pYUEPmQofVKAJhgXTf9GA,GBALX9390108
+63,"El Dorado - From  The Road To El Dorado  Soundtrack","Elton John",102,8B,88,2021-01-01,04:22,38,"","The Road To El Dorado (Original Motion Picture Soundtrack)",2000-01-01,64,3,0,45,0,10,-6,C Major,4,3ScTaxssPMiRO61W9vkafW,USDW10021667
+64,"Friends Never Say Goodbye - From  The Road To El Dorado  Soundtrack","Elton John",121,4A,53,2021-01-01,04:20,34,"","The Road To El Dorado (Original Motion Picture Soundtrack)",2000-01-01,63,66,0,31,0,10,-8,F Minor,4,3pxxSXxPKNXleWZ9ZcL0k1,USDW10021670
+65,"16th Century Man - From  The Road To El Dorado  Soundtrack","Elton John",165,8B,91,2021-01-01,03:39,24,"","The Road To El Dorado (Original Motion Picture Soundtrack)",2000-01-01,51,25,1,96,0,10,-5,C Major,4,3P35Ia0w6dgi5uamfjo0jw,USDW10021672
+66,"Dark Diamond","Elton John",125,3B,82,2021-01-04,04:26,24,"","Songs From The West Coast (Expanded Edition)",2001-10-01,71,3,0,87,0,0,-6,C♯/D♭ Major,4,6k4aQRWQonqxfW5AZ3iKNa,GBF080100301
+67,"American Triangle","Elton John",129,5A,53,2021-01-04,04:49,25,"","Songs From The West Coast (Expanded Edition)",2001-10-01,67,41,0,22,0,10,-7,C Minor,4,6mCmViyyn4V3Teh5M6LUuU,GBF080100327
+68,"This Train Don't Stop There Anymore","Elton John",204,4B,64,2021-01-04,04:38,46,"","Songs From The West Coast (Expanded Edition)",2001-10-01,39,9,0,33,0,10,-6,G#/A♭ Major,4,6mFnYxzUmEzEiqkB94k3g7,GBF080100298
+69,"The North Star","Elton John",120,7B,65,2021-01-04,05:28,15,"","Songs From The West Coast (Expanded Edition)",2001-10-01,57,4,0,41,0,20,-6,F Major,3,3ckYMpc386fUZHI1g809nB,GBF080100322
+70,"Porch Swing In Tupelo","Elton John",133,7B,51,2021-01-05,04:38,24,"","Peachtree Road (Expanded Edition)",2004-11-07,60,79,0,33,0,10,-8,F Major,4,4p70FGbzp42lqIuLbGGbtI,GBF080400428
+71,"Turn The Lights Out When You Leave","Elton John",84,9B,62,2021-01-05,05:02,31,"","Peachtree Road (Expanded Edition)",2004-11-07,55,53,0,25,0,10,-7,G Major,4,1lGwSKgdYCWXU2LH0P2SZ4,GBF080400424
+72,"Freaks In Love","Elton John",152,6B,46,2021-01-05,04:31,34,"","Peachtree Road (Expanded Edition)",2004-11-07,61,72,0,44,0,10,-7,A#/B♭ Major,3,5bZbZQRl6rO5pw65cRc5nQ,GBF080400432
+73,"Just Like Noah's Ark","Elton John",124,5B,87,2021-01-06,05:33,17,"","The Captain and The Kid",2006-09-15,65,25,23,92,0,40,-5,D#/E♭ Major,4,4ebWknUfhc3lY4BtarK1z0,GBUM70602619
+74,"The Bridge","Elton John",111,3B,31,2021-01-06,03:38,33,"","The Captain and The Kid",2006-09-15,48,95,0,18,0,10,-10,C♯/D♭ Major,4,78i0joKG9JwJDqtxcQOPXE,GBUM70602623
+75,"I Must Have Lost It On The Wind","Elton John",81,10B,69,2021-01-06,03:53,15,"","The Captain and The Kid",2006-09-15,62,40,0,74,0,10,-7,D Major,4,3HvxAXWaHkbbAzEhJiUDz4,GBUM70602618
+76,"If It Wasn't For Bad","Elton John,Leon Russell",119,7A,76,2021-01-06,03:42,31,"outlaw country","The Union",2010-01-01,72,51,3,72,0,20,-8,D Minor,4,4Wb5ywdEB91XYTNRJuISjO,GBUM71025888
+77,"There's No Tomorrow","Elton John,Leon Russell",91,4A,44,2021-01-07,03:45,14,"outlaw country","The Union",2010-01-01,43,74,34,25,0,10,-10,F Minor,3,6YSWnsrSyGtWRQmyhdD6su,GBUM71026487
+78,"A Dream Come True","Elton John,Leon Russell",119,8B,76,2021-01-07,05:06,13,"outlaw country","The Union",2010-01-01,56,35,80,77,0,10,-10,C Major,4,39yfQlQLPcOsgqLPqM4hM1,GBUM71025890
+79,"Never Too Old (To Hold Somebody)","Elton John,Leon Russell",125,9B,41,2021-01-08,04:57,14,"outlaw country","The Union",2010-01-01,58,91,10,32,0,10,-11,G Major,4,14KH4059KdXdzTRVpjb5OU,GBUM71025913
+80,"Oscar Wilde Gets Out","Elton John",87,7A,61,2021-01-08,04:35,15,"","The Diving Board (Deluxe Version)",2013-09-16,56,46,66,51,0,10,-9,D Minor,4,5RbY6AVs9ob3CwAZA9nR8d,GBUM71303456
+81,"Voyeur","Elton John",133,5B,51,2021-01-12,04:16,14,"","The Diving Board (Deluxe Version)",2013-09-16,49,45,7,37,0,10,-10,D#/E♭ Major,4,2RdAw1XJ6wfz26XqLgwuWE,GBUM71303183
+82,"Dream # 2","Elton John",95,8A,21,2021-01-12,00:43,9,"","The Diving Board (Deluxe Version)",2013-09-16,48,96,99,34,0,10,-17,A Minor,4,5xKhIaA6OU1lPPKfmdZRFM,GBUM71303192
+83,"Mexican Vacation (Kids In The Candlelight)","Elton John",94,8B,67,2021-01-12,03:33,12,"","The Diving Board (Deluxe Version)",2013-09-16,71,18,0,60,0,10,-8,C Major,4,4deaZiYMv945qTgQVQCoK8,GBUM71303198
+84,"Dream # 3","Elton John",138,8A,45,2021-01-12,01:36,11,"","The Diving Board (Deluxe Version)",2013-09-16,35,86,77,81,0,10,-14,A Minor,1,7cnCGtAN2cNPanepvsfW0G,GBUM71303202
+85,"Candlelit Bedroom","Elton John",72,8B,44,2021-01-12,04:13,11,"","The Diving Board (Deluxe Version)",2013-09-16,64,59,1,43,0,10,-9,C Major,4,6Qnsg5wtIChYf7wuLaMvgi,GBUM71303558
+86,"Wonderful Crazy Night","Elton John",112,7B,80,2021-01-12,03:13,32,"","Wonderful Crazy Night (Deluxe)",2016-02-05,72,9,0,89,0,20,-5,F Major,4,4SKakzuaSX2PMXIHGUDNyo,GBUM71506178
+87,"Guilty Pleasure","Elton John",81,9B,94,2021-01-14,03:38,15,"","Wonderful Crazy Night (Deluxe)",2016-02-05,53,0,27,70,0,30,-5,G Major,4,7MMa1gv3FmDBl9hKQFs6M5,GBUM71506182
+88,"England And America","Elton John",153,6B,87,2021-01-14,03:51,14,"","Wonderful Crazy Night (Deluxe)",2016-02-05,38,2,4,82,0,0,-6,A#/B♭ Major,4,3OK6xt63jBRG8M0M4fojF2,GBUM71506219
+89,"Tactics","Elton John",130,6B,42,2021-01-18,02:48,0,"","Jewel Box",2020-11-13,51,30,94,18,0,10,-17,A#/B♭ Major,4,6mSdK2zCUVf8V0gwQPyIxL,GBUM70711387
+90,"Love So Cold","Elton John",137,8B,51,2021-01-18,05:04,0,"","Jewel Box",2020-11-13,74,13,0,90,0,0,-12,C Major,4,1FfFaglDZ78rm6AKfEA2gW,GBUM70711383
+91,"Donner Pour Donner","Elton John,France Gall",84,8B,36,2021-01-18,04:28,0,"variété française, chanson, french pop, french house","Jewel Box",2020-11-13,54,33,0,45,0,0,-17,C Major,4,29BwDi4AgQHL464IBZYhIc,GBALX9400002
+92,"J'veux D'la Tendresse","Elton John",118,3A,66,2021-01-18,03:39,0,"","Jewel Box",2020-11-13,65,17,0,54,0,20,-11,A#/B♭ Minor,4,4DDdpHwG0sZGc4oLljpjip,GBUM72003387
+93,"Tortured","Elton John",115,7B,28,2021-01-18,04:44,0,"","Jewel Box",2020-11-13,48,31,0,16,0,10,-16,F Major,3,30P9LVPdxsYZaD661ddMVk,GBUM70711388
+94,"I Know Why I'm In Love","Elton John",105,8A,47,2021-02-01,04:32,0,"","Jewel Box",2020-11-13,63,53,0,44,0,0,-14,A Minor,4,5DYKAN7Soafb0llPMedTK5,GBAMS9700012
+95,"You Can Make History (Young Again)","Elton John",92,10B,72,2021-02-01,04:54,33,"","Candle In The Wind 1997 / Something About ...",1997-01-01,66,16,1,48,0,30,-9,D Major,4,2ChvdpARUc5va0hLi51Nmp,GBAMS9600103
+96,"Young Dumb & Broke - Recorded At The Colosseum, Caesars Palace, Las Vegas","Elton John,Khalid",146,3B,53,2021-02-03,03:49,33,"","Spotify Singles",2018-12-12,83,20,0,47,10,10,-7,C♯/D♭ Major,4,28rT3OwXdw4VF1MPYIk1P6,GBUM71807644
+97,"Bang A Gong (Get It On)","U2,Elton John",124,10B,78,2021-02-03,04:26,29,"rock, ","Bang A Gong (Get It On)",2020-09-04,73,5,0,64,0,10,-4,D Major,4,53D3QRrXV0vyy2PSXAhuxG,GBUM72000628
+98,"Light Is Faster Than Sound","Big Brother & The Holding Company,Janis Joplin",140,7B,65,2021-02-05,02:33,19,"psychedelic rock, acid rock, classic rock","Big Brother & The Holding Company",1967-00-00,36,12,1,29,0,20,-11,F Major,4,7yHKwqVaPTRjBfx4ijXHwS,USSM16601324
+99,"Women Is Losers","Big Brother & The Holding Company,Janis Joplin",137,8B,57,2021-02-11,02:05,24,"psychedelic rock, acid rock, classic rock","Big Brother & The Holding Company",1967-00-00,56,23,0,72,0,10,-8,C Major,4,17jKybtnI3cORPYawoXiMG,USSM16601325
+100,"Piece of My Heart","Big Brother & The Holding Company,Janis Joplin",161,12B,73,2021-02-15,04:13,66,"psychedelic rock, acid rock, classic rock","Cheap Thrills",1968-08-12,44,26,0,57,10,10,-8,E Major,4,1xKQbqQtQWrtQS47fUJBtl,USSM16800982
+101,"As Good As You've Been to This World","Janis Joplin",104,5A,74,2021-02-24,05:25,34,"classic rock, acid rock, psychedelic rock","I Got Dem Ol' Kozmic Blues Again Mama!",1969-09-11,65,28,24,73,0,0,-9,C Minor,4,0BlhdiMCG3coa1l0q03WLp,USSM16900949
+102,"Kozmic Blues","Janis Joplin",177,9B,62,2021-03-17,04:20,54,"classic rock, acid rock, psychedelic rock","I Got Dem Ol' Kozmic Blues Again Mama!",1969-09-11,34,74,27,50,0,60,-8,G Major,3,7eYYxblNEZKKeTT0HBQbXO,USSM16900951
+103,"不意打ち","物語シリーズ",120,8B,9,2021-03-18,02:03,7,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,98,95,22,49,30,20,-22,C Major,4,6OtBatfUqxNUGMdoyCIXmL,JPE301400378
+104,"昔語り","物語シリーズ",78,8A,58,2021-03-18,02:53,15,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,68,65,93,10,0,10,-7,A Minor,4,0wmKqYbY6tv8BYiTVDMF97,JPE301400379
+105,"はなむけ","物語シリーズ",74,10B,10,2021-03-18,06:00,17,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,63,97,66,10,0,10,-20,D Major,4,726G3DCdPFKztEXNclyqXb,JPE301400390
+106,"「ろくでもない、鬼の物語が」","物語シリーズ",74,7B,24,2021-03-18,03:14,9,"anime, j-pop","Onimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,66,99,91,15,0,10,-21,F Major,4,39gdIRulLYejVyDPC2drCw,JPE301400391
+107,"Wild Thing","The Troggs",204,11B,66,2021-03-18,02:35,61,"proto-punk","From Nowhere",1966-07-25,45,74,3,76,0,10,-13,A Major,4,7jGzYUZ2Bgg8BDfYlQRfn8,GBF086600001
+108,"Evil","The Troggs",124,10B,47,2021-03-18,03:16,14,"proto-punk","From Nowhere",1966-07-25,66,83,0,83,0,0,-11,D Major,4,12uBuOlR7pJRX23eyrwrhd,GBUM71501155
+109,"Versus","Sawano Hiroyuki",100,9A,82,2021-03-18,03:46,3,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,54,0,92,23,0,20,-10,E Minor,4,0NfcglqFLXUibds1YOnfwM,JPTO00902772
+110,"the moment to decide - Gt. ver.","Sawano Hiroyuki",122,8B,14,2021-03-18,01:05,2,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,39,47,93,14,0,10,-17,C Major,4,4EytqSBlrR3FKYZmQexoRh,JPTO00902784
+111,"one-sided love","Sawano Hiroyuki",108,8B,3,2021-03-19,02:02,2,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,54,99,96,23,0,0,-24,C Major,3,6P24JmRJH0bPKhVLzvagjT,JPTO00902791
+112,"run away","Sawano Hiroyuki",125,3B,81,2021-03-19,02:12,1,"anime, soundtrack","映画「彼岸島」オリジナル・サウンドトラック",2010-01-06,68,0,79,61,0,0,-12,C♯/D♭ Major,4,0f68Zli8j6FYdukb7hUTYv,JPTO00902797
+113,"Darling I'm a Mess","Sabrina Carpenter",90,7B,48,2021-03-20,02:59,42,"pop","Eyes Wide Open",2015-04-10,55,67,0,47,0,10,-7,F Major,4,6rdKHwxWa9aqWyoGf1r20v,USHR11435921
+114,"Tiptoe","Imagine Dragons",120,2B,82,2021-03-23,03:14,52,"","Night Visions",2012-09-04,53,0,0,25,0,0,-6,F#/G♭ Major,4,7lBPn6LpIvbvAihTRvBMig,USUM71208576
+115,"Nothing Left To Say / Rocks - Medley","Imagine Dragons",108,8B,79,2021-03-24,08:57,45,"","Night Visions",2012-09-04,27,12,0,6,0,50,-7,C Major,4,300tML2o8yHO4WrDtG2gxO,USUM71208578
+116,"Move Over","Janis Joplin",133,8B,50,2021-03-25,03:43,53,"classic rock, acid rock, psychedelic rock","Pearl (Legacy Edition)",1971-01-11,71,19,1,92,0,0,-10,C Major,4,2bD9x9kN4wYyVoyckeqlLk,USSM17000784
+117,"Half Moon","Janis Joplin",120,8B,56,2021-03-25,03:53,38,"classic rock, acid rock, psychedelic rock","Pearl (Legacy Edition)",1971-01-11,67,52,0,63,0,0,-12,C Major,4,2bD8JWzDBOnSeUcsjVU2SD,USSM17000787
+118,"Mercedes Benz","Janis Joplin",87,5A,11,2021-03-25,01:47,55,"classic rock, acid rock, psychedelic rock","Pearl (Legacy Edition)",1971-01-11,70,94,0,52,50,0,-15,C Minor,4,1MntHPLU1T7a9W4tojbg8g,USSM10408486
+119,"Move Over - Alternate Version","Janis Joplin",130,10B,73,2021-03-25,04:25,27,"classic rock, acid rock, psychedelic rock","Pearl (Legacy Edition)",1971-01-11,67,2,0,92,0,0,-9,D Major,4,6NgV2dH50o1HIoEwxHRu3X,USSM10408488
+120,"宿敵","物語シリーズ",127,6B,16,2021-03-30,02:40,13,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,27,97,84,4,0,0,-15,A#/B♭ Major,4,39dHJ149WjnIsFfxt3h4uT,JPE301400835
+121,"所在不明","物語シリーズ",70,11A,31,2021-03-30,02:42,6,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,59,99,93,11,0,10,-18,F#/G♭ Minor,4,4XwNSSLfoqTcClwXW2Lv5S,JPE301400838
+122,"肉奉行","物語シリーズ",120,5B,9,2021-03-30,02:36,9,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,60,99,96,10,0,10,-16,D#/E♭ Major,4,1YUAkgQwDRHzcggnjK1QuE,JPE301400840
+123,"卒業","物語シリーズ",120,8B,19,2021-03-30,03:19,10,"anime, j-pop","Hanamonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,43,96,96,4,0,10,-13,C Major,4,6DTCmm6JcdXEZTACv9LwhX,JPE301401034
+124,"It's Too Late","The Troggs",155,4A,88,2021-03-31,02:09,6,"proto-punk","Trogglodynamite",1967-02-10,71,48,8,42,10,0,-8,F Minor,4,0NaZvtMNwFf8ISSfH8Zco3,GBUM71905495
+125,"No. 10 Downing Street","The Troggs",96,8B,84,2021-03-31,02:17,3,"proto-punk","Trogglodynamite",1967-02-10,80,37,0,49,0,60,-8,C Major,4,6iB7peeTu36vp3aUhuiugg,GBUM71905498
+126,"@-2-期!!","Sawano Hiroyuki",160,11B,90,2021-04-01,04:37,3,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,51,0,50,21,10,0,-7,A Major,4,1x1aiiJkgZqKfIBXtu6391,JPG751000514
+127,"CR■SC∃NT","Sawano Hiroyuki",100,10A,95,2021-04-01,02:41,10,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,60,0,0,49,10,10,-2,B Minor,4,4LQiwnSrHQUINcOeF6Fynz,JPG751000517
+128,"Luster.[Dream-Luck REMIX]","Sawano Hiroyuki",140,7A,62,2021-04-19,03:05,3,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,31,12,92,8,0,10,-10,D Minor,4,3PBjwOtZdk56pv43q6ooWZ,JPG751000525
+129,"B∀TTL∃field＄","Sawano Hiroyuki",98,9A,99,2021-04-21,03:23,8,"anime, soundtrack","「戦国BASARA弐」音楽絵巻 弐 ～乱世、再び！～",2010-09-01,53,0,85,41,10,20,-3,E Minor,4,6Sec8FUeUkOzpg4pMV00Ra,JPG751000527
+130,"Round And Round","Imagine Dragons",142,5A,86,2021-06-11,03:16,43,"","Night Visions (Deluxe)",2012-09-04,46,0,0,48,0,20,-4,C Minor,4,079yVkBuqjli0R21W0kis3,USUM71201075
+131,"Cry Baby (with The Full Tilt Boogie Band)","Janis Joplin,The Full Tilt Boogie Band",168,8B,47,2021-06-15,04:02,10,"classic rock, acid rock, psychedelic rock, ","Janis",1974-10-18,38,47,2,46,0,0,-9,C Major,3,2pQLTVf5oFhglG4aphD1Fj,USSM10411870
+132,"深窓の令嬢","物語シリーズ",144,12B,19,2021-06-15,02:40,31,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,77,98,96,12,20,0,-18,E Major,4,4494490z9AMSppihNjo8DS,JPE301103662
+133,"クラスメイト","物語シリーズ",100,8B,28,2021-06-16,02:42,27,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,55,89,96,31,0,10,-16,C Major,3,5K25ey1FmwV3D17K1jHr4z,JPE301103665
+134,"表裏","物語シリーズ",162,5A,53,2021-06-17,01:46,23,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,41,30,88,16,0,0,-16,C Minor,3,5jrIk6jLrhvscjgPH3b31Z,JPE301001709
+135,"次回、ひたぎクラブ","物語シリーズ",128,12B,33,2021-06-20,00:53,12,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,58,71,69,19,0,10,-10,E Major,4,1CJjHgDXHKlPnz7knG3AU3,JPE301103671
+136,"日曜日","物語シリーズ",100,10B,9,2021-06-21,02:41,19,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,75,99,77,44,10,10,-16,D Major,4,5Fb3KJvSQPSX2C48lDhNpE,JPE301103682
+137,"次回、まよいマイマイ","物語シリーズ",175,5B,34,2021-06-22,00:49,9,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,53,66,80,13,20,10,-12,D#/E♭ Major,3,2TzWrLgCCoULkJyNtbTALF,JPE301103692
+138,"バカロリート","物語シリーズ",90,10B,77,2021-06-27,03:18,16,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,82,54,77,73,0,10,-9,D Major,4,6xPWgCq1NRKZ0xH8Kwt2K8,JPE301001706
+139,"「戦場ヶ原先輩」","物語シリーズ",180,1B,26,2021-06-29,02:24,19,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,37,98,91,43,0,10,-14,B Major,4,6IsyNroSVJWfbivY0oP7Hy,JPE301103696
+140,"次回、なでこスネイク","物語シリーズ",121,12B,39,2021-07-01,00:37,10,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,75,71,87,71,0,10,-12,E Major,4,4VOgJXMUiZwRI6APS5jw4j,JPE301103701
+141,"「私、嘘なんかついたことがないもの」","物語シリーズ",100,11B,26,2021-07-01,01:55,17,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,66,99,86,12,0,10,-16,A Major,4,6DPgFiWEdWEP5pv8ID3YZ0,JPE301103706
+142,"Fear→Sorrow","Sawano Hiroyuki",112,6A,17,2021-07-07,02:22,15,"anime, soundtrack","MOBILE SUIT GUNDAM UNICORN Original Motion Picture Soundtrack 1",2010-09-09,17,16,91,9,0,40,-20,G Minor,3,4yyVvCLWV07SMRKpFwKP5x,JPP301000080
+143,"red strand","Cö shu Nie",117,3A,92,2021-07-11,04:00,0,"anime, j-rock, j-pop","red strand",2020-03-27,39,3,0,46,10,20,-4,A#/B♭ Minor,3,6yjLhRYtb11cL6q3LrIYKa,JPU902000306
+144,"FLARE","Cö shu Nie",95,2B,95,2021-07-11,02:34,19,"anime, j-rock, j-pop","FLARE",2020-07-08,42,0,0,21,0,30,-3,F#/G♭ Major,4,6tHruFkXsmVU3rT1vdWMnU,JPU902001528
+145,"Release","Imagine Dragons",138,7A,40,2021-07-24,02:28,36,"","Smoke + Mirrors (Deluxe)",2015-10-23,38,86,0,41,0,10,-11,D Minor,5,5EHNEWKaB4DMMOOWsZxP7W,USUM71417942
+146,"Warriors","Imagine Dragons",78,9A,85,2021-07-24,02:50,52,"","Smoke + Mirrors (Deluxe)",2015-10-23,37,10,0,31,0,20,-6,E Minor,4,6Q2JimwoGgG5W9HdmH1hmq,USUM71414163
+147,"happy bite","物語シリーズ",132,5B,93,2021-07-26,04:11,24,"anime, j-pop","Kabukimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,77,15,0,84,0,10,-3,D#/E♭ Major,4,6yVfuJ83Jeuni0VdTrgEfW,JPE301302929
+148,"僕達の戦い","物語シリーズ",132,5B,18,2021-07-28,02:29,8,"anime, j-pop","Kabukimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,54,84,86,28,0,0,-11,D#/E♭ Major,4,7pRVCUp0ABYiclpdXWkBDH,JPE301303016
+149,"What you doing here","The Troggs",181,11B,23,2021-07-28,04:31,0,"proto-punk","Au",1989-00-00,29,42,22,33,0,0,-17,A Major,4,3xoEHLjNtULsAYkNYNozec,DESK99290203
+150,"Too Late To Say","Sawano Hiroyuki",136,8B,40,2021-07-29,05:22,18,"anime, soundtrack","青の祓魔師 Plugless",2011-00-00,61,82,0,28,0,10,-9,C Major,4,3hDZB1OzBcY90s3ArH9lNI,JPE301301940
+151,"Call me later <nZk Plugless>","Sawano Hiroyuki",133,10A,49,2021-07-29,03:23,26,"anime, soundtrack","青の祓魔師 Plugless",2011-00-00,61,76,0,41,0,20,-6,B Minor,3,34rd41XWCNb0Pz2UgkZrAt,JPE301301943
+152,"Me & Creed <Slow Ver>","Sawano Hiroyuki",74,9B,23,2021-07-29,04:55,14,"anime, soundtrack","青の祓魔師 Plugless",2011-00-00,34,79,0,23,0,20,-8,G Major,3,4XDVjxG0RvLVfBhF8B1z2G,JPE301301946
+153,"Next To Me","Imagine Dragons",170,10B,67,2021-08-01,03:50,71,"","Evolve",2017-06-23,30,28,0,38,0,0,-4,D Major,3,31VOknKjFrEX47bZXzqcoF,USUM71704654
+154,"Believer","Imagine Dragons",125,3A,78,2021-08-02,03:24,86,"","Evolve",2017-06-23,78,6,0,67,10,0,-4,A#/B♭ Minor,4,0pqnGHJpmpxLKifKRmU6WP,USUM71700626
+155,"fast love","物語シリーズ",131,2B,97,2021-08-03,04:36,26,"anime, j-pop","Koimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,60,4,0,80,0,30,-4,F#/G♭ Major,4,65n4b5SWZNXnxnoTakRxv4,JPE301400435
+156,"怠け者の節句働き","物語シリーズ",160,5B,5,2021-08-03,02:31,9,"anime, j-pop","Koimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,81,97,92,77,0,0,-17,D#/E♭ Major,3,1fmZ8y6VCAxyPurlx736Bc,JPE301400437
+157,"66 5 4 3 2 1","The Troggs",140,12B,72,2021-08-05,02:33,19,"proto-punk","Hit Single Anthology",1991-04-29,75,21,84,97,10,0,-11,E Major,4,6tIRhA06e2fjMpYJMNv71L,GBF080300502
+158,"The man who is in great request","Sawano Hiroyuki",110,7B,63,2021-08-07,03:23,0,"anime, soundtrack","日本テレビ系火曜ドラマ「貧乏男子」オリジナル・サウンドトラック",2008-02-27,64,9,31,45,10,10,-7,F Major,4,2tG92ZrPY52aeZZdI5gwJA,JPVP00801607
+159,"mjyu","Sawano Hiroyuki",76,8B,64,2021-08-07,02:57,0,"anime, soundtrack","日本テレビ系火曜ドラマ「貧乏男子」オリジナル・サウンドトラック",2008-02-27,67,40,95,92,0,0,-9,C Major,4,2n1WFAMEHaBzRvylhfoCgl,JPVP00801619
+160,"モノクローム <soundtrack version>","Sawano Hiroyuki",66,9B,39,2021-08-07,02:31,0,"anime, soundtrack","日本テレビ系火曜ドラマ「貧乏男子」オリジナル・サウンドトラック",2008-02-27,17,74,1,28,0,10,-8,G Major,4,2zgCIU0i6yGFTigvu0qlRw,JPVP00801621
+161,"Clouds (with Sabrina Carpenter)","Fin Argus,Sabrina Carpenter",95,10B,63,2021-08-08,03:05,45,"pop","CLOUDS (Music From The Disney+ Original Movie)",2020-10-16,58,57,0,38,0,10,-8,D Major,4,0nCfCedKIf6EjWFt55AXum,USUG12003837
+162,"Zero - From the Original Motion Picture  Ralph Breaks The Internet ","Imagine Dragons",90,2B,66,2021-08-09,03:30,67,"","Origins (Deluxe)",2018-11-09,64,0,0,25,0,10,-8,F#/G♭ Major,4,2bzitsPcImYC6DZWvvLCQi,USWD11890242
+163,"Stuck","Imagine Dragons",115,7B,48,2021-08-10,03:10,50,"","Origins (Deluxe)",2018-11-09,62,26,0,25,0,20,-8,F Major,4,5Z9SQPYU95S6M1vcbLsDt2,USUM71816166
+164,"perfect slumbers","物語シリーズ",80,9A,54,2021-08-12,04:27,33,"anime, j-pop","Nekomonogatari (Kuro) Gekihanongakushu [Original Soundtrack]",2018-11-02,55,22,0,32,0,10,-7,E Minor,4,1Wvx6tl0nI8GOYAS2tDplu,JPE301300181
+165,"恋かもしれない何かの話","物語シリーズ",112,9B,9,2021-08-12,01:38,9,"anime, j-pop","Nekomonogatari (Kuro) Gekihanongakushu [Original Soundtrack]",2018-11-02,88,98,92,94,10,10,-20,G Major,4,4dGdytdo8Z2U4ehNeDFk3N,JPE301300082
+166,"ロケット作り","物語シリーズ",182,10B,50,2021-08-12,01:32,5,"anime, j-pop","Nekomonogatari (Kuro) Gekihanongakushu [Original Soundtrack]",2018-11-02,61,20,88,84,0,10,-12,D Major,4,6UU8q3Q2GqpNLAA5N2F2hB,JPE301300084
+167,"BPF1","Sawano Hiroyuki",66,9A,6,2021-08-15,03:00,26,"anime, soundtrack","青の祓魔師 京都不浄王篇 オリジナル・サウンドトラック",2011-00-00,33,99,90,4,0,10,-25,E Minor,5,6fFZYxGeVX7fvjv36yaKFN,JPE301601182
+168,"Alien - Acoustic","Sabrina Carpenter,Jonas Blue",81,3A,33,2021-08-20,03:24,32,"pop, tropical house","Alien (Acoustic)",2018-05-11,40,91,0,58,0,10,-7,A#/B♭ Minor,1,6VDRCKWp49mhQhrvAeI5QT,USHR11838472
+169,"Sue Me - A Cappella","Sabrina Carpenter",69,7B,31,2021-08-20,03:22,35,"pop","Sue Me (A Cappella)",2019-03-22,40,88,0,50,0,10,-10,F Major,4,1GlBABlFOcIIlSEYcnOP3b,USHR11939072
+170,"chocolate insomnia","物語シリーズ",162,8B,92,2021-08-21,04:39,25,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,48,0,0,69,0,0,-4,C Major,4,1ku2LBifRZrAvPx7yJdWfJ,JPE301302699
+171,"女子同士","物語シリーズ",99,9B,12,2021-08-22,01:12,10,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,63,10,2,30,0,10,-13,G Major,3,4Gf6u1OHRFkJ4KHLVoT82U,JPE301302811
+172,"草々不一","物語シリーズ",114,7B,26,2021-08-22,03:24,9,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,66,95,78,10,0,10,-12,F Major,3,2MwBR7mkF4faZC3Sk1r4Xf,JPE301302814
+173,"「ただいま」","物語シリーズ",94,5B,19,2021-08-22,02:10,13,"anime, j-pop","Nekomonogatari (Shiro) Gekihanongakushu [Original Soundtrack]",2018-11-02,70,93,83,30,0,10,-15,D#/E♭ Major,4,4PCuKnoGDYqFMcrtmj8Iit,JPE301302818
+174,"The Lazy Song","Bruno Mars",175,1A,71,2021-08-26,03:09,81,"","Doo-Wops & Hooligans",2010-05-11,79,30,0,96,0,10,-5,G#/A♭ Minor,4,386RUes7n1uM1yfzgeUuwp,USAT21001886
+175,"Talking to the Moon - Acoustic Piano","Bruno Mars",147,12B,33,2021-08-26,03:37,57,"","Doo-Wops & Hooligans",2010-05-11,36,86,0,21,0,10,-6,E Major,4,6YKT5HoPwjTwhHiCNQsBMK,USAT21001777
+176,"I Bet My Life - Riot Games Remix","Imagine Dragons",108,3B,60,2021-09-01,03:30,32,"","I Bet My Life (Riot Games Remix)",2014-09-18,50,49,0,20,0,20,-9,C♯/D♭ Major,4,3bz7aRHigA8TVOYcMt3SG7,USUM71501169
+177,"Sucker for Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)","Lil Wayne,Wiz Khalifa,Imagine Dragons,X Ambassadors,Logic,Ty Dolla $ign",169,8A,79,2021-09-03,04:03,78,"rap, hip hop, trap soul","Sucker for Pain (with Logic & Ty Dolla $ign feat. X Ambassadors)",2016-06-24,50,26,0,74,30,60,-4,A Minor,4,4dASQiO1Eoo3RJvt74FtXB,USAT21601893
+178,"Believer (feat. Lil Wayne)","Imagine Dragons,Lil Wayne",94,3A,84,2021-09-04,03:39,62,"rap, hip hop","Believer (feat. Lil Wayne)",2019-01-07,49,6,0,76,20,0,-4,A#/B♭ Minor,3,2sU9EjevkrU9OkPZudvFNN,USUM71900149
+179,"二言目","物語シリーズ",132,12B,85,2021-09-08,04:25,32,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,67,17,0,54,0,10,-5,E Major,4,1D1oqJGlRiSL5zbPcNGFud,JPE301201201
+180,"魔手","物語シリーズ",148,3A,87,2021-09-10,01:43,8,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,58,2,89,96,0,10,-8,A#/B♭ Minor,4,3fQOAGBQwKHAl6DyfOcWgr,JPE301201210
+181,"次回、かれんビー（戦場ヶ原ひたぎver.）","物語シリーズ",130,12B,42,2021-09-11,00:54,9,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,57,58,83,39,0,20,-11,E Major,4,3IQMWbOWxn59RtrWlkeAxA,JPE301201215
+182,"不吉","物語シリーズ",56,12B,10,2021-09-15,02:13,20,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,46,94,92,23,0,10,-14,E Major,4,2hrzcuv7UxGsE59JPQq2i1,JPE301201486
+183,"怪異の王","物語シリーズ",97,10A,37,2021-09-15,01:34,16,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,68,92,0,83,0,0,-8,B Minor,4,0hBODQftRJHWOjVfseckmq,JPE301201490
+184,"「兄ちゃん。あとは、任せた」","物語シリーズ",98,9A,23,2021-09-17,02:29,17,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,79,96,89,26,10,10,-10,E Minor,4,0W0UvxxIZRyFOjYP1vRtsQ,JPE301201664
+185,"「プラチナむかつく」","物語シリーズ",172,2B,30,2021-09-18,01:35,21,"anime, j-pop","Nisemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,68,99,91,34,0,10,-15,F#/G♭ Major,4,1mzGbxScvBkIooUfgh6qcP,JPE301202033
+186,"With a Girl Like You (Rerecorded)","The Troggs",117,9B,95,2021-09-21,02:15,0,"proto-punk","Wild Thing - The Best of the Troggs (Rerecorded Version)",2002-03-01,80,34,0,74,0,0,-11,G Major,4,2JtPcAwLfe2jQmPbZhmySV,USDEI9503579
+187,"Perm","Bruno Mars",124,4B,87,2021-10-01,03:30,68,"","24K Magic",2016-11-18,85,1,0,86,0,20,-4,G#/A♭ Major,4,1I6pKIyaBp4OebTGLJpCCC,USAT21602947
+188,"Versace on the Floor","Bruno Mars",174,10B,57,2021-10-01,04:21,83,"","24K Magic",2016-11-18,58,20,0,30,0,0,-6,D Major,4,0kN8xEmgMW9mh7UmDYHlJP,USAT21602949
+189,"OMAKE-SUITE　　Heaven's Door <Final Ver.>","Sawano Hiroyuki",120,11B,78,2021-10-02,03:34,3,"anime, soundtrack","「劇場版 戦国BASARA -The Last Party-」音楽絵巻 ～さらば、宿敵（とも）よ～",2011-06-08,59,0,65,28,0,30,-11,A Major,4,4f0ign9TLpwuZ2d8ZiyPGY,JPG751100186
+190,"Black Bottom (Rerecorded)","The Troggs",128,9B,54,2021-10-03,02:47,1,"proto-punk","20 of Their Best (Rerecorded Version)",2009-09-11,81,2,79,84,0,10,-11,G Major,4,2rgkJCqxHjBEseuNfW6S3H,USG290601501
+191,"60's Medley - Louie Louie / Hang on Sloopy / Twist and Shout / Any Way That You Want Me / The Game of Love (Rerecorded)","The Troggs",121,10A,73,2021-10-03,04:06,0,"proto-punk","20 of Their Best (Rerecorded Version)",2009-09-11,58,0,73,84,0,20,-11,B Minor,4,4oZVEWPPQrKdy4hR9P7zUV,USG290601510
+192,"mathemagics","物語シリーズ",126,10B,81,2021-10-07,04:05,32,"anime, j-pop","Owarimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,68,21,0,73,0,10,-4,D Major,4,2tbQxtjeai98CxjBnF4wJC,JPE301501408
+193,"dark cherry mystery","物語シリーズ",125,2B,88,2021-10-07,03:51,32,"anime, j-pop","Owarimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,74,8,0,85,0,30,-5,F#/G♭ Major,4,6Z9JnFYXEbdVrxG45xlhSA,JPE301701384
+194,"Catch a Grenade - The Hooligans Remix","Bruno Mars",120,7A,83,2021-10-08,03:30,63,"","The Grenade Sessions",2011-02-08,80,5,0,96,0,0,-2,D Minor,4,1EOWf8bsePF6QtiDUAclrJ,USAT21100010
+195,"etoile et toi [edition le blanc]","物語シリーズ",135,11A,20,2021-10-12,06:02,31,"anime, j-pop","Kizumonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,23,93,56,7,0,0,-14,F#/G♭ Minor,4,5HBnVSa57l3B4Cxg7XQ8VL,JPE301700624
+196,"オレンジミント","物語シリーズ",122,8B,83,2021-10-12,04:35,31,"anime, j-pop","Tukimonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,66,19,0,80,0,20,-4,C Major,4,5wUWbDQRB3KR1JKT9oEMbX,JPE301401463
+197,"IiMuRoYa-$.feat 4th-Mov.：N-tone","Sawano Hiroyuki",104,5A,2,2021-10-16,03:22,9,"anime, soundtrack","青の祓魔師 オリジナル・サウンドトラック II",2011-09-28,50,99,89,4,0,0,-23,C Minor,4,5WZr0sEIlzNxaH52LjEWNz,JPE301102628
+198,"βiοs<MK＋nZk Version>","Sawano Hiroyuki",97,6B,90,2021-10-23,04:55,38,"anime, soundtrack","GUILTY CROWN COMPLETE SOUNDTRACK",2012-00-00,52,1,0,59,0,30,-5,A#/B♭ Major,4,6sRkyIMcMbZK5ldKZLkpPe,JPE301600189
+199,"With A Girl Like You (From the  KFC - New Toasted Burritos  TV Advert)","The Troggs",118,3B,66,2021-11-05,02:07,0,"proto-punk","With A Girl Like You (From the  KFC - New Toasted Burritos  TV Advert)",2015-03-27,69,54,0,58,0,10,-15,C♯/D♭ Major,4,2RVzIqh7qRcTQVx4yD3toe,CB2CY0934788
+200,"Love Is All Around - Summer of Love Version","The Troggs",95,10B,27,2021-11-05,02:50,0,"proto-punk","Love Is All Around (Summer of Love Version)",2020-06-24,56,2,82,47,0,20,-13,D Major,4,06gvWPGKwueAtPcEB4s7DH,USBT21623966
+201,"Real Life","The Weeknd",91,10A,65,2021-11-07,03:43,58,"","Beauty Behind The Madness",2015-08-28,58,44,0,36,0,30,-5,B Minor,4,03j354P848KtNU2FVSwkDG,USUG11500913
+202,"Earned It (Fifty Shades Of Grey)","The Weeknd",120,7A,29,2021-11-08,04:37,75,"","Beauty Behind The Madness",2015-08-28,66,41,0,41,0,0,-8,D Minor,3,4frLb7nWtsz2ymBE6k2GRP,USUG11500923
+203,"或るK大生の死","BURNOUT SYNDROMES",127,9B,63,2021-11-09,04:50,9,"anime, j-rock, j-pop","文學少女",2015-05-13,42,34,0,62,0,20,-5,G Major,4,5HXn846qkCZMOnV0cdpfSH,JPZ921502773
+204,"Power","Cindy Cruse,Kristin Chenoweth",132,4B,66,2021-11-12,04:20,2,"aor, ccm, arena rock, christian rock, musicals","As I Am",2005-03-28,57,1,0,39,0,10,-7,G#/A♭ Major,4,3PmyyRZudEoWEoQp2x8jbI,USSM10500765
+205,"Starboy","The Weeknd,Daft Punk",186,9B,59,2021-11-14,03:50,90,"french house, electronic, electro","Starboy",2016-11-25,68,14,0,49,20,10,-7,G Major,4,7MXVkk9YMctZqd1Srtv4MB,USUG11600976
+206,"Secrets","The Weeknd",110,8B,77,2021-11-14,04:25,64,"","Starboy",2016-11-25,66,2,0,76,0,40,-6,C Major,4,00NAQYOP4AmWR549nnYJZu,USUG11601000
+207,"檸檬","BURNOUT SYNDROMES",136,6B,83,2021-11-15,04:11,21,"anime, j-rock, j-pop","檸檬",2016-11-09,26,9,0,36,0,30,-4,A#/B♭ Major,4,4GEgs62ywqI6IRnf9BDqrE,JPU901602728
+208,"アタシインソムニア","BURNOUT SYNDROMES",137,6A,95,2021-11-15,05:10,19,"anime, j-rock, j-pop","檸檬",2016-11-09,46,0,0,55,0,30,-2,G Minor,4,6ZU3mFsVEZ7fMhUJ8xkuAl,JPU901602731
+209,"Hay_Yay","Ghezaal Enayat",123,2A,74,2021-11-20,03:22,1,"","فراموش",2020-10-12,67,59,0,79,0,10,-9,D#/E♭ Minor,4,2CSjKU6WEIDT3wDshvOntZ,DEXM82104009
+210,"The Christmas Waltz","Kristin Chenoweth",115,12B,26,2021-11-29,02:58,2,"musicals","A Lovely Way to Spend Christmas",2008-10-17,29,92,0,9,0,0,-11,E Major,3,2Ah29ZsLBgrHiG44ZARk9e,USSM10802908
+211,"Call Out My Name - A Cappella","The Weeknd",135,3B,34,2021-11-30,03:44,54,"","My Dear Melancholy,",2018-03-30,40,89,0,46,0,30,-7,C♯/D♭ Major,3,5PTfZsGlsDDPH8i3PdQnXJ,USUG11901347
+212,"What Would Dolly Do","Kristin Chenoweth",208,3B,95,2021-12-07,02:46,9,"musicals","Some Lessons Learned",2011-09-09,40,22,0,82,10,30,-3,C♯/D♭ Major,4,3fXfk5jKxO4eaMqEoW1bU6,USSM11103777
+213,"After Hours","The Weeknd",109,4A,57,2021-12-08,06:01,81,"","After Hours",2020-03-20,66,8,1,14,0,10,-6,F Minor,4,2p8IUWQDrpjuFltbdgLOag,USUG12000586
+214,"The Reluctant Heroes","Sawano Hiroyuki",127,10A,80,2021-12-17,04:27,54,"anime, soundtrack","TV Anime  Attack on Titan  Original Soundtrack",2013-00-00,55,0,0,54,10,40,-7,B Minor,4,6zSXcvXQ8T74fXm72OpSOb,JPPC01301132
+215,"Call Your Name","Sawano Hiroyuki",142,10A,30,2021-12-17,04:28,54,"anime, soundtrack","TV Anime  Attack on Titan  Original Soundtrack",2013-00-00,57,1,0,20,0,0,-8,B Minor,4,2LYhS0VbCzbE6alAI3Q7Ot,JPPC01301141
+216,"Nothing Compares - Bonus Track","The Weeknd",132,3B,58,2021-12-22,03:42,53,"","After Hours (Deluxe)",2020-04-03,53,0,4,4,0,20,-9,C♯/D♭ Major,4,5ciyqWW5YuGqF4Avu7uwry,USUG11904288
+217,"PHOENIX","BURNOUT SYNDROMES",137,8B,95,2021-12-23,04:06,56,"anime, j-rock, j-pop","BURNOUT SYNDROMEZ",2020-03-24,49,11,0,66,0,30,-1,C Major,4,1ZGmDs16vtSI0nlxDFljFK,JPU901902983
+218,"هی وای وای","Nazir khara,Ghezaal Enayat",185,2A,73,2021-12-24,03:22,4,"","هی وای وای",2018-07-20,37,64,0,79,10,20,-9,D#/E♭ Minor,3,4B3VnIxZszF0AxHHsyLUMI,DEXM82103468
+219,"Before my body is dry","Sawano Hiroyuki",119,2A,71,2021-12-27,04:08,50,"anime, soundtrack","キルラキル コンプリートサウンドトラック",2013-00-00,40,1,0,38,0,0,-6,D#/E♭ Minor,4,1FvZeK3MgmGldxeYDvzanR,JPE301302905
+220,"You Don't Own Me (Feat. Ariana Grande)","Kristin Chenoweth,Ariana Grande",96,3A,60,2021-12-30,03:08,44,"musicals, pop","For The Girls",2019-09-27,54,34,0,39,0,10,-4,A#/B♭ Minor,3,1By0EoZgkP7shwWfokVzfW,USC4R1907011
+221,"Save Your Tears - OPN Remix","The Weeknd,Oneohtrix Point Never",118,8B,84,2021-12-31,03:40,34,"plunderphonics, idm, drone, ambient, experimental, vaporwave","After Hours (Remixes)",2020-04-02,68,28,0,80,0,10,-6,C Major,4,0e5Cykguk6797AaVUjJI92,USUG12001116
+222,"Save Your Tears (with Ariana Grande) (Remix)","The Weeknd,Ariana Grande",118,8B,83,2022-01-01,03:11,79,"pop","Save Your Tears (Remix)",2021-04-23,65,2,0,59,0,0,-5,C Major,4,37BZB0z9T8Xu7U3e65qxFy,USUG12101839
+223,"Elastic Heart - From  The Hunger Games: Catching Fire  Soundtrack","Sia,The Weeknd,Diplo",130,11B,76,2022-01-01,04:17,58,"moombahton","Elastic Heart (From “The Hunger Games: Catching Fire” Soundtrack)",2013-01-01,42,5,0,47,0,10,-6,A Major,4,6x0ex5urwhqB3AYLREVRUd,USRC11301541
+224,"Love Me Harder","Ariana Grande,The Weeknd",99,12A,71,2022-01-01,03:56,85,"pop, ","My Everything (Deluxe)",2014-08-22,49,1,0,24,0,0,-4,C♯/D♭ Minor,4,5J4ZkQpzMUFojo1CtAZYpn,USUM71409728
+225,"Pray For Me (with Kendrick Lamar)","The Weeknd,Kendrick Lamar",101,10B,68,2022-01-02,03:31,67,"hip hop, west coast hip hop","Black Panther The Album Music From And Inspired By",2018-02-09,74,8,0,19,0,10,-5,D Major,4,77UjLW8j5UAGAGVGhR5oUK,USUM71800001
+226,"BLIZZARD (Smoked Silver Ver.)","BURNOUT SYNDROMES",138,10A,87,2022-01-03,03:46,11,"anime, j-rock, j-pop","TOKYO",2021-06-23,52,4,0,74,0,30,-5,B Minor,4,0BTX06f8gUdeuGatdrkRQ2,JPU902101279
+227,"Prisoner","Era Istrefi",150,8A,90,2022-01-04,03:15,0,"","Prisoner",2018-06-08,70,1,0,80,0,30,-3,A Minor,4,5zhlyDNKZhRvXXN6pGGq31,USUS11800139
+228,"ANxiEtY","Sawano Hiroyuki",129,7A,4,2022-01-05,03:10,6,"anime, soundtrack","澤野弘之　NHK WORKS",2013-02-27,44,98,95,9,0,10,-20,D Minor,4,0xOIhfWWOA10CvQ6SAEbw8,JPS001300073
+229,"Why Couldn't It Be Christmas Every Day?","Kristin Chenoweth",130,6B,74,2022-01-13,04:19,20,"musicals","HAPPINESS is…Christmas!",2021-10-22,65,41,0,60,0,10,-3,A#/B♭ Major,4,6xauj1HlVItuBYOOhQaoiY,USRO22102653
+230,"itsuka-VnPf","Sawano Hiroyuki",60,11A,14,2022-01-20,02:56,6,"anime, soundtrack","澤野弘之　NHK WORKS",2013-02-27,44,94,3,13,0,0,-19,F#/G♭ Minor,4,38khKhwYq645RDLYbvSiym,JPS001300084
+231,"itsuka-Pf","Sawano Hiroyuki",120,11A,7,2022-01-20,03:16,5,"anime, soundtrack","澤野弘之　NHK WORKS",2013-02-27,59,98,83,20,0,0,-22,F#/G♭ Minor,4,3y70BWEyI2oPzhAFOrXGH1,JPS001300088
+232,"過多6-$ <X9>","Sawano Hiroyuki",135,9B,55,2022-01-20,01:43,10,"anime, soundtrack","劇場版 七つの大罪 天空の囚われ人　オリジナル・サウンドトラック",2014-00-00,84,16,28,46,0,10,-7,G Major,3,33NHnTduEQ7XAspZSu3tKV,JPE301800681
+233,"Defying Gravity - From  Wicked  Original Broadway Cast Recording/2003","Kristin Chenoweth,Idina Menzel",86,2B,39,2022-01-21,05:53,1,"musicals","Broadway Gold",2007-01-01,36,72,0,28,0,0,-8,F#/G♭ Major,4,0tCUWiYN4snKFUZemMJFwA,USUMC0300219
+234,"Witchy Woman","Kristin Chenoweth",202,7A,79,2022-01-21,03:31,9,"musicals","Bewitched - Music From The Motion Picture",2005-06-14,36,0,0,51,0,10,-4,D Minor,4,7AIjoLlOPhuayYaNHxO1yb,USSM10502993
+235,"Perfect Time","Sawano Hiroyuki",124,9A,94,2022-02-08,04:43,44,"anime, soundtrack","劇場版 七つの大罪 天空の囚われ人　オリジナル・サウンドトラック",2014-00-00,59,0,0,52,0,10,-6,E Minor,4,6jUFAKIg1z74i322Cvdo4c,JPE301401275
+236,"ホログラム","NICO Touches the Walls",156,8B,89,2022-02-10,04:08,58,"anime, j-rock, j-pop","オーロラ",2009-11-25,39,0,0,72,0,20,-3,C Major,4,3s067jTdOv8wnuUHeXdtjT,JPKS00901203
+237,"BRE@TH//LESS","Sawano Hiroyuki",120,11B,83,2022-02-27,04:01,43,"anime, soundtrack","アルドノア・ゼロ オリジナル・サウンドトラック",2014-09-10,69,1,0,79,0,30,-5,A Major,4,5OC6Gv6qYt2s59IwiJZhu7,JPE301400801
+238,"Hopelessly Devoted To You","Kristin Chenoweth",110,8A,33,2022-03-06,03:01,21,"musicals","Pushing Daisies (Original Television Soundtrack)",2008-01-01,38,71,0,12,0,0,-9,A Minor,3,3ztKcp7jsyk9m597OGdYPd,US3M50893202
+239,"Gordo's Law of Genetics","William Finn,Kristin Chenoweth,John Jellison,Keith Byron Kirk,Liz Larsen,Michael Mandell,Mary Testa,Ted Sperling",149,9B,34,2022-03-10,02:39,11,"musicals","A New Brain (Original Off-Broadway Cast Recording)",1995-12-31,64,81,0,75,0,0,-9,G Major,4,5nbF2IygdFEuLygTmilFHE,USBC19801860
+240,"I Will Survive","Jemaine Clement,Kristin Chenoweth",117,10B,82,2022-03-14,01:51,0,"comedy, musicals","Rio 2 Music From The Motion Picture",2014-03-17,53,29,0,49,30,20,-8,D Major,4,6D8tAQqb1z4H94dX26X0va,USAT21400686
+241,"Alone (feat. Kristin Chenoweth)","Glee Cast,Kristin Chenoweth",176,2B,69,2022-03-14,03:41,27,"christmas, musicals","Glee: The Music, The Complete Season One",2010-09-14,41,29,0,22,0,0,-7,F#/G♭ Major,4,1cga7SxIFwsAnwWlz74s17,USQX90900569
+242,"Emrin Ma Ke Thirr","Yll Limani",85,6A,80,2022-04-14,04:08,0,"","Emrin Ma Ke Thirr",2015-09-30,71,16,0,65,0,10,-6,G Minor,4,1zFxAPdJ9PVqc8SLTma6i5,DGA001500001
+243,"Ty","Yll Limani",63,12B,44,2022-04-14,03:42,0,"","Ty",2018-02-28,31,78,0,30,0,10,-7,E Major,4,1NNpfcSXmOcfjtaUEalDur,ALA091800047
+244,"I'm with You","Avril Lavigne",152,11B,41,2022-05-10,03:43,76,"","Let Go",2002-06-04,46,8,0,21,0,10,-7,A Major,3,1jlG3KJ3gdYmhfuySFfpO1,USAR10200224
+245,"泣くのはやめて","NICO Touches the Walls",91,9B,68,2022-05-26,04:21,5,"anime, j-rock, j-pop","サドンデスゲーム",2010-08-11,53,10,0,28,0,10,-4,G Major,4,52dwYuYlU6NFe8FBzPhxw7,JPKS01001602
+246,"rockstar (feat. 21 Savage)","Post Malone,21 Savage",160,4A,52,2022-05-28,03:38,82,"","beerbongs & bentleys",2018-04-27,59,12,0,13,0,10,-6,F Minor,4,0e7ipj03S05BNilyu5bRzt,USUM71710087
+247,"Better Now","Post Malone",145,6B,58,2022-05-28,03:51,80,"","beerbongs & bentleys",2018-04-27,67,33,0,34,0,10,-6,A#/B♭ Major,4,7dt6x5M1jzdTEt8oCbisTK,USUM71805170
+248,"N'dardani Bjen Nje Tupan","Korab Shaqiri,Ermal Fejzullahu,Yll Limani,Drilon Shala,Shemi Iliret",135,10B,89,2022-05-29,03:26,0,"","N'dardani Bjen Nje Tupan",2020-04-26,68,2,0,76,0,0,-5,D Major,4,2JS05kQPrpnxCR6L6RBpJC,QZES62076378
+249,"ambivalent world","物語シリーズ",174,3B,82,2022-06-09,04:17,32,"anime, j-pop","Bakemonogatari Gekihanongakushu (Original Soundtrack)",2018-11-02,43,0,0,70,0,0,-4,C♯/D♭ Major,4,1eugvD24GPd6H8bMhNgIj3,JPE300902041
+250,"Don't Tell Me","Avril Lavigne",144,12B,80,2022-07-03,03:22,61,"","Under My Skin",2004-00-00,52,0,0,48,0,30,-3,E Major,4,0dEQaNYfp5G7Sflek2Qnde,USAR10400119
+251,"Hollywood's Bleeding","Post Malone",130,9A,65,2022-07-03,02:36,73,"","Hollywood's Bleeding",2019-09-06,41,33,0,17,0,10,-3,E Minor,4,7sWRlDoTDX8geTR8zzr2vt,USUM71915730
+252,"Sunflower - Spider-Man: Into the Spider-Verse","Post Malone,Swae Lee",90,10B,52,2022-07-03,02:37,82,"","Hollywood's Bleeding",2019-09-06,76,53,0,93,0,0,-4,D Major,4,0RiRZpuVRbi7oqRdSMwhQY,USUM71814888
+253,"E0$-3:罪","Sawano Hiroyuki",62,5A,7,2022-07-04,02:09,35,"anime, soundtrack","七つの大罪 オリジナル・サウンドトラック 2",2015-04-08,55,99,93,8,10,10,-22,C Minor,4,48BKGwa4KAjTxVWnhA5Ce5,JPE301500194
+254,"Perfect Time <再arr>","Sawano Hiroyuki",124,9A,95,2022-07-04,04:52,39,"anime, soundtrack","七つの大罪 オリジナル・サウンドトラック 2",2015-04-08,59,0,0,37,10,30,-5,E Minor,4,0wvuiBPZojLCrXEYmRpohb,JPE301500209
+255,"Diver","NICO Touches the Walls",149,10A,92,2022-07-05,04:08,57,"anime, j-rock, j-pop","PASSENGER",2011-04-06,33,0,0,48,0,10,-2,B Minor,4,3PcKYVcZNSsLqI1xzXV5Aq,JPKS01002241
+256,"The Best Damn Thing","Avril Lavigne",165,10B,94,2022-07-20,03:09,54,"","The Best Damn Thing (Expanded Edition)",2007-04-17,56,0,0,88,0,10,-2,D Major,4,7lmX3dD2Xy13Jo1oCTR4ot,USRC10700003
+257,"I Can Do Better - Acoustic Version","Avril Lavigne",81,8B,72,2022-07-22,03:39,36,"","The Best Damn Thing (Expanded Edition)",2007-04-17,72,6,0,47,0,20,-4,C Major,4,1K2LIONKyqMuYU6aPNEhR1,USRC10700444
+258,"Love Somebody","Doris Day,Buddy Clark,George Siravo and His Orchesta",133,11A,8,2022-07-22,03:04,22,"adult standards, big band, ","Golden Girl (The Columbia Recordings 1944-1966)",1999-06-01,77,92,0,60,0,0,-16,F#/G♭ Minor,4,5xLc3a3UDVKt3FxyxHMZoY,USSM14700095
+259,"Warcry<MODv>(Instrumental)","Sawano Hiroyuki",123,3B,95,2022-07-28,04:02,5,"anime, soundtrack","甲鉄城のカバネリ COMPLETE SOUNDTRACK",2019-04-24,59,0,90,88,0,20,-7,C♯/D♭ Major,4,4Yut3tCAO5w15BV4h6Itqc,JPE301600450
+260,"Smile","Avril Lavigne",105,12A,85,2022-08-17,03:29,63,"","Goodbye Lullaby (Expanded Edition)",2011-03-08,63,0,0,65,0,0,-4,C♯/D♭ Minor,4,4bia7OWZPoswlzXCqESYrR,USRC11100011
+261,"Alice - Extended Version","Avril Lavigne",119,8B,82,2022-08-17,05:00,47,"","Goodbye Lullaby (Expanded Edition)",2011-03-08,54,5,0,17,0,10,-4,C Major,4,4gLVsEaNMpzkCAM0hXgDoi,USRC11000944
+262,"What The Hell - Acoustic Version","Avril Lavigne",150,10B,67,2022-08-17,03:40,36,"","Goodbye Lullaby (Expanded Edition)",2011-03-08,61,52,0,52,0,10,-3,D Major,4,1UBbnXO4dDbTg9cEX8f071,USRC11100025
+263,"Born To Lose","Elton John,Leonard Cohen",71,9B,18,2022-08-26,04:32,30,"singer-songwriter","Duets",1993-11-22,45,65,4,20,0,0,-15,G Major,4,3ezXUoRmedc7AP3t8VrE3s,GBALX9390107
+264,"ホログラム　(Acoustic)","NICO Touches the Walls",123,8B,82,2022-10-17,05:14,15,"anime, j-rock, j-pop","Howdy!! We are ACO Touches the Walls",2015-02-04,74,71,0,58,0,30,-7,C Major,4,0URgRZxQdN5vQivv0lpewN,JPU901402684
+265,"Broken Youth　(Acoustic)","NICO Touches the Walls",106,2B,87,2022-10-17,04:41,14,"anime, j-rock, j-pop","Howdy!! We are ACO Touches the Walls",2015-02-04,63,10,0,95,0,30,-6,F#/G♭ Major,4,0BelkxmyqxStCfoEpC3oFq,JPU901402687
+266,"ニワカ雨ニモ負ケズ","NICO Touches the Walls",186,3B,95,2022-10-17,04:21,58,"anime, j-rock, j-pop","ニコ タッチズ ザ ウォールズ ノ ベスト",2014-02-05,38,0,0,66,10,0,-3,C♯/D♭ Major,4,6flEDs8jmQ47ZSFZru59Fz,JPKS01301021
+267,"ニワカ雨ニモ負ケズ (Album Mix)","NICO Touches the Walls",186,3B,96,2022-10-17,04:23,15,"anime, j-rock, j-pop","勇気も愛もないなんて",2016-03-16,38,1,0,65,10,0,-3,C♯/D♭ Major,4,7gm35LL4unbPsr3k1XE5HG,JPU901600305
+268,"2nd SOUL? (Acoustic ver.)","NICO Touches the Walls",95,11B,61,2022-10-18,03:41,3,"anime, j-rock, j-pop","Howdy!! We are ACO Touches the Walls 〜STAR SERIES〜",2019-06-12,70,29,0,44,0,0,-7,A Major,4,3ZgH1N5fw5ncF4wCgJ75k2,JPU901901259
+269,"Broken Youth","NICO Touches the Walls",176,3A,97,2022-10-18,04:54,47,"anime, j-rock, j-pop","Broken Youth",2008-00-00,33,0,0,44,0,10,-3,A#/B♭ Minor,4,2pjRFU0akiTgVCAkHVPCPV,JPKS00801241
+270,"天地ガエシ 『ハイキュー!!』EDバージョン","NICO Touches the Walls",120,10B,89,2022-10-19,01:32,26,"anime, j-rock, j-pop","天地ガエシ 『ハイキュー!!』EDバージョン",2014-04-30,58,0,0,93,0,0,-5,D Major,4,0gMdVxqMPsbztXTEoXOZ1J,JPKS01400201
+271,"天地ガエシ","NICO Touches the Walls",120,10B,95,2022-10-19,04:46,17,"anime, j-rock, j-pop","天地ガエシ",2014-06-11,31,0,0,68,0,0,-3,D Major,4,2BeBpYyKEcbk0EbZ1S5OhM,JPU901400243
+272,"渦と渦 (TV size)","NICO Touches the Walls",96,12B,96,2022-10-20,01:29,8,"anime, j-rock, j-pop","渦と渦 (TV size)",2015-07-12,49,0,0,51,0,40,-3,E Major,4,4DB0wTRfLsoZ5b3jDuqxmF,JPU901501934
+273,"マシ・マシ","NICO Touches the Walls",102,6B,89,2022-10-20,04:07,48,"anime, j-rock, j-pop","マシ・マシ",2016-11-30,64,9,0,87,0,20,-3,A#/B♭ Major,4,6c6WreivKNC4zXb00lUJtI,JPU901602981
+274,"Rock N Roll","Avril Lavigne",184,5A,96,2022-12-07,03:26,57,"","Avril Lavigne (Expanded Edition)",2013-11-01,47,1,0,67,10,30,-3,C Minor,4,471JGLzHPrgM4lS9mNOEIt,USSM11304458
+275,"Here's to Never Growing Up","Avril Lavigne",165,8B,87,2022-12-07,03:34,66,"","Avril Lavigne (Expanded Edition)",2013-11-01,48,1,0,74,0,40,-3,C Major,4,0qwcGscxUHGZTgq0zcaqk1,USSM11300965
+276,"Head Above Water","Avril Lavigne",130,7B,69,2022-12-12,03:40,60,"","Head Above Water",2019-02-15,58,1,0,27,0,10,-5,F Major,4,7gY3cyGcB2wnk2xDXiA0pe,QMRSZ1801749
+277,"Crush","Avril Lavigne",108,12A,73,2022-12-12,03:33,39,"","Head Above Water",2019-02-15,53,9,0,29,0,10,-5,C♯/D♭ Minor,4,7M5beITAQcBxYSHpkj7yyv,QMRSZ1801856
+278,"Love Sux","Avril Lavigne",174,8B,84,2022-12-12,02:48,49,"","Love Sux",2022-02-25,55,0,0,77,0,10,-4,C Major,4,0ML3PJ6f9lgj1B4FQo4kZB,USAT22108156
+279,"F.U.","Avril Lavigne",175,4B,84,2022-12-14,02:47,45,"","Love Sux",2022-02-25,49,0,0,52,0,0,-5,G#/A♭ Major,4,2pp1JDxpXuqRINtpxl0e4h,USAT22108160
+280,"Girlfriend - Junkie XL Mix","Avril Lavigne,Junkie XL",164,10A,93,2022-12-16,03:40,25,"big beat, score, soundtrack","Girlfriend EP",2007-02-27,60,0,0,73,10,20,-3,B Minor,4,2MFPO648RlRj8VIsw4JFLV,USRC10700428
+281,"Knockin' on Heaven's Door - Studio Version","Avril Lavigne",138,8B,30,2022-12-16,02:50,51,"","Nobody's Home",2004-11-04,63,84,0,22,0,10,-8,C Major,4,6xF5RkVUNl7YkNapPCk2Ds,USAR10401122
+282,"Shingeki Gt 20130218 Kyojin","Sawano Hiroyuki",86,8A,20,2022-12-23,02:31,56,"anime, soundtrack","TV Anime  Attack on Titan Season 2  (Original Soundtrack)",2017-06-07,16,51,94,13,0,10,-15,A Minor,3,6AFkv6rIVRusZNifR74Q7t,JPPC01301492
+283,"Pf:CreatorsⅡ","Sawano Hiroyuki",98,5B,3,2023-02-04,02:23,11,"anime, soundtrack","Re:CREATORS Original Soundtrack",2017-06-14,47,99,95,8,0,10,-24,D#/E♭ Major,3,5KmqNgwVvfVHVwKB9j1rH2,JPE301700422
+284,"THE ANSWER","Sawano Hiroyuki",107,3B,83,2023-02-13,03:46,48,"anime, soundtrack","８６―エイティシックス― オリジナル・サウンドトラック",2021-07-07,65,0,0,62,0,10,-3,C♯/D♭ Major,4,2TQRsVtJBQnD0y6rPRCIA1,JPE302100509
+285,"KINGDOM - pf2","Sawano Hiroyuki",77,5A,9,2023-02-15,02:11,18,"anime, soundtrack","TVアニメ「キングダム」 -合従軍編- Original Sound Track",2021-07-21,36,98,92,11,0,10,-21,C Minor,3,1zOs2awASc9zRECb7EyXJS,JPT552100767
+286,"scene","Sawano Hiroyuki",145,11B,25,2023-02-16,03:21,20,"anime, soundtrack","scene",2021-12-22,30,97,89,19,0,0,-19,A Major,4,4k1XsRFBBrqcGUgYzUMwrz,JPU902104560
+287,"Walk for Dream","Sawano Hiroyuki",125,4B,84,2023-02-23,03:10,15,"anime, soundtrack","群青のファンファーレ オリジナル・サウンドトラック",2022-06-08,69,0,0,51,0,10,-4,G#/A♭ Major,4,1WB93PgtVaRuJvdY6Mf9y7,JPE302200607
+288,"連撃　小十郎　（Shut up Go to Hell より）","Sawano Hiroyuki",100,9B,78,2023-02-25,00:32,1,"anime, soundtrack","「戦国BASARA」Director's Special Edition 2",2013-07-02,55,0,76,78,10,30,-8,G Major,3,1RteKN6gZldOZ7XJB83Q3r,JPG750900481
+289,"Here We Go Again (with Jim Harbert & his Orchestra)","Doris Day,Jim Harbert & His Orchestra",133,9B,31,2023-02-27,02:33,4,"adult standards, big band, ","With A Smile And A Song",2012-03-30,52,69,0,81,0,20,-15,G Major,4,6Ert6aeFOb73lpu6LCNLPw,USSM11200272
+290,"Perhaps, Perhaps, Perhaps","Doris Day",105,8A,27,2023-03-19,02:31,53,"adult standards, big band","With A Smile And A Song",2012-03-30,62,76,0,65,0,0,-12,A Minor,4,0UsdtLayy7SqJ4rUsDMRk8,USSM16400981
+291,"Cold","Elton John",140,3A,56,2023-05-18,05:37,32,"","Made In England",1995-03-17,52,6,0,21,0,10,-10,A#/B♭ Minor,4,7rJ6F4JGL9tixHzu0Y8fiP,GBAMS9400005
+292,"(I'm Gonna) Love Me Again","Elton John,Taron Egerton",128,3B,88,2023-05-18,04:10,44,"","Rocketman (Music From The Motion Picture)",2019-05-24,60,6,0,85,0,0,-4,C♯/D♭ Major,4,1q8lLOgfciaGLwXCvOpH6w,GBUM71901330
+293,"Sartorial Eloquence","Elton John",142,3B,37,2023-05-18,04:43,29,"","21 At 33",1980-05-13,57,26,0,38,0,10,-12,C♯/D♭ Major,4,10iq4kBKW7tPIzUEIKmcTm,GBA098000030
+294,"Mona Lisas And Mad Hatters","Elton John",129,8B,35,2023-05-18,05:00,58,"","Honky Chateau",1972-05-19,51,85,0,41,0,10,-11,C Major,4,5XY9FK0mB0BS0u8YB2ehN9,GBAMB7200010
+295,"U Kry","Yll Limani",130,8A,62,2023-05-29,02:51,35,"","U Kry",2023-05-19,94,6,0,84,10,0,-6,A Minor,4,3EwCBxjTjbXIiEc9J8OeHr,FRX452385621
+296,"Symphony - Inner City Youth Orchestra of Los Angeles Version","Imagine Dragons",90,9B,65,2023-06-30,03:08,43,"","Symphony (Inner City Youth Orchestra of Los Angeles Version)",2023-06-23,68,10,0,85,0,90,-7,G Major,4,6qJqN1SbjwxAEoDkjfnAwr,USUM72308880
+297,"Push","Matchbox Twenty",168,2B,67,2023-07-31,03:58,76,"post-grunge","Yourself or Someone Like You",1996-10-01,42,1,0,48,0,10,-8,F#/G♭ Major,4,2KVwlelhxKUy8LVV6JypH3,USAT29600042
+298,"Bright and Shiny (with Neal Hefti & His Orchestra)","Doris Day,Neal Hefti & His Orchestra",116,2B,37,2023-10-12,02:35,5,"adult standards, big band, exotica","Bright & Shiny (with Neal Hefti & His Orchestra)",1961-03-20,65,77,0,89,0,0,-14,F#/G♭ Major,4,0MyTclggcZun6qRwI9ka2d,USSM19907670
+299,"Sign Me Up","Post Malone",146,8B,85,2023-12-14,03:18,45,"","AUSTIN (Bonus)",2023-08-02,50,0,0,42,0,30,-5,C Major,4,35PZZmwJIEvwfI4z1nMXRI,USUM72306014
+300,"Enough Is Enough","Post Malone",166,8B,75,2023-12-19,02:45,46,"","AUSTIN (Bonus)",2023-08-02,49,1,0,38,0,10,-5,C Major,4,1jekKGHnTIFpOIVRzlbJOW,USUM72306021
+301,"The Spins","Mac Miller,Empire Of The Sun",127,8A,77,2023-12-27,03:15,49,"","K.I.D.S. (Deluxe)",2010-08-13,79,1,0,55,0,0,-4,A Minor,4,7FAFkQQZFeNwOFzTrSDFIh,USA2P2015959
+302,"bet u wanna","Sabrina Carpenter",102,10A,63,2023-12-31,03:11,54,"pop","emails i can’t send fwd:",2023-03-17,59,1,0,46,10,40,-7,B Minor,4,2emeScREzF5sqckc9Lejc4,USUM72210707
+303,"Blindman","Big Brother & The Holding Company,Janis Joplin",133,12B,44,2024-01-06,02:05,33,"psychedelic rock, acid rock, classic rock","Big Brother & The Holding Company",1967-00-00,38,4,0,52,0,10,-9,E Major,3,6aUAFC6ldgKCeSL3qcSVZQ,USSM17101287
+304,"La Vida","Árbol",147,10B,91,2024-02-12,02:30,43,"argentine rock","Chapusong",2002-01-01,54,2,0,90,0,30,-3,D Major,4,3gRejE1gb53PxDWeNTQ6TX,ARF140200086
+305,"Prejuicios","Árbol",91,12B,71,2024-02-13,03:28,46,"argentine rock","GUAU!",2005-01-01,52,5,0,33,0,0,-4,E Major,5,7bxwO0efsmXk6tWFl2Wvw2,USUM70506634
+306,"Pequeños Sueños","Árbol",119,12B,77,2024-02-13,02:54,53,"argentine rock","GUAU!",2005-01-01,61,3,0,80,0,20,-4,E Major,4,4MjstyMMO5I6hch9GASIGb,USUM70506646
+307,"Revoloteando","Árbol",195,11B,76,2024-02-15,03:56,41,"argentine rock","Hormigas",2007-11-11,63,1,0,77,0,10,-5,A Major,4,0Vuh6a1lDHMLYG4NBOnsHi,ARF470700321
+308,"Tiembla el Piso","Árbol",90,10B,79,2024-03-02,02:55,16,"argentine rock","Tiembla el Piso - Single",2017-08-25,72,14,0,79,0,30,-4,D Major,4,1qfL0qdpJvXNr0gk70vuez,ARF471700206
+309,"Chemical","Post Malone",170,10B,91,2024-03-30,03:03,49,"","AUSTIN (Bonus)",2023-08-02,49,0,0,39,0,10,-5,D Major,4,0lZZebcSfJdm5LhDRtE0jx,USUM72305205
+310,"Ayye","Mac Miller",107,3A,72,2024-04-27,02:45,25,"","K.I.D.S. (Deluxe)",2010-08-13,76,6,0,45,0,10,-7,A#/B♭ Minor,4,78844Rxxkl8STQUVbp4vXi,USA2P2027912
+311,"A Lonely Night","The Weeknd",114,6A,66,2024-04-27,03:40,63,"","Starboy",2016-11-25,85,4,0,86,0,0,-7,G Minor,4,0ifooM33X1iBxVYyOkSbXW,USUG11601006
+312,"All By Myself","Céline Dion",119,10A,33,2024-04-28,05:12,71,"variété française","Falling into You",1996-03-11,34,35,2,8,0,0,-10,B Minor,4,0gsl92EMIScPGV1AU35nuD,CAC229800162
+313,"Treat Her Like a Lady","Céline Dion",95,3A,79,2024-05-04,04:05,42,"variété française","Let's Talk About Love",1997-11-14,76,9,0,84,0,30,-7,A#/B♭ Minor,4,1mDAexyTNHmION4jpWYi2f,CAC229700152
+314,"渦と渦","NICO Touches the Walls",97,11B,98,2024-05-06,04:54,20,"anime, j-rock, j-pop","渦と渦",2015-09-02,47,0,0,42,0,40,-3,A Major,4,3FY7mddVdIlrL8yhEbh7nu,JPU901501935
+315,"Alone","Céline Dion",176,3B,62,2024-08-02,03:23,56,"variété française","Taking Chances (Deluxe Edition)",2007-11-07,31,10,0,14,0,10,-6,C♯/D♭ Major,4,7fqgrmaaSmFPZdi1Yh1UKx,CAC220700028
+316,"Psycho (feat. Ty Dolla $ign)","Post Malone,Ty Dolla $ign",140,4B,56,2024-08-03,03:41,77,"trap soul","beerbongs & bentleys",2018-04-27,75,55,0,46,10,10,-8,G#/A♭ Major,4,3swc6WTsr7rl9DqQKQA55C,USUM71710836
+317,"I Can Do Better","Avril Lavigne",172,9B,98,2024-08-03,03:15,48,"","The Best Damn Thing (Expanded Edition)",2007-04-17,44,0,0,27,10,70,-3,G Major,4,5kyqKoOnHwvxk0bZLeK1kr,USRC10700203
+318,"Waiting on You","Céline Dion",202,1B,56,2024-08-12,03:11,31,"variété française","Love Again (Soundtrack from the Motion Picture)",2023-05-12,51,67,0,65,0,30,-5,B Major,3,6IQMTxWRbGznZX0xGVwvwX,CAC222300002
+319,"Pour Me A Drink (Feat. Blake Shelton)","Post Malone,Blake Shelton",119,1B,91,2024-08-24,03:15,51,"country","F-1 Trillion: Long Bed",2024-08-16,58,0,0,89,0,30,-4,B Major,4,5JNdWvUQz88ReuMRhbt2a7,USUM72405604
+320,"Espresso","Sabrina Carpenter",104,8B,78,2024-08-24,02:55,86,"pop","Short n' Sweet",2024-08-23,70,13,0,71,0,20,-5,C Major,4,2HRqTpkrJO5ggZyyK6NPWz,USUM72403305
+321,"MONTERO (Call Me By Your Name) - SATAN'S EXTENDED VERSION","Lil Nas X",119,1A,54,2024-08-27,02:50,41,"","MONTERO (Call Me By Your Name)",2021-04-23,51,19,0,71,10,30,-6,G#/A♭ Minor,5,3zmxD3oXEiB65gbBDrOoO0,USSM12101203
+322,"River Deep, Mountain High","Céline Dion",167,5A,89,2024-08-31,04:10,53,"variété française","Falling into You",1996-03-11,48,11,0,65,0,80,-6,C Minor,4,1qNjY6nEGbZ9XJ6rpaG0Eq,CAC229800160
+323,"No Te Dejes Desanimar","La Maquina De Hacer Pájaros",124,8A,38,2024-10-25,04:07,39,"argentine rock, progressive rock, latin rock","Peliculas",1977-04-29,63,65,0,42,0,20,-15,A Minor,4,1MQpJgQp0goNJtEg9fBtnt,ARF109902789
+324,"Que Se Puede Hacer Salvo Ver Peliculas","La Maquina De Hacer Pájaros",118,9B,51,2024-10-25,06:12,44,"argentine rock, progressive rock, latin rock","Peliculas",1977-04-29,53,12,59,34,0,20,-14,G Major,4,0evTkLjoSWqhHSQrn6FCaA,ARF100300042
+325,"FLY HIGH!! - Portuguese Ver.-","BURNOUT SYNDROMES",94,1B,90,2024-12-13,04:03,9,"anime, j-rock, j-pop","ORIGAMI",2024-11-27,34,0,0,40,0,30,-6,B Major,4,2oWqgMsLaJTg35ivUseAwX,JPU902403747
+326,"B.C.G","NICO Touches the Walls",166,5A,93,2025-01-18,03:50,11,"anime, j-rock, j-pop","Who are you?",2008-09-24,20,0,0,43,0,20,-4,C Minor,4,0X0rjDqNZSSrMdAPbXDHq6,JPKS00801682
+327,"Jijiji","Árbol",88,7A,39,2025-01-18,03:18,34,"argentine rock","GUAU!",2005-01-01,60,82,0,31,0,10,-4,D Minor,4,0rOfDS4AE5jAWkNVo3adEW,USUM70506656
+328,"Die With A Smile","Lady Gaga,Bruno Mars",158,11A,59,2025-01-26,04:11,91,"art pop, pop, ","Die With A Smile",2024-08-16,52,31,0,54,0,10,-8,F#/G♭ Minor,3,2plbrEY59IikOBgBGLjaoe,USUM72409273
+329,"Open Hearts","The Weeknd",124,6A,75,2025-02-14,03:54,71,"","Hurry Up Tomorrow",2025-01-31,66,0,0,38,10,20,-6,G Minor,4,0sTBOp1hdayTjw6UOyPyi6,USUG12501133
+330,"Juno","Sabrina Carpenter",131,7B,74,2025-03-04,03:43,61,"pop","Short n' Sweet (Deluxe)",2025-02-14,63,6,0,63,0,20,-4,F Major,4,0w1qp04v2zehJXctW0JPjy,USUM72404107
+331,"All Quiet On The Western Front - Remastered 2003","Elton John",134,8B,30,2025-03-22,06:07,19,"","Jump Up!",1982-01-01,59,46,3,20,0,10,-13,C Major,4,3Hsyqlz2VCeMi39JYkFX3k,GBA098200100
+332,"Hillbilly On","Billy Ray Cyrus",184,4A,95,2025-04-03,04:04,3,"","Thin Line",2016-10-07,36,4,0,48,10,20,-5,F Minor,4,2S1Lh0ZGqqU4eL5oQL8F4P,QMN8G1600008
+333,"Knock Knock","Mac Miller",109,9A,93,2025-04-19,03:17,15,"","K.I.D.S. (Deluxe)",2010-08-13,68,11,0,48,10,70,-3,E Minor,4,2jwJsu8n2j3oGztD6b8wTK,USA2P1122877
+334,"Servidor","Ciro y los Persas",92,7B,87,2025-05-23,04:42,37,"argentine rock","Espejos",2009-01-01,54,3,0,72,0,0,-5,F Major,4,2RMHdxdnr2R7DqFA7Rr3FI,ARG601000059
+335,"Me Gusta","Ciro y los Persas",132,10B,81,2025-05-26,04:49,68,"argentine rock","27",2012-11-19,64,2,0,71,0,10,-6,D Major,4,67Q93kXygxCskeQiIP0V0j,ARG601200679
+336,"Tango del Diablo","Ciro y los Persas",112,11B,41,2025-05-30,04:07,27,"argentine rock","27",2012-11-19,66,90,0,52,10,10,-10,A Major,4,7omc6Ocnzf15amA904VsaO,ARG601200691
+337,"You Can't Stop the Beat","Maddie Baillio,Garrett Clayton,Ariana Grande,Ephraim Sykes,Harvey Fierstein,Martin Short,Jennifer Hudson,Dove Cameron,Kristin Chenoweth,Joshua Alexander,Will Bell,Helene,Riley Costello,Kelli Ann Erdmann,Sam Faulkner,Marissa Heart,Joanna Jones,Jacque Lewarne,Tommy Martinez,Tiana Okoye",168,10B,95,2025-06-14,05:12,38,"musicals, pop","Hairspray LIVE! Original Soundtrack of the NBC Television Event",2016-12-02,63,17,0,86,10,10,-3,D Major,4,7lBXBMQUnPd8rWCBF2VuL8,USQX91602496
+338,"D-tecnoLife","UVERworld",168,12A,93,2025-07-04,03:53,59,"anime, j-rock, j-pop","Timeless",2006-02-22,46,2,0,65,10,30,-4,C♯/D♭ Minor,4,3eyxh8xkW0X7k1FSHlAatt,JPSR00500865
+339,"Girl Like That","Matchbox Twenty",145,9B,73,2025-07-14,03:45,39,"post-grunge","The Matchbox Twenty Collection",2013-11-08,59,10,0,96,0,30,-8,G Major,4,7GqvzEOdLnIzk8AVaSOEVX,USAT29700399
+340,"APT.","ROSÉ,Bruno Mars",149,5A,78,2025-07-28,02:49,83,"k-pop, ","rosie",2024-12-06,78,3,0,94,20,30,-4,C Minor,4,4wJ5Qq0jBN4ajy7ouZIV1c,USAT22409172
+341,"Skate","Bruno Mars,Anderson .Paak,Silk Sonic",112,7B,60,2025-08-09,03:23,0,"","Skate",2021-07-30,71,4,0,70,0,10,-8,F Major,4,2sXf2JdbB2GlNju00kw9WE,USAT22104222
+342,"Runaway Baby","Bruno Mars",164,3A,76,2025-08-09,02:28,76,"","Doo-Wops & Hooligans",2010-05-11,66,26,0,82,0,10,-3,A#/B♭ Minor,4,7hCNBVRhHzcsRAv0TQnOzq,USAT21001885
+343,"CORE PRIDE","UVERworld",93,7A,97,2025-08-16,04:18,57,"anime, j-rock, j-pop","LIFE 6 SENSE",2011-06-01,48,1,0,44,10,20,-3,D Minor,4,55n4sFy8tjysBcCjQFwX3A,JPSR01100917
+344,"7th Trigger","UVERworld",105,3B,94,2025-08-24,04:18,44,"anime, j-rock, j-pop","THE ONE",2012-11-28,66,0,0,57,10,40,-3,C♯/D♭ Major,4,3ALiXA2sdQBuHotnGkEAoV,JPSR01200901
+345,"Fight For Liberty（album ver.）","UVERworld",100,3B,97,2025-08-30,04:15,37,"anime, j-rock, j-pop","0 CHOIR",2014-07-02,57,0,0,66,20,30,-3,C♯/D♭ Major,4,1r2OVpl2e5mVDApfqDzY9I,JPU901400532
+346,"一滴の影響","UVERworld",95,7B,95,2025-09-06,04:51,48,"anime, j-rock, j-pop","一滴の影響 (Extra Edition)",2017-02-01,53,0,0,54,0,30,-3,F Major,4,6a8zOePRBenXtHq2AY49xB,JPU901604100
+347,"Leave The Door Open","Bruno Mars,Anderson .Paak,Silk Sonic",148,7B,62,2025-09-19,04:02,71,"","An Evening With Silk Sonic",2021-11-12,59,18,0,72,0,0,-8,F Major,4,4pryE6cN2gFL1FVF5fYINl,USAT22100906
+348,"Touch off","UVERworld",100,9A,89,2025-09-21,04:18,57,"anime, j-rock, j-pop","UNSER",2019-12-04,41,0,0,20,0,40,-4,E Minor,4,7CSTVNXkW2AbmNktlP1hi2,JPU901900310
+349,"Avid","Sawano Hiroyuki,SennaRin",128,2A,44,2025-10-03,05:08,38,"anime, soundtrack","PIANOUTA",2025-10-01,50,77,0,27,0,0,-8,D#/E♭ Minor,4,0uA7dWMyg0tBfsVVKSLkIK,JPU902502701
+350,"D-tecnoLife (TV size)","UVERworld",168,12A,90,2025-10-12,01:27,25,"anime, j-rock, j-pop","D-tecnoLife",2005-00-00,44,5,0,75,20,30,-4,C♯/D♭ Minor,4,3pJINZTpmUeoYqxaAGrWxX,JPSR00500868
+351,"Fight For Liberty(アニメサイズver.)","UVERworld",100,4B,97,2025-10-13,01:30,8,"anime, j-rock, j-pop","Fight For Liberty(アニメサイズver.)",2013-08-07,56,0,0,68,20,10,-3,G#/A♭ Major,4,1g9bjILb8BOguKaRA8jgGN,JPSR01301143
+352,"ODD FUTURE short ver.","UVERworld",128,5A,90,2025-10-14,01:29,49,"anime, j-rock, j-pop","ODD FUTURE short ver.",2018-04-07,69,3,0,58,0,50,-4,C Minor,4,5tXOuIoDO0ZtGLijEOD6HZ,JPU901801024
+353,"ROB THE FRONTIER(short ver.)","UVERworld",110,7B,97,2025-10-14,01:29,20,"anime, j-rock, j-pop","ROB THE FRONTIER(short ver.)",2019-10-11,31,0,0,43,10,30,-2,F Major,4,0FQONBRH20K6I5VcivXEQ3,JPU901902446
+354,"prfct","Sabrina Carpenter",123,1A,77,2025-11-02,02:46,48,"pop","Singular Act I",2018-11-09,79,18,0,50,0,30,-5,G#/A♭ Minor,4,75wU86jr8iIiBVfD3kU3cU,USHR11838954
+355,"leap, in the mellow green flash","Cö shu Nie",170,2B,77,2025-11-05,02:42,24,"anime, j-rock, j-pop","idola",2012-09-02,41,9,0,63,0,20,-2,F#/G♭ Major,4,5HESR8Ygl7SKcDcZPbhEMh,TCJPV2327987
+356,"House Tour","Sabrina Carpenter",118,2B,88,2025-11-22,02:49,82,"pop","Man’s Best Friend",2025-08-29,77,13,0,61,0,30,-5,F#/G♭ Major,4,25jgQBxuUkGDdCG1WGKKN9,USUM72504449
+357,"Vicious","Sabrina Carpenter",130,8B,46,2025-11-22,02:29,63,"pop","emails i can't send",2022-07-15,72,31,0,63,10,20,-7,C Major,4,6Alp15t6urC4opjJiyOqZu,USUM72210690
+358,"bet u wanna","Sabrina Carpenter",102,10A,63,2025-11-22,03:11,64,"pop","emails i can't send",2022-07-15,59,1,0,46,10,40,-7,B Minor,4,1RAeuvRyRzCweAK3jUT0ZW,USUM72210707
+359,"The Life of a Showgirl (feat. Sabrina Carpenter)","Taylor Swift,Sabrina Carpenter",157,8B,54,2025-11-23,04:01,83,"pop","The Life of a Showgirl",2025-10-03,54,26,0,49,10,40,-8,C Major,4,5eXgqtg3T8Av0m1FUaGHex,USUG12506447
+360,"サクラカノン","BURNOUT SYNDROMES",91,4B,62,2025-11-29,05:36,20,"anime, j-rock, j-pop","FLY HIGH!!",2016-03-02,51,25,0,45,0,0,-4,G#/A♭ Major,4,2b6vNafqa8bu6tQr8lJBrH,JPU901503548
+361,"Billionaire (feat. Bruno Mars)","Travie McCoy,Bruno Mars",87,11A,67,2025-12-03,03:31,71,"","Billionaire (feat. Bruno Mars)",2010-03-09,63,30,0,66,20,20,-6,F#/G♭ Minor,4,2M9ULmQwTaTGmAdXaXpfz5,USAT21000257
+362,"魔王","BURNOUT SYNDROMES,Nao Toyama",176,4B,86,2025-12-08,03:49,28,"anime, j-rock, j-pop","ORIGAMI",2024-11-27,41,1,0,41,0,20,-5,G#/A♭ Major,4,23pTHwSUdfcudsUkqfK9aY,JPU902400778
+363,"Espresso - Espressooooo Version","Sabrina Carpenter",104,9B,72,2025-12-12,04:55,44,"pop","Espresso EP",2024-05-17,74,5,0,72,0,10,-5,G Major,4,4NdKbGmtQtUS42vmavtChz,USUM72405541
+364,"I'm A Winner","Diana Ross",121,4B,77,2026-01-16,03:12,7,"motown, disco","Surrender",1971-07-06,70,8,0,91,0,40,-8,G#/A♭ Major,4,7uhiKMUrrUMw7oHqKVMySS,USUM70837331
+365,"When We Grow Up","Diana Ross",128,10B,39,2026-01-30,02:08,21,"motown, disco","Free To Be...You And Me",1972-00-00,65,27,0,68,0,30,-10,D Major,4,12lQXAb0w2bQYuOQeqdTjz,USAR10401244
+366,"Faramosh","Ghezaal Enayat",100,7A,57,2026-02-21,03:32,2,"","فراموش",2020-10-12,59,28,0,63,0,10,-9,D Minor,4,3L4W94pDQBo27kpioRyAOd,DEXM82104000
+367,"Love Hangover - Single Version","Diana Ross",112,3B,76,2026-02-24,03:49,40,"motown, disco","Diana Ross (Expanded Edition)",1976-02-10,65,31,1,88,0,0,-9,C♯/D♭ Major,4,3gbnQ7TJEx1EI9chRZXVXl,USMO17600377
