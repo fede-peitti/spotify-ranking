@@ -1,11 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 import { Podium } from "@/components/podium/Podium";
 import { RankingList } from "@/components/ranking/RankingList";
-import { Section } from "@/components/layout/Section";
+import { SectionReveal } from "@/components/layout/SectionReveal";
 
 import type { Artist } from "@/types/artist";
 
@@ -45,33 +44,64 @@ export default function Page() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-[#0B0F17] text-white px-10 py-14">
-      {/* TITLE */}
-      <motion.h1
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="mb-16 text-5xl font-extrabold tracking-tight"
-      >
-        🎧 Ranking Artistas
-      </motion.h1>
+    <main className="bg-[#0B0F17] text-white">
+      {/* HERO */}
+      <section className="min-h-[110vh] flex flex-col justify-center px-10">
+        <SectionReveal>
+          <h1 className="text-5xl font-extrabold mb-6">
+            🎧 My Personal Artist Ranking
+          </h1>
+          <p className="max-w-xl text-lg opacity-70">
+            Data from years of listening to different artists, presented
+            visually.
+          </p>
+        </SectionReveal>
+      </section>
 
-      {/* CONTENT */}
-      <div className="grid grid-cols-1 gap-14 lg:grid-cols-4">
-        <Section title="Podio" className="lg:col-span-3">
+      {/* ARTISTS */}
+      <section className="min-h-[110vh] flex flex-col justify-center px-10 gap-16">
+        <SectionReveal>
+          <div>
+            <h2 className="text-3xl font-bold mb-2">Artists</h2>
+            <p className="opacity-60">
+              My favorites based on accumulated ratings.
+            </p>
+          </div>
+        </SectionReveal>
+
+        <SectionReveal>
           <Podium artists={artists} />
-        </Section>
+        </SectionReveal>
 
-        <Section title="Ranking completo">
+        <SectionReveal>
           <RankingList artists={artists} />
-        </Section>
-      </div>
+        </SectionReveal>
+      </section>
 
-      <div className="my-24 h-px w-full bg-gradient-to-r from-transparent via-[#5C8DFF]/40 to-transparent" />
+      {/* ALBUMS */}
+      <section className="min-h-[110vh] flex flex-col justify-center px-10 gap-16">
+        <SectionReveal>
+          <div>
+            <h2 className="text-3xl font-bold mb-2">Albums</h2>
+            <p className="opacity-60">
+              The albums that defined my listening experience.
+            </p>
+          </div>
+        </SectionReveal>
 
-      {/* ALBUM MOSAIC */}
-      <Section title="Álbumes destacados" className="pt-20">
-        <AlbumMosaic albums={albums.slice(0, 12)} />
-      </Section>
+        <SectionReveal>
+          <AlbumMosaic albums={albums} />
+        </SectionReveal>
+      </section>
+
+      {/* STORYTELLING */}
+      <section className="min-h-[110vh] flex flex-col justify-center px-10">
+        <SectionReveal>
+          <h2 className="text-3xl font-bold mb-4">Now, Musical Stats</h2>
+
+          <p className="max-w-xl opacity-70">...</p>
+        </SectionReveal>
+      </section>
     </main>
   );
 }
