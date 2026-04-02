@@ -5,16 +5,23 @@ type Props = {
   artists: Artist[];
 };
 
-export function Podium({ artists }: Props) {
+export function Podium({ artists }: { artists: Artist[] }) {
   const top3 = artists.slice(0, 3);
 
-  return (
-    <div className="relative grid grid-cols-3 gap-8 items-end">
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-white/10" />
+  if (top3.length < 3) return null;
 
-      {top3.map((artist, index) => (
-        <PodiumCard key={artist.Artist} artist={artist} rank={index + 1} />
-      ))}
+  const [first, second, third] = top3;
+
+  return (
+    <div className="flex items-end justify-center gap-8">
+      {/* SECOND */}
+      <PodiumCard artist={second} rank={2} size="md" />
+
+      {/* FIRST */}
+      <PodiumCard artist={first} rank={1} size="lg" highlight />
+
+      {/* THIRD */}
+      <PodiumCard artist={third} rank={3} size="sm" />
     </div>
   );
 }

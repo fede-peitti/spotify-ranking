@@ -1,59 +1,88 @@
-import { motion } from "framer-motion";
-import { Crown } from "lucide-react";
-
 import type { Artist } from "@/types/artist";
 
 import { ArtistAvatar } from "../common/ArtistAvatar";
-import { ScoreBadge } from "../common/ScoreBadge";
-import { Card, CardContent } from "../ui/card";
 
 type Props = {
   artist: Artist;
   rank: number;
+  size: "lg" | "md" | "sm";
+  highlight?: boolean;
 };
 
-export function PodiumCard({ artist, rank }: Props) {
-  const isWinner = rank === 1;
-  const offset = rank === 1 ? "mb-0" : rank === 2 ? "mb-8" : "mb-15";
+const rankStyles: Record<number, { glow: string; ring: string; text: string }> =
+  {
+    1: {
+      glow: "shadow-[0_0_60px_rgba(92,141,255,0.45)]",
+      ring: "ring-2 ring-[#5C8DFF]",
+      text: "text-[#5C8DFF]",
+    },
+    2: {
+      glow: "shadow-[0_0_40px_rgba(168,85,247,0.35)]",
+      ring: "ring-1 ring-purple-400/60",
+      text: "text-purple-300",
+    },
+    3: {
+      glow: "shadow-[0_0_30px_rgba(180,180,180,0.25)]",
+      ring: "ring-1 ring-white/20",
+      text: "text-white/70",
+    },
+  };
+
+export function PodiumCard({ artist, rank, size, highlight }: Props) {
+  const sizes = {
+    lg: "h-72 w-56",
+    md: "h-56 w-48",
+    sm: "h-48 w-40",
+  };
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 60 }}
-      animate={{ opacity: 1, y: 0 }}
-      className={`${isWinner ? "scale-110" : ""} ${offset}`}
-      transition={{
-        type: "spring",
-        stiffness: 120,
-        damping: 14,
-      }}
-    >
-      <Card
-        className={`
-    rounded-3xl text-center
-     backdrop-blur
-    ${
-      isWinner
-        ? "border-2 border-[#5C8DFF] shadow-[0_0_50px_rgba(92,141,255,0.4)]"
-        : "border border-white/10"
-    }
+    <div
+      className={`
+    relative flex flex-col items-center justify-end
+    ${sizes[size]}
+    rounded-3xl
+    bg-gradient-to-b from-[#121826] to-[#0B0F17]
+    border border-white/10
+    transition-all duration-300
+    hover:scale-105
+
+    ${rankStyles[rank].glow}
+    ${rankStyles[rank].ring}
   `}
-      >
-        <CardContent className="p-8">
-          <ArtistAvatar name={artist.Artist} size={140} highlight={isWinner} />
+    >
+      {/* Avatar */}
+      <div className="absolute -top-14">
+        <div
+          className={`
+      absolute inset-0 rounded-full blur-xl opacity-60
+      ${
+        rank === 1
+          ? "bg-[#5C8DFF]/40"
+          : rank === 2
+            ? "bg-purple-400/30"
+            : "bg-white/20"
+      }
+    `}
+        />
+        <ArtistAvatar
+          name={artist.Artist}
+          size={size === "lg" ? 110 : size === "md" ? 90 : 80}
+          highlight={highlight}
+        />
+      </div>
 
-          {isWinner && <Crown className="mx-auto mt-3 text-[#5C8DFF]" />}
+      {/* Rank */}
+      <div className="absolute top-4 text-xs opacity-50">#{rank}</div>
 
-          <h2 className="mt-4 text-xl font-bold">{artist.Artist}</h2>
+      {/* Info */}
+      <div className="text-center p-4 mt-10">
+        <p className="font-semibold truncate">{artist.Artist}</p>
+        <p className="text-xs opacity-60">{artist.count} canciones</p>
 
-          <p className="mt-2 text-5xl font-extrabold tracking-tight">
-            {artist.avg}
-          </p>
-
-          <p className="text-sm opacity-70">{artist.count} canciones</p>
-
-          <ScoreBadge rank={rank} />
-        </CardContent>
-      </Card>
-    </motion.div>
+        <p className={`mt-2 text-lg font-bold ${rankStyles[rank].text}`}>
+          {artist.avg}
+        </p>
+      </div>
+    </div>
   );
 }

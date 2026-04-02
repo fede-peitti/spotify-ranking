@@ -49,7 +49,7 @@ export default function Page() {
       <section className="min-h-[110vh] flex flex-col justify-center px-10">
         <SectionReveal>
           <h1 className="text-5xl font-extrabold mb-6">
-            🎧 My Personal Artist Ranking
+            🎧 Spotify Artist Ranking
           </h1>
           <p className="max-w-xl text-lg opacity-70">
             Data from years of listening to different artists, presented
