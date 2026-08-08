@@ -3,7 +3,7 @@ import pandas as pd
 rows = []
 
 for i in range(1, 11):
-    df = pd.read_csv(f"p{i}.csv")
+    df = pd.read_csv(f"scripts/p{i}.csv")
     df["score"] = i
     rows.append(df)
 

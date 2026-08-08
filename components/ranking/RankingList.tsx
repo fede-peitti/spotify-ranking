@@ -34,7 +34,7 @@ export function RankingList({ artists }: Props) {
           {/* Info */}
           <div className="flex-1 overflow-hidden">
             <p className="truncate font-medium">{artist.Artist}</p>
-            <p className="text-xs opacity-60">{artist.count} canciones</p>
+            <p className="text-xs opacity-60">{artist.count} songs</p>
           </div>
 
           {/* Score */}
