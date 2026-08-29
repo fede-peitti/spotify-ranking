@@ -5,24 +5,32 @@ export function PodiumAvatar({
   name,
   rank,
   size,
-  highlight,
 }: {
   name: string;
   rank: number;
   size: "lg" | "md" | "sm";
-  highlight?: boolean;
 }) {
-  const avatarSize = size === "lg" ? 120 : size === "md" ? 95 : 85;
+  const avatarSize = size === "lg" ? 140 : size === "md" ? 110 : 100;
 
   return (
-    <div className="absolute -top-16">
+    <div className="absolute -top-20 z-20">
       <div
         className={`
-          absolute inset-0 rounded-full blur-xl opacity-60
+          absolute inset-[-10px]
+          rounded-full
+          blur-xl
+          opacity-60
           ${rankStyles[rank].halo}
         `}
       />
-      <ArtistAvatar name={name} size={avatarSize} highlight={highlight} />
+
+      <div className="relative aspect-square shrink-0">
+        <ArtistAvatar
+          name={name}
+          size={avatarSize}
+          rank={rank}
+        />
+      </div>
     </div>
   );
 }

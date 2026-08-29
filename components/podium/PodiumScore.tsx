@@ -7,7 +7,9 @@ export function PodiumScore({ score, rank }: { score: number; rank: number }) {
 
   return (
     <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-      <p className={`${size} font-bold ${s.text} leading-none`}>{score}</p>
+      <p className={`${size} -translate-y-3 font-bold ${s.text} leading-none`}>
+        {score}
+      </p>
     </div>
   );
 }

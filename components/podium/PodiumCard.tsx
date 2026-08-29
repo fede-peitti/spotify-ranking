@@ -2,7 +2,6 @@ import type { Artist } from "@/types/artist";
 import { PodiumAvatar } from "./PodiumAvatar";
 import { PodiumInfo } from "./PodiumInfo";
 import { PodiumPedestal } from "./PodiumPedestal";
-import { PodiumRank } from "./PodiumRank";
 import { usePodiumStyles } from "./usePodiumStyles";
 import { PodiumScore } from "./PodiumScore";
 
@@ -38,7 +37,6 @@ export function PodiumCard({ artist, rank, size, highlight }: Props) {
         highlight={highlight}
       />
 
-      <PodiumRank rank={rank} textClass={s.text} />
       <PodiumScore score={artist.avg} rank={rank} />
 
       <PodiumInfo name={artist.Artist} count={artist.count} rank={rank} />
