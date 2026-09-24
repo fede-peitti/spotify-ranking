@@ -1,3 +1,8 @@
 public
 node_modules
-scscripts/p*.csv
+scripts/p*.csv
+scripts/.DS_Store
+.DS_Store
+.next
+next-env.d.ts
+package-lock.json

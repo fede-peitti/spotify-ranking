@@ -1,51 +1,30 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
+import { SectionReveal } from "@/components/layout/SectionReveal";
 import { Podium } from "@/components/podium/Podium";
 import { RankingList } from "@/components/ranking/RankingList";
-import { SectionReveal } from "@/components/layout/SectionReveal";
-
-import type { Artist } from "@/types/artist";
-
-import type { Album } from "@/types/album";
 import { AlbumMosaic } from "@/components/album/AlbumMosaic";
+import { OverviewStats } from "@/components/stats/charts/OverviewStats";
+import { RatingVsCountScatter } from "@/components/stats/charts/RatingVsCountScatter";
+
+import { useData } from "@/hooks/useData";
+import type { Artist } from "@/types/artist";
+import type { Album } from "@/types/album";
 
 export default function Page() {
-  const [artists, setArtists] = useState<Artist[]>([]);
-  const [albums, setAlbums] = useState<Album[]>([]);
+  const { data: artistsRaw } = useData<Artist[]>("/artists.json");
+  const { data: albums } = useData<Album[]>("/albums.json");
 
-  useEffect(() => {
-    fetch("/artists.json")
-      .then((r) => r.json())
-      .then((data) => {
-        const sorted = [...data].sort((a, b) => {
-          if (b.avg !== a.avg) {
-            return b.avg - a.avg;
-          }
-
-          if (b.count !== a.count) {
-            return b.count - a.count;
-          }
-
-          return a.Artist.localeCompare(b.Artist);
-        });
-
-        setArtists(sorted);
-      });
-  }, []);
-
-  useEffect(() => {
-    fetch("/albums.json")
-      .then((r) => r.json())
-      .then((data: Album[]) => {
-        setAlbums(data);
-      });
-  }, []);
+  const artists = artistsRaw
+    ? [...artistsRaw].sort((a, b) => {
+        if (b.avg !== a.avg) return b.avg - a.avg;
+        if (b.count !== a.count) return b.count - a.count;
+        return a.Artist.localeCompare(b.Artist);
+      })
+    : [];
 
   return (
     <main className="bg-[#0B0F17] text-white">
-      {/* HERO */}
       <section className="min-h-[110vh] flex flex-col justify-center px-10">
         <SectionReveal>
           <h1 className="text-5xl font-extrabold mb-6">
@@ -58,7 +37,6 @@ export default function Page() {
         </SectionReveal>
       </section>
 
-      {/* ARTISTS */}
       <section className="min-h-[110vh] flex flex-col justify-center px-10 gap-16">
         <SectionReveal>
           <div>
@@ -78,7 +56,6 @@ export default function Page() {
         </SectionReveal>
       </section>
 
-      {/* ALBUMS */}
       <section className="min-h-[110vh] flex flex-col justify-center px-10 gap-16">
         <SectionReveal>
           <div>
@@ -88,19 +65,15 @@ export default function Page() {
             </p>
           </div>
         </SectionReveal>
-
         <SectionReveal>
-          <AlbumMosaic albums={albums} />
+          <AlbumMosaic albums={albums ?? []} />
         </SectionReveal>
       </section>
 
-      {/* STORYTELLING */}
-      <section className="min-h-[110vh] flex flex-col justify-center px-10">
-        <SectionReveal>
-          <h2 className="text-3xl font-bold mb-4">Now, Musical Stats</h2>
-
-          <p className="max-w-xl opacity-70">...</p>
-        </SectionReveal>
+      {/* STATS — new scrollytelling chapter */}
+      <section className="min-h-[110vh] flex flex-col justify-center px-10 gap-24 py-32">
+        <OverviewStats />
+        <RatingVsCountScatter />
       </section>
     </main>
   );

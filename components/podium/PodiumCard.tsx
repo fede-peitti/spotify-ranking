@@ -34,7 +34,6 @@ export function PodiumCard({ artist, rank, size, highlight }: Props) {
         name={artist.Artist}
         rank={rank}
         size={size}
-        highlight={highlight}
       />
 
       <PodiumScore score={artist.avg} rank={rank} />
