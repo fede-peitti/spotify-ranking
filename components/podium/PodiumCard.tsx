@@ -21,8 +21,8 @@ export function PodiumCard({ artist, rank, size, highlight }: Props) {
         relative flex items-end justify-center
         ${s.size}
         rounded-3xl
-        bg-gradient-to-b from-[#121826] to-[#0B0F17]
-        border border-white/10
+        bg-gradient-to-b from-[var(--podium-start)] to-[var(--podium-end)]
+        border border-[var(--podium-border)]
         transition-all duration-300 hover:scale-105
 
         ${s.isFirst ? "scale-110 z-10" : ""}

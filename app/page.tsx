@@ -24,13 +24,13 @@ export default function Page() {
     : [];
 
   return (
-    <main className="bg-[#0B0F17] text-white">
+    <main className="bg-background text-white">
       <section className="min-h-[110vh] flex flex-col justify-center px-10">
         <SectionReveal>
           <h1 className="text-5xl font-extrabold mb-6">
             🎧 Spotify Artist Ranking
           </h1>
-          <p className="max-w-xl text-lg opacity-70">
+          <p className="max-w-xl text-lg text-copy-secondary">
             Data from years of listening to different artists, presented
             visually.
           </p>
@@ -41,7 +41,7 @@ export default function Page() {
         <SectionReveal>
           <div>
             <h2 className="text-3xl font-bold mb-2">Artists</h2>
-            <p className="opacity-60">
+            <p className="text-copy-muted">
               My favorites based on accumulated ratings.
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function Page() {
         <SectionReveal>
           <div>
             <h2 className="text-3xl font-bold mb-2">Albums</h2>
-            <p className="opacity-60">
+            <p className="text-copy-muted">
               The albums that defined my listening experience.
             </p>
           </div>

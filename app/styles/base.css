@@ -7,3 +7,12 @@
     @apply bg-background text-foreground;
   }
 }
+@layer base {
+  .text-copy-secondary {
+  color: color-mix(in oklch, var(--foreground) 70%, transparent);
+}
+
+.text-copy-muted {
+  color: color-mix(in oklch, var(--foreground) 60%, transparent);
+}
+}
