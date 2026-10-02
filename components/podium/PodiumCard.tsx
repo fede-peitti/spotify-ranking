@@ -24,7 +24,6 @@ export function PodiumCard({ artist, rank, size, highlight }: Props) {
         bg-gradient-to-b from-[var(--podium-start)] to-[var(--podium-end)]
         border border-[var(--podium-border)]
         transition-all duration-300 hover:scale-105
-
         ${s.isFirst ? "scale-110 z-10" : ""}
         ${s.glow}
         ${s.ring}
@@ -38,7 +37,11 @@ export function PodiumCard({ artist, rank, size, highlight }: Props) {
 
       <PodiumScore score={artist.avg} rank={rank} />
 
-      <PodiumInfo name={artist.Artist} count={artist.count} rank={rank} />
+      <PodiumInfo
+        name={artist.Artist}
+        count={artist.count}
+        rank={rank}
+      />
 
       <PodiumPedestal height={s.pedestal} />
     </div>

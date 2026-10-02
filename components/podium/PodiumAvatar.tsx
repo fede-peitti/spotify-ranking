@@ -19,7 +19,7 @@ export function PodiumAvatar({
           absolute inset-[-10px]
           rounded-full
           blur-xl
-          opacity-60
+          opacity-40
           ${rankStyles[rank].halo}
         `}
       />

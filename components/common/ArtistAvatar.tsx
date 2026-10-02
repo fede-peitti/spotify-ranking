@@ -9,11 +9,11 @@ type Props = {
 export function ArtistAvatar({ name, size = 120, rank }: Props) {
   const rankRing =
     rank === 1
-      ? "ring-4 ring-yellow-400/80 shadow-[0_0_30px_rgba(234,179,8,0.35)]"
+      ? "ring-4 ring-yellow-400/80 shadow-[0_0_25px_rgba(234,179,8,0.30)]"
       : rank === 2
-        ? "ring-4 ring-slate-300/70 shadow-[0_0_25px_rgba(203,213,225,0.25)]"
+        ? "ring-4 ring-slate-300/70 shadow-[0_0_20px_rgba(203,213,225,0.20)]"
         : rank === 3
-          ? "ring-4 ring-orange-300/60 shadow-[0_0_20px_rgba(180,120,70,0.25)]"
+          ? "ring-4 ring-orange-300/60 shadow-[0_0_18px_rgba(180,120,70,0.20)]"
           : "";
 
   return (
