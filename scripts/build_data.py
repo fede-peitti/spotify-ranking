@@ -1,58 +1,89 @@
+
 import json
-import pandas as pd
+from itertools import combinations
 from pathlib import Path
+
+import pandas as pd
 
 PUBLIC = Path("public")
 STATS = PUBLIC / "stats"
 STATS.mkdir(parents=True, exist_ok=True)
 
+
+def write_json(path: Path, data) -> None:
+    path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False),
+        encoding="utf-8",
+    )
+
+
 # ---------------------------------------------------------------
 # LOAD
 # ---------------------------------------------------------------
 rows = []
-for i in range(1, 11):
-    df = pd.read_csv(f"scripts/p{i}.csv")
-    df["score"] = i
-    rows.append(df)
 
-df = pd.concat(rows, ignore_index=True)
+for score in range(1, 11):
+    frame = pd.read_csv(f"scripts/p{score}.csv")
+    frame["score"] = score
+    rows.append(frame)
 
-# ---------------------------------------------------------------
-# CLEANUP
-# ---------------------------------------------------------------
-df["Album Date"] = pd.to_datetime(df["Album Date"], errors="coerce")
-df["Added At"] = pd.to_datetime(df["Added At"], errors="coerce")
-df["Duration"] = pd.to_timedelta("00:" + df["Duration"].astype(str)).dt.total_seconds()
+tracks = pd.concat(rows, ignore_index=True)
 
-# Explode artists (multi-artist tracks)
-df["Artist"] = df["Artist"].astype(str).str.split(",")
+tracks["Album Date"] = pd.to_datetime(
+    tracks["Album Date"], errors="coerce"
+)
+tracks["Added At"] = pd.to_datetime(
+    tracks["Added At"], errors="coerce"
+)
+tracks["Duration"] = pd.to_timedelta(
+    "00:" + tracks["Duration"].astype(str),
+    errors="coerce",
+).dt.total_seconds()
+
+# Preserve one row per rated track for global statistics.
+tracks["_track_id"] = tracks.index
+
+# Explode artists for artist-level aggregations.
+df = tracks.copy()
+df["Artist"] = df["Artist"].fillna("").astype(str).str.split(",")
 df = df.explode("Artist")
 df["Artist"] = df["Artist"].str.strip()
-
-# Keep a full-artist string for the album-level aggregation
-df["_artists_full"] = df.groupby("Album")["Artist"].transform(lambda s: ", ".join(sorted(set(s))))
+df = df[df["Artist"] != ""]
 
 # ---------------------------------------------------------------
-# ARTISTS.JSON 
+# ARTISTS.JSON — at least 15 rated tracks to be considered
 # ---------------------------------------------------------------
 artists = (
     df.groupby("Artist")
-    .agg(avg=("score", "mean"), count=("Song", "count"))
+    .agg(
+        avg=("score", "mean"),
+        count=("_track_id", "nunique"),
+    )
     .reset_index()
-    .sort_values("avg", ascending=False)
 )
+
+artists = artists[artists["count"] >= 15].copy()
 artists["avg"] = artists["avg"].round(2)
-artists = artists[artists["count"] >= 15]
-artists.to_json(PUBLIC / "artists.json", orient="records", force_ascii=False)
+
+artists = artists.sort_values(
+    ["avg", "count", "Artist"],
+    ascending=[False, False, True],
+)
+
+artists.to_json(
+    PUBLIC / "artists.json",
+    orient="records",
+    force_ascii=False,
+)
 
 # ---------------------------------------------------------------
-# ALBUMS.JSON
+# ALBUMS.JSON — at least 5 rated tracks to be considered
 # ---------------------------------------------------------------
 songs = (
     df.groupby(["Song", "Album", "Album Date"], as_index=False)
     .agg(
         score=("score", "first"),
-        artists=("Artist", lambda x: ", ".join(sorted(set(x)))),
+        artists=("Artist", lambda values: ", ".join(sorted(set(values)))),
     )
 )
 
@@ -61,63 +92,108 @@ albums = (
     .agg(
         avg=("score", "mean"),
         count=("Song", "count"),
-        artists=("artists", lambda x: ", ".join(sorted(set(
-            a.strip() for artists in x for a in artists.split(",")
-        )))),
+        artists=(
+            "artists",
+            lambda values: ", ".join(
+                sorted({
+                    artist.strip()
+                    for value in values
+                    for artist in value.split(",")
+                    if artist.strip()
+                })
+            ),
+        ),
     )
     .reset_index()
 )
 
+albums = albums[albums["count"] >= 5].copy()
 albums["avg"] = albums["avg"].round(2)
 
-# Minimum number of songs per album
-albums = albums[albums["count"] >= 5]
-
 albums = albums.sort_values(
-    by=["avg", "count", "Album"], ascending=[False, False, True]
+    ["avg", "count", "Album"],
+    ascending=[False, False, True],
 )
 
 albums["Album Date"] = albums["Album Date"].dt.strftime("%Y-%m-%d")
 
-albums.to_json(PUBLIC / "albums.json", orient="records", force_ascii=False)
+albums.to_json(
+    PUBLIC / "albums.json",
+    orient="records",
+    force_ascii=False,
+)
 
 # ---------------------------------------------------------------
-# OVERVIEW
+# OVERVIEW — dashboard
 # ---------------------------------------------------------------
+valid_dates = tracks["Album Date"].dropna()
+
 overview = {
-    "songs": int(len(df)),
-    "artists": int(df["Artist"].nunique()),
-    "albums": int(df["Album"].nunique()),
-    "hours": round(df["Duration"].sum() / 3600, 1),
-    "avgScore": round(df["score"].mean(), 2),
-    "yearsSpanned": int(df["Album Date"].dt.year.max() - df["Album Date"].dt.year.min()),
-    "dateRange": [
-        df["Album Date"].min().strftime("%Y-%m-%d"),
-        df["Album Date"].max().strftime("%Y-%m-%d"),
-    ],
+    "songs": int(tracks["_track_id"].nunique()),
+    "artists": int(len(artists)),
+    "albums": int(len(albums)),
+    "hours": round(tracks["Duration"].sum() / 3600, 1),
+    "avgScore": round(float(tracks["score"].mean()), 2),
+    "yearsSpanned": (
+        int(valid_dates.dt.year.max() - valid_dates.dt.year.min())
+        if not valid_dates.empty
+        else 0
+    ),
+    "dateRange": (
+        [
+            valid_dates.min().strftime("%Y-%m-%d"),
+            valid_dates.max().strftime("%Y-%m-%d"),
+        ]
+        if not valid_dates.empty
+        else ["", ""]
+    ),
 }
-(STATS / "overview.json").write_text(json.dumps(overview, indent=2))
+
+write_json(STATS / "overview.json", overview)
 
 # ---------------------------------------------------------------
 # SCATTER — one point per artist
 # ---------------------------------------------------------------
 scatter = artists[["Artist", "avg", "count"]].rename(
-    columns={"Artist": "artist", "avg": "avg", "count": "count"}
+    columns={"Artist": "artist"}
 )
-scatter.to_json(STATS / "scatter.json", orient="records", force_ascii=False)
+
+scatter.to_json(
+    STATS / "scatter.json",
+    orient="records",
+    force_ascii=False,
+)
 
 # ---------------------------------------------------------------
-# RATING DISTRIBUTION — bins of avg per artist
+# RATING DISTRIBUTION
 # ---------------------------------------------------------------
 bins = [0, 2, 4, 6, 8, 10]
 labels = ["0–2", "2–4", "4–6", "6–8", "8–10"]
-hist = pd.cut(artists["avg"], bins=bins, labels=labels, include_lowest=True)
-distribution = hist.value_counts().reindex(labels).fillna(0).astype(int)
-dist_list = [{"bin": str(k), "count": int(v)} for k, v in distribution.items()]
-(STATS / "rating_distribution.json").write_text(json.dumps(dist_list, indent=2))
+
+hist = pd.cut(
+    artists["avg"],
+    bins=bins,
+    labels=labels,
+    include_lowest=True,
+)
+
+distribution = (
+    hist.value_counts()
+    .reindex(labels)
+    .fillna(0)
+    .astype(int)
+)
+
+write_json(
+    STATS / "rating_distribution.json",
+    [
+        {"bin": str(label), "count": int(count)}
+        for label, count in distribution.items()
+    ],
+)
 
 # ---------------------------------------------------------------
-# FEATURES — one row per song (for energy/valence scatter, radar, etc.)
+# FEATURES
 # ---------------------------------------------------------------
 features = df[
     [
@@ -127,78 +203,224 @@ features = df[
         "Album Date", "Added At",
     ]
 ].copy()
+
 features["year"] = features["Album Date"].dt.year
 features["monthAdded"] = features["Added At"].dt.to_period("M").astype(str)
-features = features.rename(columns={
-    "Loud (Db)": "Loud", "Dance": "Danceability",
-})
-features.to_json(STATS / "features.json", orient="records", force_ascii=False)
+
+features = features.rename(
+    columns={
+        "Loud (Db)": "Loud",
+        "Dance": "Danceability",
+    }
+)
+
+features.to_json(
+    STATS / "features.json",
+    orient="records",
+    force_ascii=False,
+)
 
 # ---------------------------------------------------------------
-# TIMELINE — songs added per month
+# TIMELINE — tracks added per month
 # ---------------------------------------------------------------
 timeline = (
     features.groupby("monthAdded")
-    .agg(count=("Song", "count"), avgScore=("score", "mean"))
+    .agg(
+        count=("Song", "count"),
+        avgScore=("score", "mean"),
+    )
     .reset_index()
     .sort_values("monthAdded")
 )
+
 timeline["avgScore"] = timeline["avgScore"].round(2)
-timeline.to_json(STATS / "timeline.json", orient="records", force_ascii=False)
+
+timeline.to_json(
+    STATS / "timeline.json",
+    orient="records",
+    force_ascii=False,
+)
 
 # ---------------------------------------------------------------
-# DECADES — albums by decade
+# DECADES
 # ---------------------------------------------------------------
-features["decade"] = (features["year"] // 10 * 10).astype("Int64")
+features["decade"] = (
+    features["year"] // 10 * 10
+).astype("Int64")
+
 decades = (
     features.groupby("decade")
-    .agg(songs=("Song", "count"), avgScore=("score", "mean"))
+    .agg(
+        songs=("Song", "count"),
+        avgScore=("score", "mean"),
+    )
     .reset_index()
     .dropna()
 )
+
 decades["decade"] = decades["decade"].astype(int)
 decades["avgScore"] = decades["avgScore"].round(2)
-decades.to_json(STATS / "decades.json", orient="records", force_ascii=False)
+
+decades.to_json(
+    STATS / "decades.json",
+    orient="records",
+    force_ascii=False,
+)
 
 # ---------------------------------------------------------------
-# GENRES — exploded genres with avg score
+# GENRES — top 20 by number of rated tracks
 # ---------------------------------------------------------------
-genre_df = df[["Genres", "score"]].copy()
-genre_df["Genres"] = genre_df["Genres"].astype(str).str.split(",")
+genre_df = tracks[["Genres", "score", "_track_id"]].copy()
+genre_df["Genres"] = genre_df["Genres"].fillna("").astype(str).str.split(",")
 genre_df = genre_df.explode("Genres")
 genre_df["Genres"] = genre_df["Genres"].str.strip()
-genre_df = genre_df[genre_df["Genres"] != ""]
+
+genre_df = genre_df[
+    genre_df["Genres"].ne("")
+    & genre_df["Genres"].str.lower().ne("nan")
+].drop_duplicates(["_track_id", "Genres"])
+
 genres = (
     genre_df.groupby("Genres")
-    .agg(count=("score", "count"), avgScore=("score", "mean"))
+    .agg(
+        count=("_track_id", "nunique"),
+        avgScore=("score", "mean"),
+    )
     .reset_index()
-    .sort_values("count", ascending=False)
+    .sort_values(
+        ["count", "avgScore", "Genres"],
+        ascending=[False, False, True],
+    )
     .head(20)
 )
+
 genres["avgScore"] = genres["avgScore"].round(2)
 genres = genres.rename(columns={"Genres": "genre"})
-genres.to_json(STATS / "genres.json", orient="records", force_ascii=False)
 
-# ---------------------------------------------------------------
-# NETWORK — artists linked by appearing on the same album
-# ---------------------------------------------------------------
-from itertools import combinations
-
-pairs = {}
-for _, group in df.groupby("Album"):
-    names = sorted(set(group["Artist"]))
-    for a, b in combinations(names, 2):
-        pairs[(a, b)] = pairs.get((a, b), 0) + 1
-
-nodes = [{"id": a} for a in artists["Artist"]]
-node_ids = {n["id"] for n in nodes}
-links = [
-    {"source": a, "target": b, "weight": w}
-    for (a, b), w in pairs.items()
-    if a in node_ids and b in node_ids
-]
-(STATS / "network.json").write_text(
-    json.dumps({"nodes": nodes, "links": links}, ensure_ascii=False, indent=2)
+genres.to_json(
+    STATS / "genres.json",
+    orient="records",
+    force_ascii=False,
 )
 
-print("✅ Wrote public/artists.json, albums.json, and stats/*.json")
+# ---------------------------------------------------------------
+# NETWORK — shared albums between artists
+# ---------------------------------------------------------------
+pairs = {}
+
+for _, group in df.groupby("Album"):
+    names = sorted(set(group["Artist"]))
+
+    for artist_a, artist_b in combinations(names, 2):
+        pair = (artist_a, artist_b)
+        pairs[pair] = pairs.get(pair, 0) + 1
+
+nodes = [{"id": artist} for artist in artists["Artist"]]
+node_ids = {node["id"] for node in nodes}
+
+links = [
+    {"source": artist_a, "target": artist_b, "weight": weight}
+    for (artist_a, artist_b), weight in pairs.items()
+    if artist_a in node_ids and artist_b in node_ids
+]
+
+write_json(
+    STATS / "network.json",
+    {"nodes": nodes, "links": links},
+)
+
+# ---------------------------------------------------------------
+# STATS — centralized data layer
+# ---------------------------------------------------------------
+
+# Top artist: highest average, then count, then alphabetical name.
+top_artist = artists.sort_values(
+    ["avg", "count", "Artist"],
+    ascending=[False, False, True],
+).head(1)
+
+# Most rated artist: highest track count, then average, then name.
+most_rated_artist = artists.sort_values(
+    ["count", "avg", "Artist"],
+    ascending=[False, False, True],
+).head(1)
+
+
+def artist_summary(row):
+    return {
+        "artist": str(row["Artist"]),
+        "avg_score": round(float(row["avg"]), 2),
+        "rated_tracks": int(row["count"]),
+    }
+
+
+# Count each rated track once, including collaborations.
+score_counts = (
+    tracks.groupby("score")["_track_id"]
+    .nunique()
+    .reindex(range(1, 11), fill_value=0)
+)
+
+score_distribution = [
+    {"score": int(score), "count": int(count)}
+    for score, count in score_counts.items()
+]
+
+# Evolution by album release year.
+yearly = tracks.dropna(subset=["Album Date"]).copy()
+yearly["year"] = yearly["Album Date"].dt.year.astype(int)
+
+year_evolution = (
+    yearly.groupby("year")
+    .agg(
+        songs=("_track_id", "nunique"),
+        avg_score=("score", "mean"),
+    )
+    .reset_index()
+    .sort_values("year")
+)
+
+year_evolution["avg_score"] = year_evolution["avg_score"].round(2)
+
+stats = {
+    "total_artists": int(len(artists)),
+    "total_albums": int(len(albums)),
+    "total_songs": int(tracks["_track_id"].nunique()),
+    "avg_score_global": round(float(tracks["score"].mean()), 2),
+    "top_artist": (
+        artist_summary(top_artist.iloc[0])
+        if not top_artist.empty
+        else None
+    ),
+    "most_rated_artist": (
+        artist_summary(most_rated_artist.iloc[0])
+        if not most_rated_artist.empty
+        else None
+    ),
+    "score_distribution": score_distribution,
+    "year_evolution": [
+        {
+            "year": int(row["year"]),
+            "songs": int(row["songs"]),
+            "avg_score": float(row["avg_score"]),
+        }
+        for _, row in year_evolution.iterrows()
+    ],
+    "genres": [
+        {
+            "genre": str(row["genre"]),
+            "count": int(row["count"]),
+            "avg_score": float(row["avgScore"]),
+        }
+        for _, row in genres.iterrows()
+    ],
+}
+
+write_json(STATS / "stats.json", stats)
+
+print(
+    "Data build completed: "
+    f"{len(artists)} artists, {len(albums)} albums, "
+    f"{stats['total_songs']} rated tracks. "
+    f"Output: {PUBLIC}/ and {STATS}/"
+)

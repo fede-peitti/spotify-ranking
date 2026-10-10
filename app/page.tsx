@@ -4,7 +4,7 @@ import { SectionReveal } from "@/components/layout/SectionReveal";
 import { Podium } from "@/components/podium/Podium";
 import { RankingList } from "@/components/ranking/RankingList";
 import { AlbumMosaic } from "@/components/album/AlbumMosaic";
-import { OverviewStats } from "@/components/stats/charts/OverviewStats";
+import { StatsHighlights } from "@/components/stats/StatsHighlights";
 import { RatingVsCountScatter } from "@/components/stats/charts/RatingVsCountScatter";
 
 import { useData } from "@/hooks/useData";
@@ -72,7 +72,7 @@ export default function Page() {
 
       {/* STATS — new scrollytelling chapter */}
       <section className="min-h-[110vh] flex flex-col justify-center px-10 gap-24 py-32">
-        <OverviewStats />
+        <StatsHighlights />
         <RatingVsCountScatter />
       </section>
     </main>
