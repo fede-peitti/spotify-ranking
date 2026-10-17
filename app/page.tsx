@@ -6,6 +6,8 @@ import { RankingList } from "@/components/ranking/RankingList";
 import { AlbumMosaic } from "@/components/album/AlbumMosaic";
 import { StatsHighlights } from "@/components/stats/StatsHighlights";
 import { RatingVsCountScatter } from "@/components/stats/charts/RatingVsCountScatter";
+import { ScoreDistribution } from "@/components/stats/charts/ScoreDistribution";
+import { ReleaseEvolution } from "@/components/stats/charts/ReleaseEvolution";
 
 import { useData } from "@/hooks/useData";
 import type { Artist } from "@/types/artist";
@@ -65,15 +67,49 @@ export default function Page() {
             </p>
           </div>
         </SectionReveal>
+
         <SectionReveal>
           <AlbumMosaic albums={albums ?? []} />
         </SectionReveal>
       </section>
 
-      {/* STATS — new scrollytelling chapter */}
+      {/* Summary */}
       <section className="min-h-[110vh] flex flex-col justify-center px-10 gap-24 py-32">
         <StatsHighlights />
         <RatingVsCountScatter />
+      </section>
+
+      {/* Time-wise */}
+      <section
+        id="listening-over-time"
+        className="min-h-[110vh] flex flex-col justify-center px-10 gap-16 py-32"
+      >
+        <SectionReveal>
+          <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
+            Scores over time
+          </h2>
+        </SectionReveal>
+        <SectionReveal>
+          <ScoreDistribution />
+        </SectionReveal>
+
+        <SectionReveal>
+          <ReleaseEvolution />
+        </SectionReveal>
+
+      </section>
+
+      {/* Genres */}
+      <section
+        id="genres-analysis"
+        className="min-h-[110vh] flex flex-col justify-center px-10 gap-16 py-32"
+      >
+        <SectionReveal>
+          <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
+            Genres
+          </h2>
+        </SectionReveal>
+
       </section>
     </main>
   );

@@ -43,6 +43,10 @@ tracks["Duration"] = pd.to_timedelta(
 # Preserve one row per rated track for global statistics.
 tracks["_track_id"] = tracks.index
 
+tracks["_album_id"] = tracks.groupby(
+    ["Album", "Album Date"], dropna=False
+).ngroup()
+
 # Explode artists for artist-level aggregations.
 df = tracks.copy()
 df["Artist"] = df["Artist"].fillna("").astype(str).str.split(",")
@@ -382,6 +386,70 @@ year_evolution = (
 
 year_evolution["avg_score"] = year_evolution["avg_score"].round(2)
 
+
+# ---------------------------------------------------------------
+# MONTHLY AND DAILY EVOLUTION — tracks added to the collection
+# ---------------------------------------------------------------
+added = tracks.dropna(subset=["Added At"]).copy()
+added["date"] = added["Added At"].dt.strftime("%Y-%m-%d")
+added["month"] = added["Added At"].dt.to_period("M").astype(str)
+added["year"] = added["Added At"].dt.year.astype(int)
+
+
+def build_evolution(frame, period):
+    result = (
+        frame.groupby(period)
+        .agg(
+            tracks=("_track_id", "nunique"),
+            avg_score=("score", "mean"),
+        )
+        .reset_index()
+        .sort_values(period)
+    )
+    result["avg_score"] = result["avg_score"].round(2)
+    return result.rename(columns={period: "period"}).to_dict("records")
+
+
+year_added_evolution = build_evolution(added, "year")
+month_evolution = build_evolution(added, "month")
+date_evolution = build_evolution(added, "date")
+
+# ---------------------------------------------------------------
+# ARTIST TIMELINE — tracks and albums by release year
+# ---------------------------------------------------------------
+artist_years = df.dropna(subset=["Album Date"]).copy()
+artist_years["year"] = artist_years["Album Date"].dt.year.astype(int)
+
+artist_timeline = (
+    artist_years.groupby(["Artist", "year"])
+    .agg(
+        tracks=("_track_id", "nunique"),
+        albums=("_album_id", "nunique"),
+        avg_score=("score", "mean"),
+    )
+    .reset_index()
+    .sort_values(["Artist", "year"])
+)
+
+artist_timeline["avg_score"] = artist_timeline["avg_score"].round(2)
+
+artist_timeline_data = [
+    {
+        "artist": str(row["Artist"]),
+        "year": int(row["year"]),
+        "tracks": int(row["tracks"]),
+        "albums": int(row["albums"]),
+        "avg_score": float(row["avg_score"]),
+    }
+    for _, row in artist_timeline.iterrows()
+]
+
+write_json(STATS / "year_added_evolution.json", year_added_evolution)
+write_json(STATS / "month_evolution.json", month_evolution)
+write_json(STATS / "date_evolution.json", date_evolution)
+write_json(STATS / "artist_timeline.json", artist_timeline_data)
+
+
 stats = {
     "total_artists": int(len(artists)),
     "total_albums": int(len(albums)),
@@ -414,6 +482,10 @@ stats = {
         }
         for _, row in genres.iterrows()
     ],
+    "year_added_evolution": year_added_evolution,
+    "month_evolution": month_evolution,
+    "date_evolution": date_evolution,
+    "artist_timeline": artist_timeline_data,
 }
 
 write_json(STATS / "stats.json", stats)
