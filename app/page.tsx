@@ -8,6 +8,8 @@ import { StatsHighlights } from "@/components/stats/StatsHighlights";
 import { RatingVsCountScatter } from "@/components/stats/charts/RatingVsCountScatter";
 import { ScoreDistribution } from "@/components/stats/charts/ScoreDistribution";
 import { ReleaseEvolution } from "@/components/stats/charts/ReleaseEvolution";
+import { ArtistEvolution } from "@/components/stats/charts/ArtistEvolution";
+import { ArtistAlbumEvolution } from "@/components/stats/charts/ArtistAlbumEvolution";
 
 import { useData } from "@/hooks/useData";
 import type { Artist } from "@/types/artist";
@@ -97,6 +99,13 @@ export default function Page() {
           <ReleaseEvolution />
         </SectionReveal>
 
+        <SectionReveal>
+          <ArtistEvolution />
+        </SectionReveal>
+
+        <SectionReveal>
+          <ArtistAlbumEvolution />
+        </SectionReveal>
       </section>
 
       {/* Genres */}

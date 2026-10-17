@@ -97,4 +97,13 @@ export type StatsData = {
   score_distribution: ScoreDistributionPoint[];
   year_evolution: YearEvolutionPoint[];
   genres: StatsGenre[];
+  artist_timeline: ArtistTimelinePoint[];
+};
+
+export type ArtistTimelinePoint = {
+  artist: string;
+  year: number;
+  tracks: number;
+  albums: number;
+  avg_score: number;
 };
