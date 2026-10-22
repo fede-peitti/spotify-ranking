@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useMemo, useState } from "react";
@@ -14,10 +13,7 @@ import {
 } from "recharts";
 
 import { useData } from "@/hooks/useData";
-import type {
-  ArtistTimelinePoint,
-  StatsData,
-} from "@/types/stats";
+import type { StatsData } from "@/types/stats";
 
 export type ArtistColorScale = {
   score: string;
@@ -29,7 +25,51 @@ export const DEFAULT_COLORS: ArtistColorScale = {
   tracks: "var(--text-muted)",
 };
 
-export const ARTIST_COLOR_SCALES: Record<string, ArtistColorScale> = {};
+export const ARTIST_COLOR_SCALES: Record<string, ArtistColorScale> = {
+  "Post Malone": {
+    score: "#e5562c",
+    tracks: "#e99c59",
+  },
+  "Imagine Dragons": {
+    score: "#c48c1c",
+    tracks: "#e3cc97",
+  },
+  "The Weeknd": {
+    score: "#f4140c",
+    tracks: "#b1dee0",
+  },
+  "Bruno Mars": {
+    score: "#bc5c54",
+    tracks: "#dcd4b4",
+  },
+  "Drake": {
+    score: "#7f7f7f",
+    tracks: "#bcbcbc",
+  },
+  "Árbol": {
+    score: "#303c30",
+    tracks: "#b4c03c",
+  },
+  "Avril Lavigne": {
+    score: "#dee8f0",
+    tracks: "#b84a76",
+  },
+  "Billie Holiday": {
+    score: "#cfb314",
+    tracks: "#c2ccd4",
+  },
+  "Billy Ray Cyrus": {
+    score: "#cb4f3a",
+    tracks: "#83623d",
+  },
+  "Bonjour Suzuki": {
+    score: "#f1050f",
+    tracks: "#81a395",
+  },
+};
+
+
+const MIN_TRACKS = 15;
 
 export function ArtistEvolution() {
   const { data: stats } = useData<StatsData>("/stats/stats.json");
@@ -38,12 +78,24 @@ export function ArtistEvolution() {
   const artistNames = useMemo(() => {
     if (!stats) return [];
 
-    return [...new Set(
-      stats.artist_timeline.map((point) => point.artist),
-    )].sort((a, b) => a.localeCompare(b));
+    const trackCounts = new Map<string, number>();
+
+    for (const point of stats.artist_timeline) {
+      trackCounts.set(
+        point.artist,
+        (trackCounts.get(point.artist) ?? 0) + point.tracks,
+      );
+    }
+
+    return [...trackCounts.entries()]
+      .filter(([, count]) => count > MIN_TRACKS)
+      .map(([artist]) => artist)
+      .sort((a, b) => a.localeCompare(b));
   }, [stats]);
 
-  const activeArtist = selectedArtist || artistNames[0] || "";
+  const activeArtist = artistNames.includes(selectedArtist)
+    ? selectedArtist
+    : artistNames[0] ?? "";
 
   const data = useMemo(() => {
     if (!stats || !activeArtist) return [];
@@ -100,19 +152,25 @@ export function ArtistEvolution() {
           <p className="text-2xl font-semibold tabular-nums text-foreground">
             {totalAlbums.toLocaleString("en-US")}
           </p>
-          <p className="mt-1 text-xs text-muted-foreground">Albums across release years</p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            Albums across release years
+          </p>
         </div>
+
         <div>
           <p className="text-2xl font-semibold tabular-nums text-foreground">
             {totalTracks.toLocaleString("en-US")}
           </p>
           <p className="mt-1 text-xs text-muted-foreground">Rated tracks</p>
         </div>
+
         <div>
           <p className="text-2xl font-semibold tabular-nums text-foreground">
             {data.length.toLocaleString("en-US")}
           </p>
-          <p className="mt-1 text-xs text-muted-foreground">Active release years</p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            Active release years
+          </p>
         </div>
       </div>
 
@@ -211,6 +269,7 @@ export function ArtistEvolution() {
           />
           Rated tracks
         </span>
+
         <span className="flex items-center gap-2">
           <span
             className="h-0.5 w-4"

@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useMemo, useState } from "react";
@@ -28,24 +27,39 @@ type AlbumRow = {
   artists: string;
 };
 
+const MIN_TRACKS = 15;
+
 export function ArtistAlbumEvolution() {
   const { data: stats } = useData<StatsData>("/stats/stats.json");
   const { data: albums } = useData<AlbumRow[]>("/albums.json");
   const [selectedArtist, setSelectedArtist] = useState("");
 
   const artistNames = useMemo(() => {
-    if (!albums) return [];
+    if (!stats || !albums) return [];
 
-    return [
-        ...new Set(
-        albums
-            .filter((album) => album["Album Date"] !== null)
-            .flatMap((album) => album.artists.split(", ")),
-        ),
-    ].sort((a, b) => a.localeCompare(b));
-    }, [albums]);
+    const trackCounts = new Map<string, number>();
 
-  const activeArtist = selectedArtist || artistNames[0] || "";
+    for (const point of stats.artist_timeline) {
+      trackCounts.set(
+        point.artist,
+        (trackCounts.get(point.artist) ?? 0) + point.tracks,
+      );
+    }
+
+    const artistsWithAlbums = new Set(
+      albums
+        .filter((album) => album["Album Date"] !== null)
+        .flatMap((album) => album.artists.split(", ")),
+    );
+
+    return [...artistsWithAlbums]
+      .filter((artist) => (trackCounts.get(artist) ?? 0) > MIN_TRACKS)
+      .sort((a, b) => a.localeCompare(b));
+  }, [stats, albums]);
+
+  const activeArtist = artistNames.includes(selectedArtist)
+    ? selectedArtist
+    : artistNames[0] ?? "";
 
   const data = useMemo(() => {
     if (!albums || !activeArtist) return [];
@@ -53,9 +67,7 @@ export function ArtistAlbumEvolution() {
     return albums
       .filter(
         (album) =>
-          album.artists
-            .split(", ")
-            .includes(activeArtist) &&
+          album.artists.split(", ").includes(activeArtist) &&
           album["Album Date"] !== null,
       )
       .map((album) => ({
@@ -120,7 +132,9 @@ export function ArtistAlbumEvolution() {
 
         <div>
           <p className="text-2xl font-semibold tabular-nums text-foreground">
-            {data.reduce((sum, album) => sum + album.tracks, 0).toLocaleString("en-US")}
+            {data
+              .reduce((sum, album) => sum + album.tracks, 0)
+              .toLocaleString("en-US")}
           </p>
           <p className="mt-1 text-xs text-muted-foreground">Rated tracks</p>
         </div>
@@ -225,6 +239,7 @@ export function ArtistAlbumEvolution() {
           />
           Rated tracks
         </span>
+
         <span className="flex items-center gap-2">
           <span
             className="h-0.5 w-4"
